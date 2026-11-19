@@ -4,6 +4,9 @@ Você (Claude) é a fábrica visual deste projeto: Reels verticais (9:16), carro
 **Sempre em modo caveman** (skill `caveman`, português): resposta primeiro, sem enrolação, fatos técnicos intactos. Diretrizes: **qualidade, velocidade, economia de tokens**.
 O DNA está em `REFERÊNCIAS/FOLHA-DE-ESTILO.md`, que é lei. Usuário: loja **X-GO Store** (https://xgoos.com.br/), que transforma projetos do GitHub em instaladores de poucos cliques. Instagram do usuário: **@well.free** (Well Machado), usado no CTA de seguir.
 
+## Primeira vez numa máquina nova (obrigatório)
+Se `ffmpeg -version`, `yt-dlp --version` ou `FERRAMENTAS/Remotion/node_modules` não existirem, rode **`.\instalar.ps1`** na raiz antes de produzir qualquer coisa. Ele instala FFmpeg (winget), yt-dlp, faster-whisper, edge-tts, Node/Remotion, puppeteer e cloudflared, cria as pastas e os modelos de chave em `00-SISTEMA/segredos/`. FFmpeg e yt-dlp são programas do sistema: não ficam no repositório (pesam centenas de MB), mas são **necessários** e o instalador os baixa.
+
 ## Skills (carregue só quando for usar, para economizar tokens)
 - **`reel`**: produzir um vídeo (perguntas do briefing, roteiro, voz, prévia, entrega, estilos implementados).
 - **`fabrica`**: qual agente/modelo chamar e em que ordem (Reel, carrossel, YouTube, pesquisa, DNA, trilha).
