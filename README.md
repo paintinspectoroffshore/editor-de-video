@@ -6,7 +6,7 @@ O Claude lê `CLAUDE.md` (manual de operação), usa as skills de `.claude/skill
 
 ## Instalar (Windows, 5 minutos)
 ```powershell
-git clone https://github.com/<usuario>/<repo>.git "Editor-de-Video"
+git clone https://github.com/paintinspectoroffshore/editor-de-video.git "Editor-de-Video"
 cd "Editor-de-Video"
 .\instalar.ps1
 ```
