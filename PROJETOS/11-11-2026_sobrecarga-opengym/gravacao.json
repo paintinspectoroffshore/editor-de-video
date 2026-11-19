@@ -1,0 +1,8 @@
+{ "url": "https://opengym.ch/demo/",
+  "preparar": "(()=>{const s=JSON.parse(localStorage.getItem('gym_state_v1'));s.lang='pt-BR';s.langAuto=false;localStorage.setItem('gym_state_v1',JSON.stringify(s));})()",
+  "clipes": [
+    {"nome":"app_inicio","passos":[["esperar",700],["rolar",1300,3200],["esperar",500],["rolar",0,1500]]},
+    {"nome":"app_exercicios","antes":[["clicar","Exercícios"],["topo"]],"passos":[["esperar",600],["rolar",3500,4500],["esperar",400]]},
+    {"nome":"app_estatisticas","antes":[["clicar","Estatísticas"],["topo"]],"passos":[["esperar",600],["rolar",2600,4500],["esperar",400]]},
+    {"nome":"app_treino","antes":[["clicar","Início"],["topo"]],"passos":[["esperar",500],["clicar","Começar",1500],["clicar","Iniciar sem se pesar",1800],["esperar",800],["rolar",700,2500],["esperar",600],["rolar",0,1200],["esperar",500]]}
+  ]}

@@ -1,0 +1,3 @@
+[{"nome":"gh_repo","url":"https://github.com/DuarteSantos8/openGym","largura":480,"altura":1300,"tema":"dark","espera":2500},
+ {"nome":"gh_readme","url":"https://github.com/DuarteSantos8/openGym#features","largura":480,"altura":1300,"tema":"dark","espera":2500,"rolarAte":"Features"},
+ {"nome":"gh_releases","url":"https://github.com/DuarteSantos8/openGym/releases","largura":480,"altura":1300,"tema":"dark","espera":2500}]

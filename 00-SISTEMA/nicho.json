@@ -1,0 +1,11 @@
+{
+  "_leia": "Nicho do @well.free para `insta.py pesquisa`. Concorrentes precisam ser contas Business/Creator (a API business_discovery só lê essas). Hashtags: no máximo 30 únicas por 7 dias (limite Meta). Edite à vontade.",
+  "tema": "apps e ferramentas grátis, IA e projetos do GitHub explicados para leigos (tecnologia útil no dia a dia)",
+  "publico": "brasileiros 18-40 que querem ferramentas grátis e práticas, sem saber programar",
+  "concorrentes": ["thiago_skiante", "eduardocavalcanti", "orodrigoalbuquerque", "vidadefreesider"],
+  "hashtags": ["inteligenciaartificial", "appsgratis", "tecnologia", "github", "dicasdetecnologia"],
+  "top": 20,
+  "frequencia": {"reels_por_semana": 3, "carrosseis_por_semana": 2},
+  "publicar_como": "teste",
+  "graduacao": "MANUAL"
+}

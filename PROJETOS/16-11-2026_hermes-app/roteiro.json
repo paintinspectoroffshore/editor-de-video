@@ -1,0 +1,1188 @@
+{
+  "titulo": "Hermes no bolso — agente de IA 24h controlado pelo app",
+  "duracaoMax": 120,
+  "perfil": "@well.free",
+  "credito": "Hermes Agent: Nous Research (open source, MIT) · Telas: app X-GO 0.30.0",
+  "voz": {
+    "motor": "eleven",
+    "id": "i8rv83UTKnzq0PzTrxjL",
+    "modelo": "eleven_v4",
+    "idioma": "pt",
+    "ajustes": {
+      "stability": 0.28,
+      "similarity_boost": 0.8
+    },
+    "tempo": 1.15,
+    "pausas": 0.1,
+    "respiro": 0.06,
+    "limiarSilencio": "-32dB"
+  },
+  "pronuncia": {
+    "@well.free": "arrôba uéu ponto frii",
+    "X-GO": "xis gô",
+    "VPS": "vê pê ésse",
+    "HTTPS": "agá tê tê pê ésse",
+    "Nous Research": "Nus Risserch",
+    "hermes setup": "hérmes setâp",
+    "open source": "ôpen sórss",
+    "skills": "skíus",
+    "WhatsApp": "uótsápi"
+  },
+  "destaques": [
+    "Hermes",
+    "bolso",
+    "sozinho",
+    "memória",
+    "skills",
+    "rotinas",
+    "terminal",
+    "celular",
+    "VPS",
+    "comando",
+    "setup",
+    "painel",
+    "Ajustes",
+    "cifrada",
+    "conexão",
+    "reais",
+    "finanças",
+    "Instagram",
+    "fluxos",
+    "vinte e três",
+    "setenta e oito",
+    "seu",
+    "agente",
+    "aprovação",
+    "tudo",
+    "AGENTE",
+    "well"
+  ],
+  "cenas": [
+    {
+      "fala": "Eu sou o Hermes. Sua IA de bolso.",
+      "visual": "GANCHO 0–3 s. lobo.png (assets/hermes) entra em close no centro, piscando/respirando; texto gigante 'SUA IA DE BOLSO' palavra a palavra. Sem clipe.",
+      "duracao": 2.5,
+      "legenda": "nao",
+      "camera": {
+        "zoom": [
+          1.16,
+          1.0
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 800,
+          "r": 400,
+          "em": 0
+        },
+        {
+          "tipo": "particulas",
+          "em": 0,
+          "n": 30,
+          "area": [
+            80,
+            300,
+            920,
+            1000
+          ]
+        },
+        {
+          "tipo": "lobo",
+          "x": 540,
+          "y": 790,
+          "tam": 520,
+          "em": 0
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 260,
+          "linhas": [
+            {
+              "t": "EU SOU O HERMES",
+              "em": 0,
+              "tam": 64
+            }
+          ],
+          "acento": [
+            "HERMES"
+          ],
+          "em": 0
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1400,
+          "linhas": [
+            {
+              "t": "SUA IA",
+              "em": "@Sua",
+              "tam": 150
+            },
+            {
+              "t": "DE BOLSO",
+              "em": "@de",
+              "tam": 150
+            }
+          ],
+          "acento": [
+            "BOLSO"
+          ],
+          "em": "@Sua"
+        }
+      ]
+    },
+    {
+      "fala": "Um agente de IA open source, da Nous Research. Ele roda dia e noite num servidor seu. E trabalha sozinho.",
+      "visual": "Arte do cavaleiro (assets/hermes/hermes.png) com kicker mono 'OPEN SOURCE · NOUS RESEARCH' + pílula de fonte 'github.com/NousResearch/hermes-agent'. Ícone de servidor aceso com lua/sol girando (dia e noite).",
+      "duracao": 6.2,
+      "blocos": [
+        {
+          "tipo": "relevo",
+          "x": 540,
+          "y": 1180,
+          "w": 1080,
+          "h": 300,
+          "em": 0
+        },
+        {
+          "tipo": "hermes",
+          "x": 300,
+          "y": 880,
+          "tam": 560,
+          "em": 0
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 270,
+          "texto": "OPEN SOURCE · NOUS RESEARCH",
+          "em": "@open"
+        },
+        {
+          "tipo": "pilula",
+          "x": 540,
+          "y": 350,
+          "texto": "github.com/NousResearch/hermes-agent",
+          "em": "@Nous"
+        },
+        {
+          "tipo": "servidor",
+          "x": 780,
+          "y": 800,
+          "tam": 280,
+          "em": "@roda",
+          "diaNoiteEm": "@dia",
+          "rotulo": "DIA E NOITE"
+        },
+        {
+          "tipo": "chip",
+          "t": "trabalha sozinho",
+          "icone": "rotinas",
+          "em": "@sozinho",
+          "x": 540,
+          "y": 1400,
+          "escuro": true
+        }
+      ]
+    },
+    {
+      "fala": "Tem memória. Aprende skills. Usa ferramentas. Faz rotinas agendadas. E fala com você no Telegram e no WhatsApp.",
+      "visual": "5 chips entrando um por fala, orbitando o cavaleiro (hermes-frame-1..4.png): Memória · Skills · Ferramentas · Rotinas · Telegram/WhatsApp. Fonte: README oficial.",
+      "duracao": 6.9,
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 270,
+          "texto": "O QUE ELE FAZ",
+          "em": 0
+        },
+        {
+          "tipo": "orbita",
+          "x": 540,
+          "y": 860,
+          "rx": 360,
+          "ry": 330,
+          "em": 0,
+          "tam": 28,
+          "vel": 0.004,
+          "itens": [
+            {
+              "t": "Memória",
+              "icone": "memoria",
+              "em": "@memória"
+            },
+            {
+              "t": "Skills",
+              "icone": "skills",
+              "em": "@skills"
+            },
+            {
+              "t": "Ferramentas",
+              "icone": "ferramentas",
+              "em": "@ferramentas"
+            },
+            {
+              "t": "Rotinas",
+              "icone": "rotinas",
+              "em": "@rotinas"
+            },
+            {
+              "t": "Telegram",
+              "icone": "telegram",
+              "em": "@Telegram"
+            },
+            {
+              "t": "WhatsApp",
+              "icone": "whatsapp",
+              "em": "@WhatsApp"
+            }
+          ]
+        },
+        {
+          "tipo": "hermes",
+          "x": 540,
+          "y": 850,
+          "tam": 430,
+          "em": 0
+        },
+        {
+          "tipo": "pilula",
+          "x": 540,
+          "y": 1360,
+          "texto": "fonte: README oficial · Nous Research",
+          "em": "@memória"
+        }
+      ]
+    },
+    {
+      "fala": "Só que tudo isso morava no terminal. Agora mora no seu celular.",
+      "visual": "VIRADA. Janela de terminal escura 'encolhe' e vira o celular; dentro, tour.mp4 (Início com o Lobo, primeiros 3 s).",
+      "duracao": 3.7,
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 560,
+          "texto": "ANTES: SÓ NO TERMINAL",
+          "em": 0,
+          "ate": "@Agora"
+        },
+        {
+          "tipo": "terminal",
+          "x": 540,
+          "y": 820,
+          "w": 860,
+          "em": 0,
+          "ate": "@Agora",
+          "encolhe": true,
+          "linhas": [
+            {
+              "t": "hermes",
+              "em": 0.1
+            },
+            {
+              "t": "Hermes Agent pronto · memória, skills, rotinas",
+              "tipo": "saida",
+              "em": 0.9
+            }
+          ]
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 890,
+          "tam": 960,
+          "em": "@Agora",
+          "video": "app/tour.mp4",
+          "inicio": 0,
+          "vel": 1,
+          "entrada": "escala"
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 330,
+          "texto": "AGORA: NO SEU CELULAR",
+          "em": "@celular"
+        }
+      ]
+    },
+    {
+      "fala": "Primeiro, alugue uma VPS, um servidor na nuvem. Passo um: cola o comando de instalação.",
+      "visual": "Aba 'PASSO 1' acesa (abas 1·2·3). Card de terminal mono com o comando real `curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash` digitando. Fonte: README oficial. Sem IP.",
+      "duracao": 5.0667,
+      "blocos": [
+        {
+          "tipo": "torre",
+          "x": 220,
+          "y": 700,
+          "tam": 380,
+          "em": 0.2
+        },
+        {
+          "tipo": "servidor",
+          "x": 540,
+          "y": 640,
+          "tam": 320,
+          "em": 0,
+          "rotulo": "VPS · SERVIDOR NA NUVEM"
+        },
+        {
+          "tipo": "icone",
+          "x": 830,
+          "y": 470,
+          "tam": 150,
+          "icone": "nuvem",
+          "em": "@nuvem"
+        },
+        {
+          "tipo": "passos",
+          "x": 540,
+          "y": 250,
+          "ativo": 1,
+          "rotulo": "INSTALAR",
+          "em": "@Passo"
+        },
+        {
+          "tipo": "terminal",
+          "x": 540,
+          "y": 1170,
+          "w": 960,
+          "tam": 30,
+          "vel": 2.2,
+          "em": "@cola",
+          "linhas": [
+            {
+              "t": "curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash",
+              "em": "@cola"
+            }
+          ]
+        },
+        {
+          "tipo": "pilula",
+          "x": 540,
+          "y": 1400,
+          "texto": "fonte: README oficial · hermes-agent",
+          "em": "@comando"
+        }
+      ]
+    },
+    {
+      "fala": "Passo dois: hermes setup. Um assistente configura tudo pra você.",
+      "visual": "Aba 'PASSO 2'. Terminal: `hermes setup` + 3 linhas de check verde surgindo (modelo, chaves, canais). Fonte: README oficial.",
+      "duracao": 3.8667,
+      "blocos": [
+        {
+          "tipo": "passos",
+          "x": 540,
+          "y": 250,
+          "ativo": 2,
+          "rotulo": "CONFIGURAR",
+          "em": 0
+        },
+        {
+          "tipo": "terminal",
+          "x": 540,
+          "y": 760,
+          "w": 900,
+          "em": 0,
+          "linhas": [
+            {
+              "t": "hermes setup",
+              "em": "@hermes"
+            },
+            {
+              "t": "modelo de IA",
+              "tipo": "ok",
+              "em": "@assistente"
+            },
+            {
+              "t": "chaves de API",
+              "tipo": "ok",
+              "em": "@configura"
+            },
+            {
+              "t": "canais: Telegram, WhatsApp",
+              "tipo": "ok",
+              "em": "@tudo"
+            }
+          ]
+        },
+        {
+          "tipo": "lobo",
+          "x": 860,
+          "y": 1170,
+          "tam": 170,
+          "em": "@assistente"
+        },
+        {
+          "tipo": "pilula",
+          "x": 540,
+          "y": 1400,
+          "texto": "fonte: README oficial",
+          "em": "@hermes+0.4"
+        }
+      ]
+    },
+    {
+      "fala": "Passo três: liga o painel e coloca HTTPS. Faz isso uma vez só.",
+      "visual": "Aba 'PASSO 3'. Terminal: `hermes dashboard` → pílula 'porta 9119' → cadeado verde 'HTTPS (Caddy)'. Selo 'UMA VEZ SÓ'. Fonte: docs Hermes (web-dashboard). Endereço sempre borrado.",
+      "duracao": 4.7333,
+      "blocos": [
+        {
+          "tipo": "passos",
+          "x": 540,
+          "y": 250,
+          "ativo": 3,
+          "rotulo": "PAINEL + HTTPS",
+          "em": 0
+        },
+        {
+          "tipo": "terminal",
+          "x": 540,
+          "y": 680,
+          "w": 900,
+          "em": 0,
+          "linhas": [
+            {
+              "t": "hermes dashboard",
+              "em": "@liga"
+            },
+            {
+              "t": "painel na porta 9119",
+              "tipo": "saida",
+              "em": "@painel"
+            },
+            {
+              "t": "HTTPS ativo (Caddy)",
+              "tipo": "ok",
+              "em": "@HTTPS"
+            }
+          ]
+        },
+        {
+          "tipo": "icone",
+          "x": 300,
+          "y": 1090,
+          "tam": 170,
+          "icone": "cadeado",
+          "cor": "laranja",
+          "em": "@HTTPS",
+          "rotulo": "HTTPS"
+        },
+        {
+          "tipo": "selo",
+          "x": 770,
+          "y": 1110,
+          "r": 140,
+          "linhas": [
+            "UMA VEZ",
+            "SÓ"
+          ],
+          "tam": 44,
+          "em": "@uma"
+        },
+        {
+          "tipo": "pilula",
+          "x": 540,
+          "y": 1400,
+          "texto": "fonte: docs Hermes · web dashboard",
+          "em": "@HTTPS+0.4"
+        }
+      ]
+    },
+    {
+      "fala": "Agora o app. Em Ajustes, cola o endereço do painel e o seu usuário.",
+      "visual": "Mockup desenhado da tela Ajustes (não há clipe): campo 'Endereço' com https://••••••.•• borrado + campo 'Usuário'. Lobo pequeno no canto.",
+      "duracao": 4.0667,
+      "camera": {
+        "zoom": [
+          1.0,
+          1.03
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "ajustes",
+          "x": 540,
+          "y": 880,
+          "tam": 960,
+          "em": 0,
+          "enderecoEm": "@endereço",
+          "usuarioEm": "@usuário"
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 320,
+          "texto": "APP X-GO · AJUSTES",
+          "em": "@Ajustes"
+        },
+        {
+          "tipo": "lobo",
+          "x": 890,
+          "y": 430,
+          "tam": 150,
+          "em": "@app"
+        }
+      ]
+    },
+    {
+      "fala": "Digita a senha uma vez. Ela fica guardada cifrada no aparelho. Conectar.",
+      "visual": "Campo senha '••••••••' + chave 'Manter conectado' ligando + cadeado 'cifrada no aparelho' + dedo tocando o botão 'Conectar' (pulso verde).",
+      "duracao": 4.3333,
+      "transicao": "corte",
+      "camera": {
+        "zoom": [
+          1.03,
+          1.12
+        ],
+        "y": [
+          0,
+          70
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "ajustes",
+          "x": 540,
+          "y": 880,
+          "tam": 960,
+          "em": -1,
+          "preenchido": true,
+          "senhaEm": "@senha",
+          "manterEm": "@guardada",
+          "cifraEm": "@cifrada",
+          "conectarEm": "@Conectar"
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 320,
+          "texto": "APP X-GO · AJUSTES",
+          "em": -1
+        },
+        {
+          "tipo": "lobo",
+          "x": 890,
+          "y": 430,
+          "tam": 150,
+          "em": -1
+        }
+      ]
+    },
+    {
+      "fala": "Uma conexão só. Chat, aprovações, Instagram, rotinas, memória e skills chegam juntos.",
+      "visual": "Um fio de luz liga servidor → celular; 6 ícones descem pelo fio e encaixam no celular, que mostra tour.mp4 (menu: Chat, Aprovações, Instagram...).",
+      "duracao": 5.7667,
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 250,
+          "texto": "UMA CONEXÃO SÓ",
+          "em": "@conexão"
+        },
+        {
+          "tipo": "servidor",
+          "x": 230,
+          "y": 540,
+          "tam": 260,
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 720,
+          "y": 1000,
+          "tam": 760,
+          "em": 0,
+          "video": "app/tour.mp4",
+          "inicio": 4,
+          "vel": 1.4
+        },
+        {
+          "tipo": "conexao",
+          "de": [
+            330,
+            560
+          ],
+          "para": [
+            720,
+            610
+          ],
+          "curva": -110,
+          "em": 0,
+          "icones": [
+            {
+              "icone": "chat",
+              "t": "chat",
+              "em": "@Chat"
+            },
+            {
+              "icone": "aprovacao",
+              "t": "aprovações",
+              "em": "@aprovações"
+            },
+            {
+              "icone": "instagram",
+              "t": "instagram",
+              "em": "@Instagram"
+            },
+            {
+              "icone": "rotinas",
+              "t": "rotinas",
+              "em": "@rotinas"
+            },
+            {
+              "icone": "memoria",
+              "t": "memória",
+              "em": "@memória"
+            },
+            {
+              "icone": "skills",
+              "t": "skills",
+              "em": "@skills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fala": "Pergunta: quanto gastei este mês e qual meu saldo? Ele responde com os números reais, conta por conta.",
+      "visual": "TOUR. chat.mp4 no celular (acelerar/cortar para ~5 s: pergunta digitada → resposta). Rótulo mono 'CHAT · app X-GO 0.30.0'. Valores reais da conta podem ser borrados se o usuário quiser.",
+      "duracao": 5.4333,
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 900,
+          "r": 480,
+          "em": 0
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "CHAT · app X-GO 0.30.0",
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 900,
+          "tam": 980,
+          "em": 0,
+          "video": "app/chat.mp4",
+          "inicio": 3,
+          "vel": 3.4
+        },
+        {
+          "tipo": "chip",
+          "t": "números reais",
+          "icone": "financas",
+          "em": "@reais",
+          "x": 860,
+          "y": 1250,
+          "escuro": true
+        }
+      ]
+    },
+    {
+      "fala": "Tem painel de finanças, com extrato e saldo.",
+      "visual": "financas.mp4 (~3 s, rolagem do painel). Rótulo 'FINANÇAS'.",
+      "duracao": 2.6333,
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "FINANÇAS",
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 900,
+          "tam": 980,
+          "em": 0,
+          "video": "app/financas.mp4",
+          "inicio": 0.5,
+          "vel": 2,
+          "rot": -3
+        },
+        {
+          "tipo": "chip",
+          "t": "extrato",
+          "icone": "financas",
+          "em": "@extrato",
+          "x": 210,
+          "y": 1150
+        },
+        {
+          "tipo": "chip",
+          "t": "saldo",
+          "icone": "financas",
+          "em": "@saldo",
+          "x": 880,
+          "y": 700,
+          "fase": 1
+        }
+      ]
+    },
+    {
+      "fala": "Monitora o seu Instagram inteiro.",
+      "visual": "insta.mp4 (~3 s, painel @well.free). Rótulo 'INSTAGRAM'.",
+      "duracao": 1.8333,
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "INSTAGRAM",
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 900,
+          "tam": 980,
+          "em": 0,
+          "video": "app/insta.mp4",
+          "inicio": 0.4,
+          "vel": 1.6,
+          "rot": 3
+        },
+        {
+          "tipo": "icone",
+          "x": 890,
+          "y": 560,
+          "tam": 130,
+          "icone": "instagram",
+          "em": 0.3
+        }
+      ]
+    },
+    {
+      "fala": "E cria fluxos automáticos: comentou a palavra, recebeu a mensagem.",
+      "visual": "fluxo.mp4 (~4 s: 'Comentou, recebeu' → palavra-chave → mensagem com botões). Rótulo 'FLUXOS'.",
+      "duracao": 3.9,
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "FLUXOS AUTOMÁTICOS",
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 900,
+          "tam": 980,
+          "em": 0,
+          "video": "app/fluxo.mp4",
+          "inicio": 1.2,
+          "vel": 2.4
+        },
+        {
+          "tipo": "chip",
+          "t": "comentou",
+          "icone": "chat",
+          "em": "@comentou",
+          "x": 200,
+          "y": 760
+        },
+        {
+          "tipo": "chip",
+          "t": "recebeu",
+          "icone": "telegram",
+          "em": "@recebeu",
+          "x": 880,
+          "y": 1080,
+          "escuro": true,
+          "fase": 1
+        }
+      ]
+    },
+    {
+      "fala": "São vinte e três agentes prontos. Vendedor, suporte, secretária, pesquisador.",
+      "visual": "bots.mp4 (~4 s, galeria 'Novo agente'). Número '23 modelos' gigante com pílula 'app X-GO 0.30.0'.",
+      "duracao": 4.7,
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 260,
+          "texto": "AGENTES PRONTOS",
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 320,
+          "y": 900,
+          "tam": 880,
+          "em": 0,
+          "video": "app/bots.mp4",
+          "inicio": 0.5,
+          "vel": 2
+        },
+        {
+          "tipo": "numero",
+          "x": 800,
+          "y": 620,
+          "valor": 23,
+          "unidade": "modelos",
+          "fonte": "fonte: app X-GO 0.30.0",
+          "tamanho": 280,
+          "em": "@vinte"
+        },
+        {
+          "tipo": "lista",
+          "x": 800,
+          "y": 1110,
+          "tam": 28,
+          "gap": 14,
+          "em": "@Vendedor",
+          "itens": [
+            {
+              "t": "Vendedor",
+              "em": "@Vendedor"
+            },
+            {
+              "t": "Suporte",
+              "em": "@suporte"
+            },
+            {
+              "t": "Secretária",
+              "em": "@secretária"
+            },
+            {
+              "t": "Pesquisador",
+              "em": "@pesquisador"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fala": "E nada do Hermes se perde. Setenta e oito skills ativas, rotinas, memória, persona. Tudo aqui.",
+      "visual": "agente.mp4 (~5 s, tela 'Agente: controle total'). Número '78 skills' gigante com pílula 'app X-GO 0.30.0'; destaque nos itens Rotinas, Memória, Persona.",
+      "duracao": 5.9333,
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 260,
+          "texto": "NADA SE PERDE",
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 320,
+          "y": 900,
+          "tam": 880,
+          "em": 0,
+          "video": "app/agente.mp4",
+          "inicio": 0.5,
+          "vel": 1.3
+        },
+        {
+          "tipo": "numero",
+          "x": 800,
+          "y": 620,
+          "valor": 78,
+          "unidade": "skills",
+          "fonte": "fonte: app X-GO 0.30.0",
+          "tamanho": 280,
+          "em": "@Setenta"
+        },
+        {
+          "tipo": "lista",
+          "x": 800,
+          "y": 1090,
+          "tam": 28,
+          "gap": 14,
+          "em": "@rotinas",
+          "itens": [
+            {
+              "t": "Rotinas",
+              "icone": "rotinas",
+              "em": "@rotinas"
+            },
+            {
+              "t": "Memória",
+              "icone": "memoria",
+              "em": "@memória"
+            },
+            {
+              "t": "Persona",
+              "icone": "persona",
+              "em": "@persona"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fala": "E o app é seu. Põe, tira e arrasta módulos. Ou pede pro agente mudar por você.",
+      "visual": "modular.mp4 (~5 s, 'Adicionar ao Início', arrastando módulo). Balão de chat do Lobo: 'muda pra mim?'.",
+      "duracao": 4.4667,
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "O APP É SEU",
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 480,
+          "y": 900,
+          "tam": 960,
+          "em": 0,
+          "video": "app/modular.mp4",
+          "inicio": 0.5,
+          "vel": 2.4
+        },
+        {
+          "tipo": "chip",
+          "t": "módulos",
+          "icone": "modulos",
+          "em": "@Põe",
+          "x": 190,
+          "y": 640
+        },
+        {
+          "tipo": "lobo",
+          "x": 900,
+          "y": 1300,
+          "tam": 170,
+          "em": "@Ou"
+        },
+        {
+          "tipo": "balao",
+          "x": 840,
+          "y": 1110,
+          "texto": "muda pra mim?",
+          "em": "@pede",
+          "espera": 8
+        }
+      ]
+    },
+    {
+      "fala": "Ainda tem casa inteligente, relógio, WhatsApp e Telegram.",
+      "visual": "casa.mp4 (~2 s) → corte rápido em tour.mp4 no menu (Relógio, WhatsApp e Telegram). Rótulos piscando.",
+      "duracao": 3.8333,
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "E AINDA TEM",
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 900,
+          "tam": 960,
+          "em": 0,
+          "clipes": [
+            {
+              "video": "app/casa.mp4",
+              "inicio": 0,
+              "vel": 1.2
+            },
+            {
+              "video": "app/tour.mp4",
+              "inicio": 11.6,
+              "vel": 0.9,
+              "em": "@relógio"
+            }
+          ]
+        },
+        {
+          "tipo": "chip",
+          "t": "casa",
+          "icone": "casa",
+          "em": "@casa",
+          "x": 175,
+          "y": 620,
+          "tam": 30
+        },
+        {
+          "tipo": "chip",
+          "t": "relógio",
+          "icone": "relogio",
+          "em": "@relógio",
+          "x": 905,
+          "y": 780,
+          "tam": 30,
+          "fase": 1
+        },
+        {
+          "tipo": "chip",
+          "t": "whatsapp",
+          "icone": "whatsapp",
+          "em": "@WhatsApp",
+          "x": 175,
+          "y": 1000,
+          "tam": 30,
+          "fase": 2
+        },
+        {
+          "tipo": "chip",
+          "t": "telegram",
+          "icone": "telegram",
+          "em": "@Telegram",
+          "x": 905,
+          "y": 1180,
+          "tam": 30,
+          "fase": 3
+        }
+      ]
+    },
+    {
+      "fala": "E ele até controla o celular. Mas só com a sua aprovação.",
+      "visual": "celular.mp4 (~3 s), zoom nos botões 'Negar / Aprovar'; dedo toca 'Aprovar'.",
+      "duracao": 3.1667,
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "SÓ COM SUA APROVAÇÃO",
+          "em": "@Mas"
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 900,
+          "tam": 980,
+          "em": 0,
+          "video": "app/celular.mp4",
+          "inicio": 0.2,
+          "vel": 0.9,
+          "zoomTela": {
+            "em": "@Mas",
+            "escala": 1.7,
+            "origem": "71% 75%"
+          },
+          "toque": {
+            "em": "@aprovação",
+            "x": 0.71,
+            "y": 0.75
+          }
+        }
+      ]
+    },
+    {
+      "fala": "Instala uma vez na VPS. Controla tudo pelo bolso.",
+      "visual": "SÍNTESE. Lado a lado: servidor (esq.) e celular com o Lobo (dir.), ligados pelo fio de luz. Texto 'UMA VEZ NA VPS → TUDO NO BOLSO'.",
+      "duracao": 3.4333,
+      "blocos": [
+        {
+          "tipo": "relevo",
+          "x": 540,
+          "y": 1060,
+          "w": 1080,
+          "h": 260,
+          "em": 0
+        },
+        {
+          "tipo": "servidor",
+          "x": 230,
+          "y": 760,
+          "tam": 300,
+          "em": 0,
+          "rotulo": "VPS"
+        },
+        {
+          "tipo": "celular",
+          "x": 790,
+          "y": 780,
+          "tam": 700,
+          "em": 0,
+          "tela": "lobo"
+        },
+        {
+          "tipo": "conexao",
+          "de": [
+            330,
+            760
+          ],
+          "para": [
+            620,
+            780
+          ],
+          "curva": -90,
+          "em": 0.2
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1350,
+          "linhas": [
+            {
+              "t": "UMA VEZ NA VPS",
+              "em": 0,
+              "tam": 84
+            },
+            {
+              "t": "TUDO NO BOLSO",
+              "em": "@Controla",
+              "tam": 84
+            }
+          ],
+          "acento": [
+            "VPS",
+            "BOLSO"
+          ],
+          "em": 0
+        }
+      ]
+    },
+    {
+      "fala": "Comenta AGENTE que eu te mando o link. E segue o @well.free.",
+      "visual": "CTA. Palavra 'AGENTE' em caixa gigante + seta para os comentários; Lobo acenando; card do perfil @well.free com botão 'Seguir'.",
+      "duracao": 4.8,
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 580,
+          "r": 250,
+          "em": 0
+        },
+        {
+          "tipo": "particulas",
+          "em": 0,
+          "n": 24,
+          "area": [
+            60,
+            250,
+            960,
+            500
+          ]
+        },
+        {
+          "tipo": "cta",
+          "x": 540,
+          "y": 860,
+          "em": 0,
+          "palavra": "AGENTE",
+          "palavraEm": "@AGENTE",
+          "perfilEm": "@segue",
+          "avatar": "perfil/avatar.png",
+          "usuario": "well.free"
+        }
+      ]
+    }
+  ],
+  "composicao": "Traco"
+}

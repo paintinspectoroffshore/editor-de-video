@@ -1,0 +1,533 @@
+{
+  "titulo": "Qualquer pessoa pode ter o software do GitHub",
+  "composicao": "Editorial",
+  "voz": {
+    "motor": "eleven",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "nome_voz": "Liam - Energetic, Social Media Creator",
+    "ajustes": {
+      "speed": 1.15,
+      "stability": 0.4,
+      "style": 0.25
+    },
+    "tempo": 1.12
+  },
+  "destaques": [
+    "github",
+    "instalar",
+    "lingua",
+    "preco",
+    "instalacao",
+    "entro",
+    "cliques",
+    "codigo",
+    "opencut",
+    "graca",
+    "n8n",
+    "docker",
+    "email",
+    "xgo",
+    "comeco",
+    "futuro",
+    "valor",
+    "pessoas",
+    "segue",
+    "comenta",
+    "transforme"
+  ],
+  "cenas": [
+    {
+      "fala": "Esse programa tem 210 mil estrelas no GitHub.",
+      "duracao": 2.9,
+      "blocos": [
+        {
+          "tipo": "tela",
+          "src": "assets/telas/m_gh_n8n.png",
+          "titulo": "github.com/n8n-io/n8n",
+          "h": 600,
+          "em": 0.0,
+          "y0": 90
+        },
+        {
+          "tipo": "numero",
+          "valor": 210,
+          "sufixo": " MIL",
+          "tamanho": 220,
+          "tag": "GitHub",
+          "rotulo": "estrelas · n8n",
+          "em": 0.61
+        }
+      ]
+    },
+    {
+      "fala": "Agora olha o que ele pede pra você instalar.",
+      "duracao": 2.7,
+      "blocos": [
+        {
+          "tipo": "tela",
+          "src": "assets/telas/m_gh_n8n_install.png",
+          "titulo": "README · Quick Start",
+          "h": 760,
+          "rolar": 110,
+          "em": 0.0
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Docker?",
+          "sub": "terminal obrigatório",
+          "x": 450,
+          "y": 700,
+          "rot": -9,
+          "em": 1.38,
+          "tamanho": 70
+        }
+      ]
+    },
+    {
+      "fala": "Docker, terminal, linha de comando. Pra quem não programa, isso é outra língua.",
+      "duracao": 4.8667,
+      "blocos": [
+        {
+          "tipo": "etiqueta",
+          "texto": "Docker",
+          "tamanho": 64,
+          "x": 20,
+          "y": 30,
+          "rot": -3,
+          "em": 0.0
+        },
+        {
+          "tipo": "etiqueta",
+          "texto": "Terminal",
+          "tamanho": 64,
+          "x": 430,
+          "y": 190,
+          "rot": 2.5,
+          "em": 0.67
+        },
+        {
+          "tipo": "etiqueta",
+          "texto": "Linha de comando",
+          "tamanho": 60,
+          "x": 60,
+          "y": 360,
+          "rot": -1.5,
+          "em": 1.41
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Outra língua",
+          "tamanho": 92,
+          "x": 90,
+          "y": 640,
+          "rot": -6,
+          "em": 3.64
+        }
+      ]
+    },
+    {
+      "fala": "E o GitHub tem 395 milhões de projetos públicos. Editores de vídeo, automações, sistemas inteiros. Muitos, de graça.",
+      "duracao": 9.1667,
+      "blocos": [
+        {
+          "tipo": "numero",
+          "valor": 395,
+          "sufixo": " MI",
+          "tamanho": 250,
+          "tag": "Octoverse 2025",
+          "rotulo": "projetos públicos",
+          "em": 0.84
+        },
+        {
+          "tipo": "tela",
+          "src": "assets/telas/m_gh_trending.png",
+          "titulo": "github.com/trending",
+          "w": 700,
+          "h": 540,
+          "x": 260,
+          "y": 390,
+          "rot": 2,
+          "rolar": 220,
+          "em": 3.86,
+          "y0": 540
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Grátis",
+          "tamanho": 96,
+          "x": 0,
+          "y": 720,
+          "rot": -10,
+          "z": 3,
+          "em": 8.15
+        }
+      ]
+    },
+    {
+      "fala": "O problema nunca foi o preço.",
+      "duracao": 1.8,
+      "fundo": "vinho",
+      "blocos": []
+    },
+    {
+      "fala": "Foi a instalação. Ou seja: o programa existe, é gratuito, mas você não consegue instalar.",
+      "duracao": 5.4667,
+      "blocos": [
+        {
+          "tipo": "checklist",
+          "titulo": "ou seja:",
+          "em": 1.17,
+          "itens": [
+            {
+              "texto": "O programa existe",
+              "marcado": true,
+              "em": 2.18
+            },
+            {
+              "texto": "É gratuito",
+              "marcado": true,
+              "em": 2.98
+            },
+            {
+              "texto": "Você consegue instalar",
+              "marcado": false,
+              "destaque": "instalar",
+              "em": 4.37
+            }
+          ]
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Travado",
+          "tamanho": 90,
+          "x": 470,
+          "y": 560,
+          "rot": -8,
+          "em": 4.55
+        }
+      ]
+    },
+    {
+      "fala": "É aqui que eu entro. Eu garimpo os melhores projetos do GitHub e os pedidos de quem me segue.",
+      "duracao": 5.0667,
+      "blocos": [
+        {
+          "tipo": "fluxo",
+          "entradas": [
+            "GitHub",
+            "Pedidos"
+          ],
+          "centro": "X-GO",
+          "centroSub": "garimpa · empacota",
+          "saida": "Você",
+          "em": 0.41,
+          "tempos": {
+            "centro": 0.41,
+            "entradas": [
+              2.46,
+              3.46
+            ],
+            "saida": 4.13
+          }
+        }
+      ]
+    },
+    {
+      "fala": "E transformo sistemas complexos em instalação de poucos cliques. Sem uma linha de código.",
+      "duracao": 5.2,
+      "blocos": [
+        {
+          "tipo": "antesdepois",
+          "antes": [
+            "$ git clone github.com/n8n-io/n8n",
+            "$ docker volume create n8n_data",
+            "$ docker run -it --rm --name n8n \\",
+            "    -p 5678:5678 -v n8n_data:/home/node"
+          ],
+          "botao": "Instalar",
+          "resultado": "Pronto",
+          "em": 0.96
+        }
+      ]
+    },
+    {
+      "fala": "Exemplo real. O OpenCut, editor de vídeo com 98 mil estrelas no GitHub, virou um aplicativo de Android. Baixa e usa. De graça.",
+      "duracao": 8.3333,
+      "blocos": [
+        {
+          "tipo": "tela",
+          "src": "assets/telas/m_gh_opencut.png",
+          "titulo": "github.com/OpenCut-app/OpenCut",
+          "w": 680,
+          "h": 560,
+          "x": 0,
+          "y": 0,
+          "rot": -2,
+          "em": 1.18,
+          "y0": 260
+        },
+        {
+          "tipo": "etiqueta",
+          "texto": "98 mil estrelas",
+          "tamanho": 46,
+          "x": 330,
+          "y": 520,
+          "rot": 3,
+          "z": 3,
+          "em": 2.71
+        },
+        {
+          "tipo": "seta",
+          "de": [
+            110,
+            640
+          ],
+          "para": [
+            340,
+            780
+          ],
+          "curva": -70,
+          "em": 4.4
+        },
+        {
+          "tipo": "tela",
+          "src": "assets/telas/xgo_card_opencut.png",
+          "titulo": "xgoos.com.br · OpenCut Android",
+          "w": 540,
+          "h": 390,
+          "x": 400,
+          "y": 600,
+          "rot": 2,
+          "sombra": "vinho",
+          "em": 4.64
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Grátis",
+          "tamanho": 86,
+          "x": 0,
+          "y": 820,
+          "rot": -10,
+          "z": 3,
+          "em": 7.33
+        }
+      ]
+    },
+    {
+      "fala": "E o n8n, aquele dos comandos? Virou um instalador guiado pra Windows, sem Docker, com 20 modelos prontos.",
+      "duracao": 7.0667,
+      "blocos": [
+        {
+          "tipo": "tela",
+          "src": "assets/telas/m_gh_n8n_install.png",
+          "titulo": "antes · README do n8n",
+          "w": 620,
+          "h": 340,
+          "x": 0,
+          "y": 0,
+          "rot": -3,
+          "em": 0.02,
+          "y0": 100
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Antes",
+          "tamanho": 52,
+          "x": 430,
+          "y": 230,
+          "rot": -8,
+          "z": 3,
+          "em": 1.54
+        },
+        {
+          "tipo": "tela",
+          "src": "assets/telas/xgo_produto_n8n.png",
+          "titulo": "xgoos.com.br · X-GO Setup para n8n",
+          "w": 900,
+          "h": 520,
+          "x": 40,
+          "y": 380,
+          "rot": 1.5,
+          "sombra": "vinho",
+          "em": 2.67,
+          "zoom": 1.7,
+          "y0": 250
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Sem Docker",
+          "tamanho": 64,
+          "x": 0,
+          "y": 820,
+          "rot": -7,
+          "z": 3,
+          "em": 4.56
+        },
+        {
+          "tipo": "etiqueta",
+          "texto": "20 modelos",
+          "tamanho": 48,
+          "x": 590,
+          "y": 840,
+          "rot": 3,
+          "z": 3,
+          "em": 5.41
+        }
+      ]
+    },
+    {
+      "fala": "Funciona assim: você escolhe a ferramenta, recebe no e-mail, abre e usa. Pronto.",
+      "duracao": 5.1667,
+      "blocos": [
+        {
+          "tipo": "passos",
+          "em": 0.92,
+          "itens": [
+            {
+              "titulo": "Escolhe",
+              "texto": "a ferramenta no catálogo",
+              "em": 1.03
+            },
+            {
+              "titulo": "Recebe",
+              "texto": "o acesso no seu e-mail",
+              "em": 2.31
+            },
+            {
+              "titulo": "Abre e usa",
+              "texto": "sem terminal · sem código",
+              "em": 3.13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fala": "Hoje já são 13 ferramentas na X-GO. Finanças, 3D, obras, inteligência artificial.",
+      "duracao": 6.1,
+      "blocos": [
+        {
+          "tipo": "numero",
+          "valor": 13,
+          "tamanho": 280,
+          "tag": "xgoos.com.br",
+          "rotulo": "ferramentas",
+          "em": 0.47
+        },
+        {
+          "tipo": "tela",
+          "src": "assets/telas/xgo_catalogo.png",
+          "titulo": "xgoos.com.br · catálogo",
+          "w": 760,
+          "h": 560,
+          "x": 200,
+          "y": 380,
+          "rot": 2,
+          "rolar": 260,
+          "em": 1.41,
+          "zoom": 1.35
+        },
+        {
+          "tipo": "etiqueta",
+          "texto": "Finanças",
+          "tamanho": 40,
+          "x": 0,
+          "y": 470,
+          "rot": -4,
+          "z": 3,
+          "em": 2.13
+        },
+        {
+          "tipo": "etiqueta",
+          "texto": "3D",
+          "tamanho": 40,
+          "x": 30,
+          "y": 590,
+          "rot": 3,
+          "z": 3,
+          "em": 2.89
+        },
+        {
+          "tipo": "etiqueta",
+          "texto": "Obras",
+          "tamanho": 40,
+          "x": 0,
+          "y": 710,
+          "rot": -2,
+          "z": 3,
+          "em": 3.49
+        },
+        {
+          "tipo": "etiqueta",
+          "texto": "IA",
+          "tamanho": 40,
+          "x": 40,
+          "y": 830,
+          "rot": 2,
+          "z": 3,
+          "em": 4.05
+        }
+      ]
+    },
+    {
+      "fala": "E isso é só o começo. A cada minuto, nascem mais de 230 projetos novos no GitHub.",
+      "duracao": 5.6,
+      "blocos": [
+        {
+          "tipo": "contador",
+          "porMinuto": 230,
+          "rotulo": "projetos novos desde o início deste vídeo",
+          "fonte": "GitHub Octoverse 2025",
+          "em": 2.7
+        }
+      ]
+    },
+    {
+      "fala": "Esse é o futuro: você não precisa programar pra usar o que os programadores criam.",
+      "duracao": 4.7667,
+      "blocos": [
+        {
+          "tipo": "citacao",
+          "linhas": [
+            "O código",
+            "é deles.",
+            "O clique",
+            "é seu."
+          ],
+          "destaque": "seu",
+          "assinatura": "— X-GO",
+          "em": 1.16
+        }
+      ]
+    },
+    {
+      "fala": "Nosso objetivo é um só: gerar valor pro maior número de pessoas possível.",
+      "duracao": 4.5,
+      "blocos": [
+        {
+          "tipo": "pessoas",
+          "total": 100,
+          "colunas": 10,
+          "rotulo": "valor pro maior número de pessoas",
+          "em": 1.37
+        }
+      ]
+    },
+    {
+      "fala": "Me segue pra ver o próximo projeto que eu vou destravar. E comenta qual programa você quer que eu transforme.",
+      "duracao": 6.2667,
+      "blocos": [
+        {
+          "tipo": "seguir",
+          "nome": "X-GO Store",
+          "usuario": "xgoos.com.br",
+          "avatar": "assets/telas/xgo_logo.png",
+          "bio": "Projetos do GitHub em poucos cliques. Sem programar.",
+          "comentario": "Transforma esse aqui pra mim!",
+          "em": 0.0
+        }
+      ]
+    }
+  ],
+  "respiroFinal": 1.2
+}

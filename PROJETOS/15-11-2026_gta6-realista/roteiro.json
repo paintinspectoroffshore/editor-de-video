@@ -1,0 +1,832 @@
+{
+  "titulo": "GTA 6 — A polícia agora tem memória",
+  "duracaoMax": 120,
+  "composicao": "Leonida",
+  "perfil": "@well.free",
+  "credito": "Base: MuuhPro (YouTube) · Imagens: Rockstar Games",
+  "voz": {
+    "motor": "eleven",
+    "id": "i8rv83UTKnzq0PzTrxjL",
+    "modelo": "eleven_v4",
+    "idioma": "pt",
+    "ajustes": {
+      "stability": 0.28,
+      "similarity_boost": 0.8
+    },
+    "tempo": 1.28,
+    "pausas": 0.1,
+    "respiro": 0.06,
+    "limiarSilencio": "-32dB"
+  },
+  "pronuncia": {},
+  "trilha": "synthwave_sun-in-your-eyes.mp3",
+  "volumeTrilha": 0.12,
+  "respiroFinal": 1.2,
+  "destaques": [
+    "carro",
+    "polícia",
+    "rastreador",
+    "memória",
+    "máscara",
+    "seis",
+    "estrelas",
+    "cofre",
+    "dinamite",
+    "banco",
+    "bolso",
+    "bolsa",
+    "seiscentas",
+    "dobro",
+    "furacão",
+    "oitenta",
+    "tudo",
+    "Comenta",
+    "COFRE",
+    "CARRO",
+    "well",
+    "WAINK"
+  ],
+  "cenas": [
+    {
+      "fala": "Você rouba um carro no GTA 6. E o próprio carro te entrega pra polícia.",
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "linhas": [
+            "O CARRO",
+            "TE ENTREGA"
+          ],
+          "tamanho": 120,
+          "acento": [
+            "ENTREGA"
+          ],
+          "y": 200,
+          "em": 0.3
+        },
+        {
+          "tipo": "minimapa",
+          "y": 560,
+          "tamanho": 640,
+          "em": "@próprio",
+          "dur": 4.0
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "RASTREADO",
+          "tamanho": 130,
+          "cor": "vermelho",
+          "rot": -9,
+          "y": 860,
+          "em": "@entrega",
+          "z": 9
+        }
+      ],
+      "capitulo": "A · POLÍCIA",
+      "fundo": {
+        "videos": [
+          "yt02@0.00",
+          "yt03@0.00"
+        ],
+        "troca": 1.95,
+        "escuro": 0.2
+      },
+      "duracao": 3.9
+    },
+    {
+      "fala": "Carro novo pode ter rastreador. E um aplicativo no celular já mostra o valor, o alarme e o rastreador.",
+      "blocos": [
+        {
+          "tipo": "celular",
+          "y": 250,
+          "w": 520,
+          "h": 1000,
+          "em": 0.2,
+          "hora": "19:11",
+          "data": "App WAINK",
+          "itens": [
+            {
+              "app": "WAINK",
+              "texto": "Carro trancado",
+              "em": "@aplicativo"
+            },
+            {
+              "app": "WAINK",
+              "texto": "Valor do carro",
+              "em": "@valor"
+            },
+            {
+              "app": "WAINK",
+              "texto": "Alarme ativo",
+              "em": "@alarme"
+            },
+            {
+              "app": "WAINK",
+              "texto": "Rastreador ligado",
+              "em": "@rastreador+2.2"
+            }
+          ]
+        },
+        {
+          "tipo": "selo",
+          "texto": "FONTE: IGN (ROB NELSON) VIA EXPUTER + BEEBOM",
+          "tamanho": 34,
+          "cor": "ciano",
+          "rot": -1,
+          "y": 1290,
+          "em": "@celular"
+        }
+      ],
+      "capitulo": "A · POLÍCIA",
+      "fundo": {
+        "videos": [
+          "yt03@0.00",
+          "yt04@0.00"
+        ],
+        "troca": 2.717,
+        "escuro": 0.4,
+        "recorte": 1.4
+      },
+      "duracao": 5.4333
+    },
+    {
+      "fala": "Mas o problema maior é outro: a polícia agora tem memória.",
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "linhas": [
+            "A POLÍCIA",
+            "TEM MEMÓRIA"
+          ],
+          "tamanho": 120,
+          "acento": [
+            "MEMÓRIA"
+          ],
+          "y": 250,
+          "em": "@polícia"
+        }
+      ],
+      "capitulo": "A · POLÍCIA",
+      "fundo": {
+        "videos": [
+          "yt04@0.00"
+        ],
+        "troca": 3.033,
+        "escuro": 0.25,
+        "recorte": 1.4
+      },
+      "duracao": 3.0333
+    },
+    {
+      "fala": "Testemunha e câmera montam a sua descrição. Rosto, roupa e carro. Cada um vira um ícone na tela.",
+      "blocos": [
+        {
+          "tipo": "placas",
+          "y": 250,
+          "em": 0.0,
+          "fonte": "GamesRadar + eXputer",
+          "fonteEm": "@Testemunha",
+          "itens": [
+            {
+              "icone": "rosto",
+              "rotulo": "rosto",
+              "valor": "ROSTO",
+              "em": "@Rosto"
+            },
+            {
+              "icone": "roupa",
+              "rotulo": "roupa",
+              "valor": "ROUPA",
+              "em": "@roupa"
+            },
+            {
+              "icone": "carro",
+              "rotulo": "carro",
+              "valor": "CARRO",
+              "em": "@carro"
+            }
+          ]
+        }
+      ],
+      "capitulo": "A · POLÍCIA",
+      "fundo": {
+        "videos": [
+          "yt04@0.00",
+          "yt04@2.68"
+        ],
+        "troca": 2.683,
+        "escuro": 0.55
+      },
+      "duracao": 5.3667
+    },
+    {
+      "fala": "Mudar só o cabelo não resolve. Já a máscara pode impedir que te reconheçam, até na câmera.",
+      "blocos": [
+        {
+          "tipo": "versus",
+          "y": 250,
+          "em": "@cabelo",
+          "ouEm": "@máscara",
+          "ate": "@câmera+1.5",
+          "opcoes": [
+            {
+              "texto": "SÓ O CABELO",
+              "sub": "não resolve",
+              "em": "@cabelo",
+              "cor": "vermelho",
+              "tamanho": 90
+            },
+            {
+              "texto": "MÁSCARA",
+              "sub": "até na câmera",
+              "em": "@máscara",
+              "cor": "ciano",
+              "tamanho": 96
+            }
+          ]
+        },
+        {
+          "tipo": "selo",
+          "texto": "FONTE: EXPUTER + RED BULL GAMING",
+          "tamanho": 34,
+          "cor": "ciano",
+          "rot": -1,
+          "y": 1250,
+          "em": "@máscara"
+        }
+      ],
+      "capitulo": "A · POLÍCIA",
+      "fundo": {
+        "videos": [
+          "yt06@0.00",
+          "yt05@0.00"
+        ],
+        "troca": 2.233,
+        "escuro": 0.45
+      },
+      "duracao": 4.4667
+    },
+    {
+      "fala": "E as seis estrelas voltaram. O GTA 5 parava em cinco.",
+      "blocos": [
+        {
+          "tipo": "numero",
+          "de": 5,
+          "valor": 6,
+          "sufixo": " ESTRELAS",
+          "kicker": "O GTA 5 PARAVA EM 5",
+          "y": 330,
+          "tamanho": 190,
+          "em": "@seis",
+          "cor": "amarelo",
+          "contar": 0.9,
+          "fonte": "Game Informer (via GTABase) + GamesRadar",
+          "fonteEm": "@seis"
+        }
+      ],
+      "capitulo": "A · POLÍCIA",
+      "fundo": {
+        "videos": [
+          "yt21@3.0",
+          "yt22@2.0"
+        ],
+        "troca": 1.8,
+        "escuro": 0.4
+      },
+      "duracao": 3.3
+    },
+    {
+      "fala": "Quer assaltar? Quase qualquer loja pode virar alvo, do posto ao banco.",
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "linhas": [
+            "DO POSTO",
+            "AO BANCO"
+          ],
+          "tamanho": 130,
+          "acento": [
+            "BANCO"
+          ],
+          "y": 250,
+          "em": "@loja",
+          "fonte": "Red Bull Gaming + GTABase",
+          "fonteEm": "@posto"
+        }
+      ],
+      "capitulo": "B · ASSALTO",
+      "fundo": {
+        "videos": [
+          "yt08@0.00",
+          "yt07@0.00"
+        ],
+        "troca": 1.85,
+        "escuro": 0.35
+      },
+      "duracao": 3.7
+    },
+    {
+      "fala": "No cofre, você escolhe: o segredo, devagar… ou dinamite, rápido, mas a explosão pode estragar parte do dinheiro.",
+      "blocos": [
+        {
+          "tipo": "versus",
+          "y": 250,
+          "em": "@segredo",
+          "ouEm": "@ou",
+          "opcoes": [
+            {
+              "texto": "SEGREDO",
+              "sub": "lento · dinheiro todo",
+              "em": "@segredo",
+              "cor": "ciano",
+              "tamanho": 96
+            },
+            {
+              "texto": "DINAMITE",
+              "sub": "rápido · perde parte",
+              "em": "@dinamite",
+              "cor": "rosa",
+              "tamanho": 96
+            }
+          ]
+        },
+        {
+          "tipo": "selo",
+          "texto": "FONTE: RELATOS DE PRÉVIA (GTABOOM + NEONSECT)",
+          "tamanho": 34,
+          "cor": "ciano",
+          "rot": -1,
+          "y": 1250,
+          "em": "@explos"
+        }
+      ],
+      "capitulo": "B · ASSALTO",
+      "fundo": {
+        "videos": [
+          "yt09@0.00",
+          "yt08@0.00",
+          "yt10@0.00"
+        ],
+        "troca": 2.078,
+        "escuro": 0.5
+      },
+      "duracao": 6.2333
+    },
+    {
+      "fala": "Sair com a bolsa cheia não é ficar rico. O dinheiro fica em três lugares: banco, bolso e bolsa.",
+      "blocos": [
+        {
+          "tipo": "barras",
+          "titulo": "3 TIPOS DE DINHEIRO",
+          "y": 230,
+          "h": 900,
+          "max": 100,
+          "em": 0.0,
+          "fonte": "eXputer + GTABoom",
+          "fonteEm": "@três",
+          "itens": [
+            {
+              "rotulo": "BANCO",
+              "valor": 70,
+              "texto": " ",
+              "em": "@banco",
+              "cor": "ciano"
+            },
+            {
+              "rotulo": "BOLSO",
+              "valor": 70,
+              "texto": " ",
+              "em": "@bolso",
+              "cor": "amarelo"
+            },
+            {
+              "rotulo": "BOLSA",
+              "valor": 70,
+              "texto": " ",
+              "em": "@bolso+0.5",
+              "cor": "rosa"
+            }
+          ]
+        }
+      ],
+      "capitulo": "B · ASSALTO",
+      "fundo": {
+        "videos": [
+          "yt10@0.00",
+          "yt09@0.00"
+        ],
+        "troca": 2.6,
+        "escuro": 0.55
+      },
+      "duracao": 5.2
+    },
+    {
+      "fala": "Morreu ou foi preso, o dinheiro do bolso some. Seguro, só no banco ou no caixa eletrônico.",
+      "blocos": [
+        {
+          "tipo": "barras",
+          "titulo": "3 TIPOS DE DINHEIRO",
+          "y": 230,
+          "h": 900,
+          "max": 100,
+          "em": 0.0,
+          "som": false,
+          "fonte": "eXputer + GTABoom",
+          "fonteEm": "@Morreu",
+          "itens": [
+            {
+              "rotulo": "BANCO",
+              "valor": 70,
+              "texto": " ",
+              "pronto": true,
+              "cor": "ciano"
+            },
+            {
+              "rotulo": "BOLSO",
+              "valor": 70,
+              "texto": " ",
+              "pronto": true,
+              "cor": "amarelo"
+            },
+            {
+              "rotulo": "BOLSA",
+              "valor": 70,
+              "texto": " ",
+              "pronto": true,
+              "cor": "rosa"
+            }
+          ]
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "PERDEU",
+          "tamanho": 130,
+          "cor": "vermelho",
+          "rot": -10,
+          "y": 560,
+          "em": "@some",
+          "z": 9
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "SEGURO",
+          "tamanho": 110,
+          "cor": "ciano",
+          "rot": 6,
+          "y": 900,
+          "em": "@Seguro",
+          "z": 9
+        }
+      ],
+      "capitulo": "B · ASSALTO",
+      "fundo": {
+        "videos": [
+          "yt11@0.00",
+          "yt11@2.35"
+        ],
+        "troca": 2.35,
+        "escuro": 0.55
+      },
+      "duracao": 4.7
+    },
+    {
+      "fala": "E a cidade reage. São mais de seiscentas mil animações de reação dos pedestres. No GTA 5, eram cerca de cinquenta e cinco mil.",
+      "blocos": [
+        {
+          "tipo": "barras",
+          "orientacao": "horizontal",
+          "titulo": "ANIMAÇÕES DE REAÇÃO",
+          "y": 320,
+          "max": 600,
+          "em": 0.0,
+          "som": false,
+          "somItem": "tick",
+          "fonte": "TechRadar (Rockstar) + 80.lv",
+          "fonteEm": "@seiscentas",
+          "itens": [
+            {
+              "rotulo": "GTA 5",
+              "valor": 55,
+              "texto": "55 mil",
+              "em": "@cinquenta",
+              "cor": "ciano"
+            },
+            {
+              "rotulo": "RDR2",
+              "valor": 300,
+              "texto": "300 mil",
+              "em": "@seiscentas+0.6",
+              "cor": "cinza"
+            },
+            {
+              "rotulo": "GTA 6",
+              "valor": 600,
+              "texto": "600 mil+",
+              "em": "@seiscentas",
+              "cor": "rosa",
+              "destaque": true
+            }
+          ]
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "≈ 11×",
+          "tamanho": 130,
+          "cor": "amarelo",
+          "rot": -7,
+          "y": 1090,
+          "em": "@cinquenta+0.5"
+        }
+      ],
+      "capitulo": "C · O MUNDO",
+      "fundo": {
+        "videos": [
+          "yt12@0.00",
+          "yt11@0.00",
+          "yt11@2.28"
+        ],
+        "troca": 2.278,
+        "escuro": 0.55
+      },
+      "duracao": 6.8333
+    },
+    {
+      "fala": "O mapa tem quase o dobro do tamanho do GTA 5.",
+      "blocos": [
+        {
+          "tipo": "mapa",
+          "modo": "comparar",
+          "y": 250,
+          "w": 1000,
+          "h": 900,
+          "em": 0.0,
+          "gta5Em": "@tamanho",
+          "leonidaEm": "@dobro",
+          "vezesEm": "@dobro+0.2",
+          "fonte": "Game Informer (Aaron Garbut, via GTABase) + eXputer",
+          "fonteEm": "@mapa"
+        }
+      ],
+      "capitulo": "C · O MUNDO",
+      "fundo": {
+        "videos": [
+          "yt13@0.00"
+        ],
+        "troca": 2.567,
+        "escuro": 0.5
+      },
+      "duracao": 2.5667
+    },
+    {
+      "fala": "E mais de cento e setenta espécies de animais, de flamingo a peixe-boi.",
+      "blocos": [
+        {
+          "tipo": "numero",
+          "valor": 170,
+          "prefixo": "+",
+          "unidade": "ESPÉCIES DE ANIMAIS",
+          "kicker": "60+ AVES",
+          "y": 330,
+          "tamanho": 220,
+          "em": "@cento",
+          "cor": "amarelo",
+          "fonte": "Game Informer (via Kotaku) + Dexerto",
+          "fonteEm": "@cento"
+        }
+      ],
+      "capitulo": "C · O MUNDO",
+      "fundo": {
+        "videos": [
+          "yt14@0.00",
+          "yt14@1.90"
+        ],
+        "troca": 1.9,
+        "escuro": 0.45,
+        "recorte": 1.4
+      },
+      "duracao": 3.8
+    },
+    {
+      "fala": "E tem furacão. A Rockstar confirmou tempestades tropicais e furacões no mapa.",
+      "blocos": [
+        {
+          "tipo": "radar",
+          "y": 330,
+          "tamanho": 620,
+          "em": 0.0,
+          "furacaoEm": "@furac"
+        },
+        {
+          "tipo": "selo",
+          "texto": "CONFIRMADO PELA ROCKSTAR",
+          "tamanho": 52,
+          "cor": "amarelo",
+          "rot": -1,
+          "y": 1050,
+          "em": "@confirmou"
+        },
+        {
+          "tipo": "selo",
+          "texto": "FONTE: GAME INFORMER (VIA GTABASE) + KOTAKU",
+          "tamanho": 32,
+          "cor": "ciano",
+          "rot": -1,
+          "y": 1250,
+          "em": "@confirmou"
+        }
+      ],
+      "capitulo": "C · O MUNDO",
+      "fundo": {
+        "videos": [
+          "yt16@0.00",
+          "yt16@2.00"
+        ],
+        "troca": 2.0,
+        "escuro": 0.5,
+        "recorte": 1.4
+      },
+      "duracao": 4.0
+    },
+    {
+      "fala": "O chefe da Rockstar North levou umas oitenta horas pra terminar a história, com extras.",
+      "blocos": [
+        {
+          "tipo": "cronometro",
+          "y": 250,
+          "tamanho": 540,
+          "em": 0.1,
+          "rotulo": "HORAS PRA ZERAR",
+          "ritmo": 11500
+        },
+        {
+          "tipo": "numero",
+          "texto": "~80 h",
+          "kicker": "VERSÃO DE TESTE · FEV/2026",
+          "y": 960,
+          "tamanho": 170,
+          "em": "@oitenta",
+          "cor": "rosa",
+          "fonte": "New York Times (via GTABase) + Insider Gaming",
+          "fonteEm": "@oitenta"
+        }
+      ],
+      "capitulo": "C · O MUNDO",
+      "fundo": {
+        "videos": [
+          "yt17@0.00",
+          "yt16@0.00"
+        ],
+        "troca": 2.0,
+        "escuro": 0.5
+      },
+      "duracao": 4.0
+    },
+    {
+      "fala": "Chega dia dezenove de novembro, no PlayStation 5 e no Xbox Series. E reserve uns duzentos e dez gigas.",
+      "blocos": [
+        {
+          "tipo": "carimbo",
+          "texto": "19/11/2026",
+          "sub": "LANÇAMENTO",
+          "tamanho": 150,
+          "cor": "amarelo",
+          "rot": -5,
+          "y": 230,
+          "em": "@dezenove"
+        },
+        {
+          "tipo": "selo",
+          "texto": "PS5 · XBOX SERIES",
+          "tamanho": 60,
+          "cor": "ciano",
+          "rot": -1,
+          "y": 560,
+          "em": "@PlayStation"
+        },
+        {
+          "tipo": "selo",
+          "texto": "FONTE: ROCKSTAR SUPPORT + TAKE-TWO",
+          "tamanho": 32,
+          "cor": "ciano",
+          "rot": -1,
+          "y": 700,
+          "em": "@dezenove"
+        },
+        {
+          "tipo": "numero",
+          "texto": "~210 GB",
+          "kicker": "ESTIMATIVA · ROCKSTAR NÃO CONFIRMOU",
+          "y": 860,
+          "tamanho": 190,
+          "em": "@duzentos",
+          "cor": "rosa",
+          "fonte": "IBTimes + Upcomer",
+          "fonteEm": "@duzentos"
+        }
+      ],
+      "capitulo": "D · FECHO",
+      "fundo": {
+        "videos": [
+          "yt21",
+          "yt22"
+        ],
+        "troca": 2.75,
+        "escuro": 0.45
+      },
+      "duracao": 5.5
+    },
+    {
+      "fala": "Resumo: não é mais sair atirando. É um jogo que lembra de tudo o que você faz.",
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "linhas": [
+            "ELE LEMBRA",
+            "DE TUDO"
+          ],
+          "tamanho": 150,
+          "acento": [
+            "TUDO"
+          ],
+          "y": 480,
+          "em": "@lembra"
+        }
+      ],
+      "capitulo": "D · FECHO",
+      "fundo": {
+        "videos": [
+          "yt23",
+          "yt24"
+        ],
+        "troca": 1.9,
+        "escuro": 0.3
+      },
+      "duracao": 3.8
+    },
+    {
+      "fala": "Comenta COFRE ou CARRO: qual crime você testa primeiro? E segue o well ponto free pra mais GTA 6.",
+      "blocos": [
+        {
+          "tipo": "versus",
+          "y": 250,
+          "em": "@COFRE",
+          "ouEm": "@ou",
+          "ate": "@qual",
+          "opcoes": [
+            {
+              "texto": "COFRE",
+              "em": "@COFRE",
+              "cor": "ciano",
+              "tamanho": 110
+            },
+            {
+              "texto": "CARRO",
+              "em": "@CARRO",
+              "cor": "rosa",
+              "tamanho": 110
+            }
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "linhas": [
+            "QUAL CRIME?"
+          ],
+          "tamanho": 130,
+          "acento": [
+            "CRIME"
+          ],
+          "y": 250,
+          "em": "@qual"
+        },
+        {
+          "tipo": "cta",
+          "y": 480,
+          "em": "@qual",
+          "avatar": "avatar.png",
+          "nome": "Well Machado",
+          "usuario": "@well.free",
+          "comentario": "cofre, sem pensar",
+          "comentarioEm": "@testa",
+          "seguirEm": "@segue"
+        }
+      ],
+      "capitulo": "D · FECHO",
+      "fundo": {
+        "videos": [
+          "yt20@0.00",
+          "yt20@0.52",
+          "yt20@1.04",
+          "yt20@1.57",
+          "yt19@0.00",
+          "yt19@0.52",
+          "yt19@1.04",
+          "yt19@1.57"
+        ],
+        "troca": 0.522,
+        "escuro": 0.4
+      },
+      "duracao": 6.2667
+    }
+  ],
+  "trilhaLaco": 8
+}

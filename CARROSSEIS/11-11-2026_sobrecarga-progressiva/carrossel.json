@@ -1,0 +1,84 @@
+{
+ "tema": "editorial",
+ "slides": [
+  {
+   "tipo": "capa",
+   "chapeu": "erro nº 1 da academia",
+   "titulo": "Mesma carga há 3 meses?",
+   "destaque": [
+    "3",
+    "meses?"
+   ],
+   "sub": "O problema quase nunca é esforço. É falta de progressão."
+  },
+  {
+   "tipo": "texto",
+   "numero": "01",
+   "titulo": "Músculo só cresce quando o treino fica mais difícil",
+   "corpo": "Isso se chama sobrecarga progressiva: o corpo se adapta e precisa de um estímulo novo."
+  },
+  {
+   "tipo": "lista",
+   "titulo": "O que trava o seu progresso",
+   "itens": [
+    {
+     "t": "Repetir o mesmo peso toda semana",
+     "ok": false
+    },
+    {
+     "t": "Treinar sem anotar nada",
+     "ok": false
+    },
+    {
+     "t": "Mudar de treino toda hora",
+     "ok": false
+    }
+   ]
+  },
+  {
+   "tipo": "dado",
+   "numero": "43",
+   "legenda": "pessoas treinadas, 8 semanas de estudo",
+   "fonte": "Plotkin et al., PeerJ 2022"
+  },
+  {
+   "tipo": "texto",
+   "numero": "02",
+   "titulo": "Subir só as repetições deu resultado parecido com subir o peso",
+   "corpo": "Ganho de músculo e força semelhantes nos dois grupos. Amostra pequena, mas é um ótimo ponto de partida."
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Progressão dupla na prática",
+   "itens": [
+    {
+     "t": "Semana 1: 60 kg × 8"
+    },
+    {
+     "t": "Semana 2: 60 kg × 10"
+    },
+    {
+     "t": "Semana 3: 62,5 kg × 8"
+    }
+   ]
+  },
+  {
+   "tipo": "imagem",
+   "src": "app_estat.jpg",
+   "titulo": "Um app grátis mostra a sua evolução",
+   "legenda": "openGym: sem anúncio, sem assinatura, funciona offline."
+  },
+  {
+   "tipo": "dado",
+   "numero": "20.827",
+   "legenda": "estrelas no GitHub: código aberto, sem anúncio, sem assinatura",
+   "fonte": "github.com/DuarteSantos8/openGym (11/11/2026)"
+  },
+  {
+   "tipo": "cta",
+   "titulo": "Salva e manda pra quem treina com você",
+   "palavra": "APP",
+   "avatar": "avatar.png"
+  }
+ ]
+}

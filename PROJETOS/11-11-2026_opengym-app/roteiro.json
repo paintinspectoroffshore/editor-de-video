@@ -1,0 +1,378 @@
+{
+ "titulo": "openGym: o app de academia grátis que virou APK",
+ "composicao": "Impacto",
+ "voz": {
+  "motor": "eleven",
+  "id": "TX3LPaxmHKxFdv7VOQHJ",
+  "nome_voz": "Liam - Energetic, Social Media Creator",
+  "ajustes": {
+   "speed": 1.15,
+   "stability": 0.4,
+   "style": 0.25
+  },
+  "tempo": 1.12
+ },
+ "pronuncia": {
+  "openGym": "Open Gym",
+  "APK": "a pê cá"
+ },
+ "respiroFinal": 1.2,
+ "destaques": [
+  "academia",
+  "treinar",
+  "carga",
+  "corpo",
+  "caro",
+  "assinatura",
+  "graça",
+  "estrelas",
+  "github",
+  "downloads",
+  "openGym",
+  "semana",
+  "exercícios",
+  "animação",
+  "descanso",
+  "recorde",
+  "evolução",
+  "anúncio",
+  "internet",
+  "programador",
+  "apk",
+  "clique",
+  "celular",
+  "desculpa",
+  "segue",
+  "quero"
+ ],
+ "cenas": [
+  {
+   "fala": "Você chega na academia e não sabe nem o que treinar?",
+   "duracao": 2.4667,
+   "fundo": {
+    "video": "52102",
+    "foco": 50
+   },
+   "legenda": "meio",
+   "blocos": []
+  },
+  {
+   "fala": "Repete o mesmo treino, esquece a carga da última vez…",
+   "duracao": 3.4,
+   "fundo": {
+    "video": "44434",
+    "foco": 55
+   },
+   "blocos": [
+    {
+     "tipo": "lista",
+     "y": 330,
+     "itens": [
+      {
+       "texto": "Treino sem plano",
+       "em": "@repete"
+      },
+      {
+       "texto": "Mesmo treino sempre",
+       "em": "@mesmo"
+      },
+      {
+       "texto": "Carga esquecida",
+       "em": "@esquece"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fala": "e meses depois, o espelho mostra o mesmo corpo.",
+   "duracao": 2.8333,
+   "fundo": {
+    "video": "50972",
+    "pb": true,
+    "foco": 60
+   },
+   "blocos": [
+    {
+     "tipo": "selo",
+     "texto": "0 evolução",
+     "cor": "dor",
+     "y": 620,
+     "rot": -5,
+     "em": "@espelho",
+     "tamanho": 110
+    }
+   ]
+  },
+  {
+   "fala": "Personal é caro. E os apps bons cobram assinatura todo mês.",
+   "duracao": 4.2,
+   "fundo": "escuro",
+   "blocos": [
+    {
+     "tipo": "lista",
+     "y": 420,
+     "itens": [
+      {
+       "texto": "Personal caro",
+       "em": "@personal"
+      },
+      {
+       "texto": "Assinatura todo mês",
+       "em": "@assinatura"
+      },
+      {
+       "texto": "Anúncio no meio do treino",
+       "em": "@todo"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fala": "Só que existe um app de graça, com mais de 20 mil estrelas no GitHub e 138 mil downloads.",
+   "duracao": 6.2,
+   "fundo": "escuro",
+   "flash": true,
+   "blocos": [
+    {
+     "tipo": "github",
+     "repo": "DuarteSantos8/openGym",
+     "desc": "App de treino open source: planeje, registre e veja sua evolução.",
+     "estrelas": 20827,
+     "forks": 2802,
+     "downloads": 138264,
+     "linguagem": "JavaScript",
+     "fonte": "github.com/DuarteSantos8/openGym · 11/11/2026",
+     "y": 330,
+     "em": "@existe"
+    }
+   ]
+  },
+  {
+   "fala": "O nome é openGym, e ele monta a sua semana de treino inteira.",
+   "duracao": 3.8333,
+   "fundo": {
+    "video": "52091",
+    "escuro": 1.6
+   },
+   "legenda": "topo",
+   "blocos": [
+    {
+     "tipo": "celular",
+     "src": "assets/app/inicio_longa.png",
+     "w": 560,
+     "y": 450,
+     "rolar": 700,
+     "foco": {
+      "y": 780,
+      "h": 180,
+      "rotulo": "treino de hoje",
+      "em": "@semana"
+     }
+    }
+   ]
+  },
+  {
+   "fala": "São mais de 5.600 exercícios, com animação mostrando como fazer.",
+   "duracao": 4.4,
+   "fundo": {
+    "video": "52111",
+    "escuro": 1.6
+   },
+   "legenda": "topo",
+   "blocos": [
+    {
+     "tipo": "celular",
+     "src": "assets/app/exercicios_longa.png",
+     "w": 560,
+     "y": 450,
+     "rolar": 2400,
+     "foco": {
+      "y": 170,
+      "h": 110,
+      "rotulo": "5.632 exercícios",
+      "em": "@5"
+     },
+     "rolarEm": "@animacao"
+    }
+   ]
+  },
+  {
+   "fala": "Na hora do treino, ele já preenche a carga da última vez e marca o seu descanso.",
+   "duracao": 4.0,
+   "fundo": {
+    "video": "52089",
+    "escuro": 1.6
+   },
+   "legenda": "topo",
+   "blocos": [
+    {
+     "tipo": "celular",
+     "src": "assets/app/treino.png",
+     "w": 560,
+     "y": 450,
+     "foco": {
+      "y": 1570,
+      "h": 130,
+      "rotulo": "carga pronta",
+      "em": "@carga"
+     }
+    }
+   ]
+  },
+  {
+   "fala": "E quando você bate um recorde, ele comemora junto.",
+   "duracao": 3.2,
+   "fundo": {
+    "video": "52094",
+    "foco": 40
+   },
+   "flash": true,
+   "blocos": [
+    {
+     "tipo": "selo",
+     "texto": "Novo recorde!",
+     "y": 640,
+     "rot": -6,
+     "em": "@recorde",
+     "tamanho": 96
+    }
+   ]
+  },
+  {
+   "fala": "Ainda mostra a sua evolução: sequência de semanas, peso, e tudo que você já levantou.",
+   "duracao": 5.0,
+   "fundo": {
+    "video": "44414",
+    "escuro": 1.6
+   },
+   "legenda": "topo",
+   "blocos": [
+    {
+     "tipo": "celular",
+     "src": "assets/app/estatisticas_longa.png",
+     "w": 560,
+     "y": 450,
+     "rolar": 300,
+     "foco": {
+      "y": 690,
+      "h": 200,
+      "rotulo": "evolução",
+      "em": "@evolucao"
+     }
+    }
+   ]
+  },
+  {
+   "fala": "Sem anúncio. Sem assinatura. Funciona até sem internet.",
+   "duracao": 3.7667,
+   "fundo": "escuro",
+   "blocos": [
+    {
+     "tipo": "lista",
+     "y": 420,
+     "itens": [
+      {
+       "texto": "Sem anúncio",
+       "ok": true,
+       "em": "@anuncio"
+      },
+      {
+       "texto": "Sem assinatura",
+       "ok": true,
+       "em": "@assinatura"
+      },
+      {
+       "texto": "Funciona offline",
+       "ok": true,
+       "em": "@internet"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fala": "O problema: ele foi feito pra programador instalar.",
+   "duracao": 2.7,
+   "fundo": "escuro",
+   "flash": true,
+   "blocos": [
+    {
+     "tipo": "titulo",
+     "linhas": [
+      "docker compose up"
+     ],
+     "tamanho": 84,
+     "cor": "#9AA3B2",
+     "y": 520,
+     "em": 0.2
+    },
+    {
+     "tipo": "selo",
+     "texto": "Só pra programador",
+     "cor": "dor",
+     "y": 760,
+     "rot": -4,
+     "em": "@programador",
+     "tamanho": 70
+    }
+   ]
+  },
+  {
+   "fala": "Então a gente pegou e transformou num APK. Um clique, baixou, instalou, direto no seu celular.",
+   "duracao": 6.9,
+   "fundo": "escuro",
+   "flash": true,
+   "blocos": [
+    {
+     "tipo": "apk",
+     "nome": "openGym",
+     "sub": "Android · em português",
+     "arquivo": "openGym-1.4.4-ptBR.apk",
+     "y": 420,
+     "em": "@apk"
+    }
+   ]
+  },
+  {
+   "fala": "Agora não tem mais desculpa pra não evoluir.",
+   "duracao": 2.1333,
+   "fundo": {
+    "videos": [
+     "52317",
+     "23450",
+     "40248",
+     "52097"
+    ],
+    "troca": 0.45
+   },
+   "legenda": "meio",
+   "blocos": []
+  },
+  {
+   "fala": "Me segue pra ver os próximos apps. E se você quer esse, comenta EU QUERO que eu te mando.",
+   "duracao": 6.0667,
+   "fundo": "escuro",
+   "legenda": "nao",
+   "blocos": [
+    {
+     "tipo": "seguir",
+     "usuario": "well.free",
+     "nome": "Well Machado",
+     "avatar": "assets/app/avatar.png",
+     "posts": "22",
+     "seguidores": "13 mil",
+     "seguindo": "592",
+     "bio": [
+      "Gero valor na sua vida ensinando o que funciona na minha!",
+      "xgoos.com.br"
+     ],
+     "comentario": "EU QUERO",
+     "y": 200,
+     "em": 0
+    }
+   ]
+  }
+ ]
+}

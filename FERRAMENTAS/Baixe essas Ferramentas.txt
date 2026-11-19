@@ -1,0 +1,13 @@
+Analise o formato do video solicitado, todo seu dna visual, legendas, graficos
+imagens, detalhes, cortes e tudo mais.
+
+Avalie as ferramentas abaixo e veja é necessário baixar para criar.
+Baixa sempre que necessário para deixe o video como solicitado.
+
+1- Remotion
+2- Hyperframes
+3- FFmpeg
+4- Whisper
+5- yt-dlp
+6-OpenMontage
+

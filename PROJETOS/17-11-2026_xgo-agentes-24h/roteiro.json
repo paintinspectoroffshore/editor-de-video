@@ -1,0 +1,991 @@
+{
+  "titulo": "X-GO: equipe de agentes 24h",
+  "perfil": "@well.free",
+  "credito": "Telas: app X-GO",
+  "composicao": "Traco",
+  "mascote": false,
+  "trilha": "hiphop_never-going-broke.mp3",
+  "trilhaInicio": 0,
+  "volumeTrilha": 0.08,
+  "voz": {
+    "motor": "eleven",
+    "id": "i8rv83UTKnzq0PzTrxjL",
+    "modelo": "eleven_v4",
+    "idioma": "pt",
+    "ajustes": {
+      "stability": 0.4,
+      "similarity_boost": 0.8
+    },
+    "tempo": 1.25,
+    "pausas": 0.08,
+    "respiro": 0.05,
+    "limiarSilencio": "-32dB"
+  },
+  "pronuncia": {
+    "IA": "í á",
+    "WhatsApp": "uátsápi"
+  },
+  "destaques": [
+    "X-GO",
+    "24",
+    "humano",
+    "agentes",
+    "agente",
+    "81%",
+    "62%",
+    "15%",
+    "52%",
+    "AGENTE",
+    "bilhões",
+    "meu",
+    "esposa"
+  ],
+  "duracaoMax": 140,
+  "cenas": [
+    {
+      "fala": "Tenho uma equipe de cinco, trabalhando 24 horas por mim. Nenhum deles é humano.",
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 760,
+          "r": 420,
+          "em": 0
+        },
+        {
+          "tipo": "emblema",
+          "x": 120,
+          "y": 700,
+          "tam": 150,
+          "icone": "robo",
+          "em": 0.1
+        },
+        {
+          "tipo": "emblema",
+          "x": 285,
+          "y": 700,
+          "tam": 150,
+          "icone": "robo",
+          "em": 0.44999999999999996
+        },
+        {
+          "tipo": "emblema",
+          "x": 450,
+          "y": 700,
+          "tam": 150,
+          "icone": "robo",
+          "em": 0.7999999999999999,
+          "cracha": "X-GO"
+        },
+        {
+          "tipo": "emblema",
+          "x": 615,
+          "y": 700,
+          "tam": 150,
+          "icone": "robo",
+          "em": 1.15
+        },
+        {
+          "tipo": "emblema",
+          "x": 780,
+          "y": 700,
+          "tam": 150,
+          "icone": "robo",
+          "em": 1.5
+        },
+        {
+          "tipo": "icone",
+          "x": 540,
+          "y": 1000,
+          "tam": 170,
+          "icone": "relogio",
+          "em": "@24",
+          "rotulo": "24H"
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1230,
+          "linhas": [
+            {
+              "t": "NENHUM É",
+              "em": "@Nenhum",
+              "tam": 150
+            },
+            {
+              "t": "HUMANO",
+              "em": "@Nenhum+0.3",
+              "tam": 150
+            }
+          ],
+          "acento": [
+            "HUMANO"
+          ],
+          "em": "@Nenhum",
+          "som": "impacto",
+          "somEm": "@Nenhum",
+          "somVol": 0.8
+        }
+      ],
+      "duracao": 3.9667
+    },
+    {
+      "fala": "E logo, logo, até você vai ter um funcionário digital: pra casa, saúde, dinheiro e negócio.",
+      "blocos": [
+        {
+          "tipo": "particulas",
+          "em": 0,
+          "n": 24,
+          "area": [
+            80,
+            300,
+            920,
+            1000
+          ]
+        },
+        {
+          "tipo": "emblema",
+          "x": 540,
+          "y": 800,
+          "tam": 300,
+          "cracha": "X-GO",
+          "em": 0
+        },
+        {
+          "tipo": "orbita",
+          "x": 540,
+          "y": 800,
+          "rx": 380,
+          "ry": 300,
+          "vel": 0.5,
+          "itens": [
+            {
+              "t": "CASA",
+              "icone": "casa",
+              "em": "@casa"
+            },
+            {
+              "t": "SAÚDE",
+              "icone": "saude",
+              "em": "@saúde"
+            },
+            {
+              "t": "DINHEIRO",
+              "icone": "financas",
+              "em": "@dinheiro"
+            },
+            {
+              "t": "NEGÓCIO",
+              "icone": "loja",
+              "em": "@negócio"
+            }
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1300,
+          "linhas": [
+            {
+              "t": "FUNCIONÁRIO",
+              "em": "@funcionário",
+              "tam": 110
+            },
+            {
+              "t": "DIGITAL",
+              "em": "@digital",
+              "tam": 110
+            }
+          ],
+          "acento": [
+            "DIGITAL"
+          ],
+          "em": "@funcionário"
+        }
+      ],
+      "duracao": 5.1333
+    },
+    {
+      "fala": "É sério. O mercado de agentes vai de 8 para 50 bilhões de dólares até 2030.",
+      "blocos": [
+        {
+          "tipo": "grafico",
+          "x": 540,
+          "y": 760,
+          "w": 900,
+          "h": 820,
+          "titulo": "MERCADO DE AGENTES DE IA",
+          "prefixo": "US$ ",
+          "sufixo": " bi",
+          "pontos": [
+            {
+              "rot": "2025",
+              "valor": 8,
+              "em": "@8"
+            },
+            {
+              "rot": "2030",
+              "valor": 50,
+              "em": "@50",
+              "destaque": true
+            }
+          ],
+          "salto": true,
+          "saltoEm": "@50",
+          "fonte": "MarketsandMarkets · BCC Research",
+          "em": 0
+        }
+      ],
+      "duracao": 4.9333
+    },
+    {
+      "fala": "Pra você ter uma ideia: uma pesquisa da Microsoft revelou que 81% dos líderes esperam integrar agentes de IA à estratégia das suas empresas.",
+      "blocos": [
+        {
+          "tipo": "dado",
+          "x": 540,
+          "y": 820,
+          "valor": 81,
+          "sufixo": "%",
+          "texto": "dos líderes esperam integrar agentes de IA à estratégia das empresas",
+          "acento": [
+            "agentes de IA"
+          ],
+          "fonte": "Microsoft · Work Trend Index 2025",
+          "visual": "anel",
+          "contaEm": "@81",
+          "em": 0
+        }
+      ],
+      "duracao": 7.6667
+    },
+    {
+      "fala": "A McKinsey descobriu que 62% das empresas já estão testando ou ampliando o uso desses agentes.",
+      "blocos": [
+        {
+          "tipo": "dado",
+          "x": 540,
+          "y": 820,
+          "valor": 62,
+          "sufixo": "%",
+          "texto": "das empresas já testam ou ampliam o uso de agentes",
+          "acento": [
+            "agentes"
+          ],
+          "fonte": "McKinsey · State of AI 2025",
+          "visual": "grade",
+          "contaEm": "@62",
+          "em": 0
+        }
+      ],
+      "duracao": 5.6
+    },
+    {
+      "fala": "E a Gartner prevê: até 2028, 15% das decisões do dia a dia no trabalho serão tomadas por agentes.",
+      "blocos": [
+        {
+          "tipo": "dado",
+          "x": 540,
+          "y": 820,
+          "valor": 15,
+          "sufixo": "%",
+          "texto": "das decisões do dia a dia no trabalho serão de agentes até 2028",
+          "acento": [
+            "agentes"
+          ],
+          "fonte": "Gartner · jun/2025",
+          "visual": "anel",
+          "contaEm": "@15",
+          "em": 0
+        }
+      ],
+      "duracao": 5.9333
+    },
+    {
+      "fala": "Na empresa, ele atende no WhatsApp, organiza todo o setor financeiro, responde e-mails e os seus directs no Instagram. E ainda cobra aquele cliente que atrasa todo mês.",
+      "blocos": [
+        {
+          "tipo": "cards",
+          "x": 540,
+          "y": 560,
+          "titulo": "NA EMPRESA",
+          "colunas": 1,
+          "w": 860,
+          "tam": 40,
+          "gap": 12,
+          "itens": [
+            {
+              "t": "ATENDE NO WHATSAPP",
+              "icone": "whatsapp",
+              "em": "@atende"
+            },
+            {
+              "t": "ORGANIZA O FINANCEIRO",
+              "icone": "financas",
+              "em": "@organiza"
+            },
+            {
+              "t": "RESPONDE E-MAILS",
+              "icone": "email",
+              "em": "@responde"
+            },
+            {
+              "t": "RESPONDE DIRECTS",
+              "icone": "instagram",
+              "em": "@directs"
+            },
+            {
+              "t": "COBRA QUEM ATRASA",
+              "icone": "cobranca",
+              "em": "@cobra",
+              "acento": [
+                "ATRASA"
+              ]
+            }
+          ],
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 1380,
+          "tam": 640,
+          "em": 0,
+          "clipes": [
+            {
+              "video": "app/chat.mp4",
+              "inicio": 2,
+              "vel": 2.4
+            },
+            {
+              "video": "app/financas.mp4",
+              "inicio": 0.5,
+              "vel": 1.6,
+              "em": "@organiza"
+            },
+            {
+              "video": "app/insta.mp4",
+              "inicio": 0,
+              "vel": 1.5,
+              "em": "@directs"
+            },
+            {
+              "video": "app/bots.mp4",
+              "inicio": 0,
+              "vel": 1.5,
+              "em": "@cobra"
+            }
+          ]
+        }
+      ],
+      "duracao": 8.2
+    },
+    {
+      "fala": "Na sua vida, ele avisa da conta, lembra do remédio, marca a consulta, monitora a sua saúde em tempo real e controla até os seus dispositivos.",
+      "blocos": [
+        {
+          "tipo": "cards",
+          "x": 540,
+          "y": 560,
+          "titulo": "NA SUA VIDA",
+          "colunas": 1,
+          "w": 860,
+          "tam": 40,
+          "gap": 12,
+          "itens": [
+            {
+              "t": "AVISA DA CONTA",
+              "icone": "recibo",
+              "em": "@avisa"
+            },
+            {
+              "t": "LEMBRA DO REMÉDIO",
+              "icone": "remedio",
+              "em": "@lembra"
+            },
+            {
+              "t": "MARCA A CONSULTA",
+              "icone": "calendario",
+              "em": "@marca"
+            },
+            {
+              "t": "MONITORA SUA SAÚDE",
+              "icone": "saude",
+              "em": "@monitora"
+            },
+            {
+              "t": "CONTROLA DISPOSITIVOS",
+              "icone": "lampada",
+              "em": "@controla",
+              "acento": [
+                "DISPOSITIVOS"
+              ]
+            }
+          ],
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 1380,
+          "tam": 640,
+          "em": 0,
+          "video": "app/casa.mp4",
+          "inicio": 0,
+          "vel": 1.2
+        }
+      ],
+      "duracao": 7.2
+    },
+    {
+      "fala": "Tá parecendo uma esposa, né?",
+      "blocos": [
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 900,
+          "tam": 900,
+          "em": 0,
+          "video": "app/celular.mp4",
+          "inicio": 0.2,
+          "vel": 0.9,
+          "rot": -3
+        },
+        {
+          "tipo": "balao",
+          "x": 780,
+          "y": 420,
+          "texto": "uma esposa?",
+          "em": "@esposa",
+          "espera": 6
+        }
+      ],
+      "tag": "sorrindo",
+      "duracao": 1.5667
+    },
+    {
+      "fala": "Esse é o meu. Eu chamo ele de X-GO.",
+      "blocos": [
+        {
+          "tipo": "emblema",
+          "x": 540,
+          "y": 420,
+          "tam": 300,
+          "cracha": "X-GO",
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 1130,
+          "tam": 860,
+          "em": "@meu",
+          "video": "app/agente.mp4",
+          "inicio": 0,
+          "vel": 1,
+          "entrada": "escala"
+        }
+      ],
+      "duracao": 2.3
+    },
+    {
+      "fala": "É só conversar. Eu pergunto: quanto gastei esse mês? E ele responde, conta por conta.",
+      "blocos": [
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 960,
+          "tam": 900,
+          "em": 0,
+          "video": "app/financas.mp4",
+          "inicio": 0.5,
+          "vel": 1.6,
+          "etiqueta": {
+            "t": "quanto gastei esse mês?",
+            "icone": "chat",
+            "sub": "conta por conta",
+            "em": "@quanto",
+            "pos": "topo"
+          }
+        }
+      ],
+      "duracao": 4.1333
+    },
+    {
+      "fala": "Há poucos anos, isso exigia cinco pessoas.",
+      "blocos": [
+        {
+          "tipo": "equacao",
+          "x": 540,
+          "y": 800,
+          "n": 5,
+          "esq": "1 AGENTE",
+          "dir": "5 PESSOAS",
+          "iconeEsq": "robo",
+          "iconeDir": "persona",
+          "igualEm": "@exigia",
+          "pessoasEm": "@cinco",
+          "cracha": "X-GO",
+          "em": 0
+        }
+      ],
+      "duracao": 2.6
+    },
+    {
+      "fala": "E cinco salários mínimos passam de 8 mil reais por mês.",
+      "blocos": [
+        {
+          "tipo": "comparacao",
+          "x": 540,
+          "y": 820,
+          "qtd": 5,
+          "unitario": 1621,
+          "prefixo": "R$ ",
+          "total": 8105,
+          "periodo": "mês",
+          "rotuloUnit": "salário mínimo",
+          "tituloEsq": "5 PESSOAS",
+          "tituloDir": "1 AGENTE",
+          "linhasDir": [
+            "App X-GO: R$ 0",
+            "IA: paga pelo uso"
+          ],
+          "acento": [
+            "R$ 0"
+          ],
+          "totalEm": "@8",
+          "dirEm": "@mês",
+          "fonte": "R$ 1.621 × 5 · Decreto 12.797/2025",
+          "em": 0,
+          "som": "moedas",
+          "somEm": "@8"
+        }
+      ],
+      "duracao": 3.0333
+    },
+    {
+      "fala": "Não parece, mas você sabia que mais da metade dos pequenos negócios do Brasil já usa IA?",
+      "blocos": [
+        {
+          "tipo": "dado",
+          "x": 540,
+          "y": 820,
+          "valor": 52,
+          "sufixo": "%",
+          "texto": "dos pequenos negócios do Brasil já usam IA",
+          "acento": [
+            "IA"
+          ],
+          "fonte": "Sebrae · Transformação Digital 2026",
+          "visual": "grade",
+          "contaEm": "@metade",
+          "em": 0
+        }
+      ],
+      "duracao": 4.4333
+    },
+    {
+      "fala": "Talvez você não tenha um porque não conhecia, ou achou que fosse caro ou difícil.",
+      "blocos": [
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 900,
+          "tam": 900,
+          "em": 0,
+          "video": "app/modular.mp4",
+          "inicio": 0.5,
+          "vel": 2.0
+        },
+        {
+          "tipo": "chip",
+          "t": "NÃO CONHECIA",
+          "icone": "globo",
+          "em": "@conhecia",
+          "x": 230,
+          "y": 420
+        },
+        {
+          "tipo": "chip",
+          "t": "ACHOU CARO",
+          "icone": "cobranca",
+          "em": "@caro",
+          "x": 800,
+          "y": 1360,
+          "fase": 1
+        },
+        {
+          "tipo": "chip",
+          "t": "ACHOU DIFÍCIL",
+          "icone": "ferramentas",
+          "em": "@difícil",
+          "x": 280,
+          "y": 1480,
+          "fase": 2,
+          "escuro": true
+        }
+      ],
+      "duracao": 3.8
+    },
+    {
+      "fala": "Tem pizzaria, escritório, imobiliária? Pode apostar que você também precisa de um agente pra cuidar do seu negócio.",
+      "blocos": [
+        {
+          "tipo": "cards",
+          "x": 540,
+          "y": 620,
+          "titulo": "TEM NEGÓCIO?",
+          "colunas": 1,
+          "w": 860,
+          "tam": 56,
+          "gap": 18,
+          "itens": [
+            {
+              "t": "PIZZARIA",
+              "icone": "loja",
+              "em": "@pizzaria"
+            },
+            {
+              "t": "ESCRITÓRIO",
+              "icone": "recibo",
+              "em": "@escritório"
+            },
+            {
+              "t": "IMOBILIÁRIA",
+              "icone": "casa",
+              "em": "@imobiliária"
+            }
+          ],
+          "em": 0
+        },
+        {
+          "tipo": "emblema",
+          "x": 540,
+          "y": 1280,
+          "tam": 260,
+          "cracha": "X-GO",
+          "em": "@agente"
+        }
+      ],
+      "duracao": 5.6667
+    },
+    {
+      "fala": "Enquanto você foca em crescer e desenvolver o seu produto, o seu negócio ou as suas habilidades, o seu agente tá lá, fazendo a parte chata por você.",
+      "blocos": [
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 900,
+          "tam": 920,
+          "em": 0,
+          "video": "app/fluxo.mp4",
+          "inicio": 0,
+          "vel": 1.6
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "VOCÊ CRESCE",
+          "em": "@foca"
+        },
+        {
+          "tipo": "chip",
+          "t": "parte chata: com ele",
+          "icone": "robo",
+          "em": "@chata",
+          "x": 540,
+          "y": 1480
+        }
+      ],
+      "duracao": 6.8333
+    },
+    {
+      "fala": "É o tipo de coisa que a gente não sabe que precisa até ver uma em ação.",
+      "blocos": [
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 960,
+          "tam": 900,
+          "em": 0,
+          "video": "app/celular.mp4",
+          "inicio": 0.2,
+          "vel": 0.9
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "EM AÇÃO",
+          "em": "@ver"
+        }
+      ],
+      "duracao": 3.3333
+    },
+    {
+      "fala": "Eu acredito que, daqui pra frente, a pergunta não vai ser só quantos funcionários uma empresa tem,",
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 800,
+          "r": 380,
+          "em": 0
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 780,
+          "linhas": [
+            {
+              "t": "QUANTOS",
+              "em": "@quantos",
+              "tam": 150
+            },
+            {
+              "t": "FUNCIONÁRIOS?",
+              "em": "@funcionários",
+              "tam": 120
+            }
+          ],
+          "acento": [
+            "FUNCIONÁRIOS?"
+          ],
+          "em": "@quantos"
+        },
+        {
+          "tipo": "icone",
+          "x": 540,
+          "y": 1200,
+          "tam": 170,
+          "icone": "persona",
+          "em": "@empresa"
+        }
+      ],
+      "duracao": 4.7
+    },
+    {
+      "fala": "mas também quantos agentes digitais estão ajudando essas pessoas a produzir, vender e crescer.",
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 800,
+          "r": 380,
+          "em": 0
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 780,
+          "linhas": [
+            {
+              "t": "E QUANTOS",
+              "em": "@quantos",
+              "tam": 130
+            },
+            {
+              "t": "AGENTES?",
+              "em": "@agentes",
+              "tam": 160
+            }
+          ],
+          "acento": [
+            "AGENTES?"
+          ],
+          "em": "@quantos"
+        },
+        {
+          "tipo": "icone",
+          "x": 540,
+          "y": 1200,
+          "tam": 170,
+          "icone": "robo",
+          "em": "@agentes"
+        },
+        {
+          "tipo": "chip",
+          "t": "produzir",
+          "icone": "ferramentas",
+          "em": "@produzir",
+          "x": 200,
+          "y": 1420
+        },
+        {
+          "tipo": "chip",
+          "t": "vender",
+          "icone": "loja",
+          "em": "@vender",
+          "x": 540,
+          "y": 1500,
+          "fase": 1
+        },
+        {
+          "tipo": "chip",
+          "t": "crescer",
+          "icone": "tendencia",
+          "em": "@crescer",
+          "x": 880,
+          "y": 1420,
+          "fase": 2
+        }
+      ],
+      "duracao": 4.9667
+    },
+    {
+      "fala": "E a grande vantagem não é simplesmente trabalhar mais. É recuperar o seu tempo pra cuidar do que realmente importa.",
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 760,
+          "r": 400,
+          "em": 0
+        },
+        {
+          "tipo": "icone",
+          "x": 540,
+          "y": 560,
+          "tam": 220,
+          "icone": "relogio",
+          "em": "@recuperar"
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 960,
+          "linhas": [
+            {
+              "t": "RECUPERE",
+              "em": "@recuperar",
+              "tam": 150
+            },
+            {
+              "t": "SEU TEMPO",
+              "em": "@tempo",
+              "tam": 150
+            }
+          ],
+          "acento": [
+            "SEU TEMPO"
+          ],
+          "em": "@recuperar"
+        }
+      ],
+      "duracao": 5.5333
+    },
+    {
+      "fala": "Agora me responde uma coisa: se você tivesse um funcionário digital trabalhando 24 horas por dia pra você, qual seria a primeira tarefa que entregaria a ele?",
+      "blocos": [
+        {
+          "tipo": "pergunta",
+          "texto": "QUAL SERIA A PRIMEIRA TAREFA QUE VOCÊ ENTREGARIA?",
+          "em": "@qual",
+          "x": 540,
+          "y": 560,
+          "tam": 64,
+          "w": 860
+        },
+        {
+          "tipo": "emblema",
+          "x": 540,
+          "y": 1100,
+          "tam": 300,
+          "cracha": "X-GO",
+          "em": "@funcionário"
+        }
+      ],
+      "tag": "curioso",
+      "duracao": 7.3333
+    },
+    {
+      "fala": "Se você quer aprender a criar o seu próprio agente, mesmo começando do zero, comenta a palavra AGENTE aqui embaixo.",
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 700,
+          "r": 300,
+          "em": 0
+        },
+        {
+          "tipo": "cta",
+          "x": 540,
+          "y": 820,
+          "em": 0,
+          "palavra": "AGENTE",
+          "palavraEm": "@AGENTE",
+          "lobo": false,
+          "perfil": false,
+          "nota": "comenta aqui embaixo"
+        }
+      ],
+      "duracao": 5.7333
+    },
+    {
+      "fala": "Eu te mostro o passo a passo pra montar a sua equipe digital.",
+      "blocos": [
+        {
+          "tipo": "passos",
+          "x": 540,
+          "y": 760,
+          "titulo": "PASSO A PASSO",
+          "marcar": false,
+          "itens": [
+            {
+              "t": "COMENTA AGENTE",
+              "sub": "aqui embaixo",
+              "icone": "chat",
+              "em": "@mostro"
+            },
+            {
+              "t": "RECEBE O GUIA",
+              "sub": "passo a passo",
+              "icone": "skills",
+              "em": "@passo",
+              "acento": [
+                "GUIA"
+              ]
+            },
+            {
+              "t": "MONTA SUA EQUIPE",
+              "sub": "digital, 24h",
+              "icone": "robo",
+              "em": "@equipe"
+            }
+          ],
+          "em": 0
+        }
+      ],
+      "duracao": 2.8
+    },
+    {
+      "fala": "E já me segue no @well.free, porque nos próximos vídeos eu vou mostrar como esses agentes funcionam na prática, quanto custam e o que mais eu passo pro X-GO.",
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 580,
+          "r": 250,
+          "em": 0
+        },
+        {
+          "tipo": "cta",
+          "x": 540,
+          "y": 860,
+          "em": 0,
+          "chamada": "ME",
+          "palavra": "SEGUE",
+          "nota": "agentes na prática nos próximos vídeos",
+          "palavraEm": "@segue",
+          "perfilEm": "@segue",
+          "avatar": "perfil/avatar.png",
+          "usuario": "well.free",
+          "lobo": false
+        }
+      ],
+      "duracao": 8.9
+    }
+  ]
+}

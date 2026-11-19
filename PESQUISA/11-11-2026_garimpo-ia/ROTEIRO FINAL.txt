@@ -1,0 +1,113 @@
+ROTEIRO FINAL — "EU SOU A SUA VOZ"
+Reel vertical 9:16 · ~40 s · 6 cenas · narração ElevenLabs · motion graphics (sem rosto)
+Pesquisa de 11/11/2026 (quarta-feira)
+
+══════════════════════════════════════════════════════════════
+1. A IDEIA EM 3 LINHAS
+══════════════════════════════════════════════════════════════
+• Do vídeo 01 peguei o TEMA: golpe com IA + dicas práticas + "manda pra quem você ama".
+• Do vídeo 02 peguei o TRUQUE: quem narra é a própria IA, em 1ª pessoa ("Eu sou o...").
+• Juntei os dois: quem fala é a VOZ CLONADA do espectador, contando como vai enganar a família dele,
+  e no fim ela mesma entrega as 3 coisas que a derrotam.
+
+O que NÃO copiei: nada de rosto ou voz de famoso (o 01 usa deepfake de celebridades — ilegal e arriscado),
+nada de personagem 3D (não temos gerador de vídeo por IA na máquina). Frases, dados e visual são nossos.
+
+══════════════════════════════════════════════════════════════
+2. ROTEIRO CENA A CENA
+══════════════════════════════════════════════════════════════
+
+CENA 1 · GANCHO · 0 a 4 s
+  FALA:  "Eu sou a sua voz. Só que não foi você que gravou isso."
+  TELA:  fundo preto pontilhado · onda sonora vermelha pulsando no centro
+         texto gigante: EU SOU A SUA VOZ. → troca para: SÓ QUE NÃO É VOCÊ. ("NÃO" em vermelho)
+  SOM:   chiado de rádio curto + "glitch" na voz nos 2 primeiros segundos (efeito de clone)
+
+CENA 2 · COMO ME CRIARAM · 4 a 9 s
+  FALA:  "Pra me criar, bastaram três segundos de um vídeo seu nos stories."
+  TELA:  número gigante  3 SEGUNDOS  (contador 0 → 3)
+         pílula branca:  McAFEE · 2023
+         linha menor:    85% de semelhança com a voz original
+  FONTE: McAfee Labs, estudo "Artificial Imposters" (2023)
+
+CENA 3 · O GOLPE · 9 a 16 s
+  FALA:  "Agora eu ligo pra sua mãe chorando, digo que sofri um acidente e peço um Pix urgente.
+          Ela vai ouvir você."
+  TELA:  ficha de papel creme (estilo dossiê):
+             LIGAÇÃO RECEBIDA — "FILHO"   ·   duração 00:48
+             ☐ MANDAR O PIX
+             ☐ DESLIGAR
+         um traço vermelho à mão circula "MANDAR O PIX"
+         legenda embaixo: ELA VAI OUVIR VOCÊ. ("VOCÊ" em vermelho)
+
+CENA 4 · OS NÚMEROS · 16 a 23 s
+  FALA:  "No Brasil, fraude com deepfake cresceu cento e vinte e seis por cento em 2025.
+          E de quem cai nesse golpe de voz, setenta e sete por cento perde dinheiro."
+  TELA:  mapa pontilhado escuro, Brasil aceso com pontos vermelhos piscando
+         +126%  gigante  ·  pílula: SUMSUB · 2025
+         depois: 77% PERDEM DINHEIRO  ·  pílula: McAFEE · 2023
+  FONTES: Sumsub Identity Fraud Report 2025 (via Canaltech e Hardware.com.br) · McAfee 2023
+
+CENA 5 · AS 3 COISAS QUE ME DERRUBAM · 23 a 35 s
+  FALA:  "Mas três coisas me derrubam.
+          Um: combine uma palavra secreta com a família. Até o FBI recomenda.
+          Dois: desligue e ligue de volta no número que você já tem salvo.
+          Três: desconfie da pressa. Golpe sempre vem com urgência."
+  TELA:  ficha "PROTOCOLO ANTI-CLONE" com 3 caixinhas, cada uma marcada ✓ quando é falada
+             ✓ PALAVRA SECRETA        (pílula: FBI · DEZ/2024)
+             ✓ DESLIGA E LIGA DE VOLTA
+             ✓ PRESSA = GOLPE
+         a onda sonora vermelha do início vai "quebrando" a cada ✓
+
+CENA 6 · CTA · 35 a 41 s
+  FALA:  "Manda esse vídeo pra quem atenderia essa ligação.
+          E me conta aqui: sua família já tem uma senha?"
+  TELA:  onda sonora apaga (a voz clonada "morre")
+         texto: MANDA PRA QUEM ATENDERIA.  (botão de enviar do Instagram pulsando)
+         rodapé: perfil @well.free + "Seguir"
+
+══════════════════════════════════════════════════════════════
+3. POR QUE ESSE ROTEIRO DEVE FUNCIONAR
+══════════════════════════════════════════════════════════════
+• Gancho em 2 s e estranho ("eu sou a sua voz") → a pessoa para de rolar.
+• Medo + solução prática (igual ao 01, que teve 12 mil comentários).
+• CTA de ENVIO ("manda pra quem atenderia") → envio é o sinal que mais pesa no algoritmo para quem não segue.
+• Pergunta no fim ("sua família já tem uma senha?") → puxa comentário.
+• Todo número falado aparece na tela com a fonte (regra da casa).
+
+══════════════════════════════════════════════════════════════
+4. MODELO DA GALERIA ESCOLHIDO
+══════════════════════════════════════════════════════════════
+★ Nº 07 — "Dossiê, mapa de dados"   (REFERÊNCIAS/CATALOGO/07_dossie-mapa-dados/)
+  + a ficha de papel com caixinha do Nº 05 (mesmo perfil, mesma série).
+
+  Por quê: é um tema de "investigação de golpe". O visual de dossiê (preto pontilhado, número gigante,
+  pílula branca com a fonte, ficha creme com caixinha riscada à mão, palavra-chave em vermelho)
+  passa seriedade e encaixa os dados com fonte sem parecer propaganda.
+
+  Paleta: preto #0E0E12 · creme #EFE8D6 · vermelho #E0303A · cinza #8A8A96
+  Fontes: mono (datas/pílulas) + sans pesada condensada (números e manchete)
+
+  Observação técnica: esse estilo ainda NÃO existe no motor. Duas opções:
+   a) criar o estilo "Dossiê" (≈ 1 sessão; fica pronto para os próximos vídeos)  ← recomendo
+   b) adaptar agora o estilo "Impacto" (escuro) com a ficha do "Editorial"
+
+══════════════════════════════════════════════════════════════
+5. LEGENDA DO POST (sugestão)
+══════════════════════════════════════════════════════════════
+Três segundos de áudio. É só isso que um golpista precisa pra ligar pra sua mãe com a sua voz.
+
+Combina hoje uma palavra secreta com a sua família. Leva 1 minuto e pode salvar um Pix.
+
+Manda pra quem atenderia essa ligação. 📲
+
+#golpe #inteligenciaartificial #deepfake #seguranca #pix
+
+Fontes: McAfee "Artificial Imposters" (2023) · FBI PSA I-120324 (dez/2024) · Sumsub Identity Fraud Report 2025
+
+══════════════════════════════════════════════════════════════
+6. PRÓXIMOS PASSOS (precisam do seu OK)
+══════════════════════════════════════════════════════════════
+1) Aprovar este roteiro (aprovação 1 de 3).
+2) Escolher a) ou b) do estilo.
+3) Eu gero voz + prévia (_MOSAICO.jpg) → aprovação 2 → render final → aprovação 3.

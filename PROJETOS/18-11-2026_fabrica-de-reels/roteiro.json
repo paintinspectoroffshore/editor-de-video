@@ -1,0 +1,494 @@
+{
+  "titulo": "A fábrica de Reels",
+  "perfil": "@well.free",
+  "credito": "Telas: app X-GO",
+  "composicao": "Traco",
+  "mascote": false,
+  "trilha": "hiphop_never-going-broke.mp3",
+  "trilhaInicio": 0,
+  "volumeTrilha": 0.08,
+  "voz": {
+    "motor": "eleven",
+    "id": "i8rv83UTKnzq0PzTrxjL",
+    "modelo": "eleven_v4",
+    "idioma": "pt",
+    "ajustes": {
+      "stability": 0.4,
+      "similarity_boost": 0.8
+    },
+    "tempo": 1.25,
+    "pausas": 0.08,
+    "respiro": 0.05,
+    "limiarSilencio": "-32dB"
+  },
+  "pronuncia": {
+    "yt-dlp": "uai tí dí él pí"
+  },
+  "destaques": [
+    "GitHub",
+    "VÍDEO",
+    "79",
+    "grátis",
+    "comando"
+  ],
+  "duracaoMax": 55,
+  "cenas": [
+    {
+      "fala": "Esse vídeo foi feito por uma inteligência artificial. E eu vou te mostrar a fábrica inteira.",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "terreno",
+          "em": 0
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 470,
+          "linhas": [
+            {
+              "t": "FEITO POR",
+              "em": "@feito"
+            }
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 780,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "inteligência artificial",
+              "em": "@inteligência"
+            }
+          ]
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 1250,
+          "texto": "A FÁBRICA INTEIRA",
+          "em": "@fábrica"
+        }
+      ],
+      "duracao": 4.3333
+    },
+    {
+      "fala": "Tudo começa com quatro ferramentas grátis do GitHub.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 760,
+          "r": 380,
+          "em": 0
+        },
+        {
+          "tipo": "numero",
+          "y": 760,
+          "valor": 4,
+          "unidade": "ferramentas grátis",
+          "fonte": "GitHub · código aberto",
+          "em": "@quatro"
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1150,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "GitHub",
+              "em": "@GitHub"
+            }
+          ]
+        }
+      ],
+      "duracao": 2.6
+    },
+    {
+      "fala": "O Remotion transforma código em vídeo. O FFmpeg corta e mixa o som.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "cards",
+          "x": 540,
+          "y": 760,
+          "w": 860,
+          "em": 0,
+          "titulo": "FERRAMENTAS",
+          "colunas": 1,
+          "itens": [
+            {
+              "t": "REMOTION",
+              "sub": "código vira vídeo",
+              "icone": "terminal",
+              "em": "@Remotion"
+            },
+            {
+              "t": "FFMPEG",
+              "sub": "corta e mixa o som",
+              "icone": "ferramentas",
+              "em": "@FFmpeg"
+            }
+          ]
+        }
+      ],
+      "duracao": 4.3
+    },
+    {
+      "fala": "O Whisper ouve a voz e cria as legendas. E o yt-dlp baixa as referências.",
+      "camera": {
+        "zoom": [
+          1.06,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "cards",
+          "x": 540,
+          "y": 760,
+          "w": 860,
+          "em": 0,
+          "titulo": "FERRAMENTAS",
+          "colunas": 1,
+          "itens": [
+            {
+              "t": "WHISPER",
+              "sub": "ouve e cria legendas",
+              "icone": "microfone",
+              "em": "@Whisper"
+            },
+            {
+              "t": "YT-DLP",
+              "sub": "baixa as referências",
+              "icone": "nuvem",
+              "em": "@baixa"
+            }
+          ]
+        }
+      ],
+      "duracao": 4.7333
+    },
+    {
+      "fala": "Quem comanda tudo é o Claude Code, com nove agentes e nove skills. Um escreve o roteiro, outro desenha, outro produz.",
+      "negativo": true,
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "conexoes",
+          "x": 540,
+          "y": 880,
+          "em": 0,
+          "icone": "robo",
+          "itens": [
+            {
+              "t": "ROTEIRISTA",
+              "icone": "documento",
+              "em": "@escreve"
+            },
+            {
+              "t": "DESIGNER",
+              "icone": "lampada",
+              "em": "@desenha"
+            },
+            {
+              "t": "PRODUTOR",
+              "icone": "terminal",
+              "em": "@produz"
+            },
+            {
+              "t": "9 SKILLS",
+              "icone": "skills",
+              "em": "@skills"
+            },
+            {
+              "t": "9 AGENTES",
+              "icone": "modulos",
+              "em": "@agentes"
+            }
+          ]
+        },
+        {
+          "tipo": "pilula",
+          "y": 1420,
+          "texto": "CLAUDE CODE · 9 AGENTES · 9 SKILLS",
+          "em": "@Claude"
+        }
+      ],
+      "duracao": 6.3667
+    },
+    {
+      "fala": "A voz vem da ElevenLabs. Neste vídeo, é a minha própria voz, clonada.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "icone",
+          "x": 540,
+          "y": 640,
+          "tam": 220,
+          "icone": "microfone",
+          "em": "@voz"
+        },
+        {
+          "tipo": "mensagem",
+          "x": 330,
+          "y": 1000,
+          "w": 560,
+          "audio": true,
+          "cauda": "dir",
+          "texto": "minha voz, clonada",
+          "em": "@minha"
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 1250,
+          "texto": "ELEVENLABS",
+          "em": "@ElevenLabs"
+        }
+      ],
+      "duracao": 3.8
+    },
+    {
+      "fala": "Tudo fica organizado em cinco pastas: sistema, ferramentas, referências, projetos e vídeos prontos.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "lista",
+          "y": 820,
+          "itens": [
+            {
+              "t": "00-SISTEMA",
+              "icone": "modulos",
+              "em": "@sistema"
+            },
+            {
+              "t": "FERRAMENTAS",
+              "icone": "ferramentas",
+              "em": "@ferramentas"
+            },
+            {
+              "t": "REFERÊNCIAS",
+              "icone": "lupa",
+              "em": "@referências"
+            },
+            {
+              "t": "PROJETOS",
+              "icone": "documento",
+              "em": "@projetos"
+            },
+            {
+              "t": "VÍDEOS PRONTOS",
+              "icone": "aprovacao",
+              "em": "@prontos"
+            }
+          ]
+        },
+        {
+          "tipo": "pilula",
+          "y": 420,
+          "texto": "5 PASTAS",
+          "em": "@cinco"
+        }
+      ],
+      "duracao": 5.8
+    },
+    {
+      "fala": "E um catálogo com setenta e nove estilos de vídeo pra escolher.",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "numero",
+          "y": 420,
+          "valor": 79,
+          "unidade": "estilos",
+          "fonte": "catálogo do projeto",
+          "em": "@setenta"
+        },
+        {
+          "tipo": "celular",
+          "x": 230,
+          "y": 1100,
+          "tam": 420,
+          "em": "@estilos",
+          "img": "temas/t01.jpg"
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 1080,
+          "tam": 440,
+          "em": "@vídeo",
+          "img": "temas/t04.jpg"
+        },
+        {
+          "tipo": "celular",
+          "x": 850,
+          "y": 1100,
+          "tam": 420,
+          "em": "@escolher",
+          "img": "temas/t08.jpg"
+        }
+      ],
+      "duracao": 2.9333
+    },
+    {
+      "fala": "Qualquer pessoa consegue: você escreve o roteiro, escolhe um estilo e dá um comando.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "passos",
+          "x": 540,
+          "y": 820,
+          "em": 0,
+          "titulo": "PASSO A PASSO",
+          "itens": [
+            {
+              "t": "ESCREVA O ROTEIRO",
+              "icone": "documento",
+              "em": "@escreve"
+            },
+            {
+              "t": "ESCOLHA UM ESTILO",
+              "icone": "lampada",
+              "em": "@escolhe"
+            },
+            {
+              "t": "DÊ UM COMANDO",
+              "icone": "terminal",
+              "em": "@comando"
+            }
+          ]
+        }
+      ],
+      "duracao": 4.1
+    },
+    {
+      "fala": "E o vídeo sai pronto: voz, legenda e trilha. Cada vez mais rápido e mais barato.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "terminal",
+          "y": 700,
+          "linhas": [
+            {
+              "t": "produzir.py rapido",
+              "tipo": "cmd",
+              "em": 0.2
+            },
+            {
+              "t": "voz ✓",
+              "tipo": "ok",
+              "em": "@voz"
+            },
+            {
+              "t": "legenda ✓",
+              "tipo": "ok",
+              "em": "@legenda"
+            },
+            {
+              "t": "trilha ✓",
+              "tipo": "ok",
+              "em": "@trilha"
+            }
+          ]
+        },
+        {
+          "tipo": "selos",
+          "x": 540,
+          "y": 1300,
+          "itens": [
+            {
+              "linhas": [
+                "MAIS",
+                "RÁPIDO"
+              ],
+              "em": "@rápido"
+            },
+            {
+              "linhas": [
+                "MAIS",
+                "BARATO"
+              ],
+              "em": "@barato"
+            }
+          ]
+        }
+      ],
+      "duracao": 4.3667
+    },
+    {
+      "fala": "Quer usar o mesmo projeto? Comenta VÍDEO que eu te mando o link do GitHub pra baixar e começar hoje.",
+      "camera": {
+        "zoom": [
+          1,
+          1.05
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "cta",
+          "x": 540,
+          "y": 860,
+          "em": 0,
+          "palavra": "VÍDEO",
+          "chamada": "COMENTA",
+          "palavraEm": "@VÍDEO",
+          "nota": "link do GitHub",
+          "perfil": false,
+          "lobo": false
+        }
+      ],
+      "duracao": 5.6333
+    }
+  ]
+}

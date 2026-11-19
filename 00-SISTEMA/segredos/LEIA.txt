@@ -1,0 +1,7 @@
+# chaves de API — nunca compartilhar/publicar esta pasta
+# O .gitignore bloqueia tudo aqui, menos este LEIA e os arquivos *.exemplo.
+# Para usar: copie cada *.exemplo para o mesmo nome SEM ".exemplo" e preencha:
+#   elevenlabs.key   -> voz (https://elevenlabs.io, plano grátis serve)
+#   instagram.json   -> publicação/pesquisa via API oficial da Meta
+#   telegram.key     -> aprovação pelo Telegram (piloto automático)
+# Sem as chaves o sistema continua funcionando: voz cai para edge-tts (grátis) e a publicação vira manual.

@@ -1,0 +1,1296 @@
+{
+ "titulo": "X-GO: o que é um agente",
+ "perfil": "@well.free",
+ "credito": "Telas: app X-GO",
+ "composicao": "Traco",
+ "mascote": false,
+ "trilha": "hiphop_never-going-broke.mp3",
+ "trilhaInicio": 0,
+ "volumeTrilha": 0.08,
+ "voz": {
+  "motor": "eleven",
+  "id": "i8rv83UTKnzq0PzTrxjL",
+  "modelo": "eleven_v4",
+  "idioma": "pt",
+  "ajustes": {
+   "stability": 0.4,
+   "similarity_boost": 0.8
+  },
+  "tempo": 1.25,
+  "pausas": 0.08,
+  "respiro": 0.05,
+  "limiarSilencio": "-32dB"
+ },
+ "pronuncia": {},
+ "destaques": [
+  "X-GO",
+  "agente",
+  "agentes",
+  "81%",
+  "AGENTE",
+  "diferença",
+  "executar",
+  "número",
+  "três",
+  "grátis"
+ ],
+ "duracaoMax": 150,
+ "cenas": [
+  {
+   "fala": "Todo mundo fala de agentes de inteligência artificial. A Anthropic, a OpenAI, a Microsoft…",
+   "blocos": [
+    {
+     "tipo": "particulas",
+     "em": 0.0,
+     "n": 20,
+     "area": [
+      80,
+      300,
+      920,
+      1000
+     ]
+    },
+    {
+     "tipo": "titulo",
+     "x": 540,
+     "y": 330,
+     "linhas": [
+      {
+       "t": "TODO MUNDO FALA",
+       "em": "@Todo",
+       "tam": 96
+      },
+      {
+       "t": "DE AGENTES",
+       "em": "@agentes",
+       "tam": 96
+      }
+     ],
+     "acento": [
+      "AGENTES"
+     ],
+     "em": "@Todo"
+    },
+    {
+     "tipo": "sublinhado",
+     "x": 540,
+     "y": 520,
+     "w": 620,
+     "forma": "onda",
+     "em": "@agentes"
+    },
+    {
+     "tipo": "marcas",
+     "x": 540,
+     "y": 900,
+     "titulo": "QUEM JÁ ENTROU",
+     "itens": [
+      {
+       "t": "ANTHROPIC",
+       "em": "@Anthropic"
+      },
+      {
+       "t": "OPENAI",
+       "em": "@OpenAI",
+       "escuro": true
+      },
+      {
+       "t": "MICROSOFT",
+       "em": "@Microsoft"
+      }
+     ],
+     "em": "@Anthropic"
+    }
+   ],
+   "duracao": 5.0
+  },
+  {
+   "fala": "Mas que negócio é esse de agente? Pra que serve? O que ele faz? E, principalmente, como você vai usar isso no seu dia a dia?",
+   "blocos": [
+    {
+     "tipo": "perguntas",
+     "x": 540,
+     "y": 820,
+     "itens": [
+      {
+       "t": "QUE NEGÓCIO É ESSE?",
+       "em": "@negócio"
+      },
+      {
+       "t": "PRA QUE SERVE?",
+       "em": "@serve"
+      },
+      {
+       "t": "O QUE ELE FAZ?",
+       "em": "@faz"
+      },
+      {
+       "t": "COMO USAR NO DIA A DIA?",
+       "em": "@como"
+      }
+     ],
+     "em": 0.0
+    }
+   ],
+   "duracao": 5.9333
+  },
+  {
+   "fala": "Primeiro, você precisa entender uma diferença.",
+   "blocos": [
+    {
+     "tipo": "circulos",
+     "x": 540,
+     "y": 760,
+     "r": 380,
+     "em": 0.0
+    },
+    {
+     "tipo": "icone",
+     "x": 540,
+     "y": 640,
+     "tam": 220,
+     "icone": "lupa",
+     "em": "@entender"
+    },
+    {
+     "tipo": "titulo",
+     "x": 540,
+     "y": 1000,
+     "linhas": [
+      {
+       "t": "UMA",
+       "em": "@uma",
+       "tam": 150
+      },
+      {
+       "t": "DIFERENÇA",
+       "em": "@diferença",
+       "tam": 150
+      }
+     ],
+     "acento": [
+      "DIFERENÇA"
+     ],
+     "em": "@uma"
+    },
+    {
+     "tipo": "sublinhado",
+     "x": 540,
+     "y": 1230,
+     "w": 760,
+     "forma": "dupla",
+     "em": "@diferença"
+    }
+   ],
+   "duracao": 2.1667
+  },
+  {
+   "fala": "Uma inteligência artificial comum responde às suas perguntas. Já um agente, além de responder, pode usar ferramentas e executar tarefas pra você.",
+   "blocos": [
+    {
+     "tipo": "versus",
+     "x": 540,
+     "y": 900,
+     "tituloEsq": "IA COMUM",
+     "tituloDir": "AGENTE",
+     "iconeEsq": "chat",
+     "iconeDir": "robo",
+     "dirEm": "@agente",
+     "linhas": [
+      {
+       "t": "RESPONDE",
+       "esq": true,
+       "dir": true,
+       "em": "@responde"
+      },
+      {
+       "t": "USA FERRAMENTAS",
+       "esq": false,
+       "dir": true,
+       "em": "@ferramentas"
+      },
+      {
+       "t": "EXECUTA TAREFAS",
+       "esq": false,
+       "dir": true,
+       "em": "@executar"
+      }
+     ],
+     "rotuloArco": "+ AÇÃO",
+     "em": 0.0
+    }
+   ],
+   "duracao": 7.3667
+  },
+  {
+   "fala": "Por exemplo: em vez de perguntar como organizar suas finanças, você pode pedir pra um agente analisar seus gastos e preparar um planejamento.",
+   "blocos": [
+    {
+     "tipo": "mensagem",
+     "x": 330,
+     "y": 380,
+     "texto": "como organizo minhas finanças?",
+     "cauda": "esq",
+     "em": "@perguntar",
+     "w": 560
+    },
+    {
+     "tipo": "mensagem",
+     "x": 750,
+     "y": 560,
+     "texto": "analisa meus gastos e monta um planejamento",
+     "cauda": "dir",
+     "em": "@pedir",
+     "w": 600
+    },
+    {
+     "tipo": "seta",
+     "x": 540,
+     "y": 700,
+     "w": 240,
+     "rot": 90,
+     "cor": "laranja",
+     "em": "@analisar"
+    },
+    {
+     "tipo": "celular",
+     "x": 540,
+     "y": 1180,
+     "tam": 740,
+     "em": 0.0,
+     "video": "app/financas.mp4",
+     "inicio": 0.5,
+     "vel": 1.4
+    }
+   ],
+   "duracao": 6.7333
+  },
+  {
+   "fala": "E isso é só o começo!",
+   "blocos": [
+    {
+     "tipo": "particulas",
+     "em": 0.0,
+     "n": 24,
+     "area": [
+      80,
+      300,
+      920,
+      1100
+     ]
+    },
+    {
+     "tipo": "icone",
+     "x": 540,
+     "y": 620,
+     "tam": 240,
+     "icone": "tendencia",
+     "em": "@só"
+    },
+    {
+     "tipo": "titulo",
+     "x": 540,
+     "y": 1000,
+     "linhas": [
+      {
+       "t": "SÓ O",
+       "em": "@só",
+       "tam": 150
+      },
+      {
+       "t": "COMEÇO",
+       "em": "@começo",
+       "tam": 150
+      }
+     ],
+     "acento": [
+      "COMEÇO"
+     ],
+     "em": "@só",
+     "som": "impacto",
+     "somEm": "@começo",
+     "somVol": 0.7
+    },
+    {
+     "tipo": "sublinhado",
+     "x": 540,
+     "y": 1220,
+     "w": 680,
+     "forma": "onda",
+     "em": "@começo"
+    }
+   ],
+   "duracao": 1.5333
+  },
+  {
+   "fala": "Agora presta atenção nesse número.",
+   "blocos": [
+    {
+     "tipo": "circulos",
+     "x": 540,
+     "y": 780,
+     "r": 380,
+     "em": 0.0
+    },
+    {
+     "tipo": "rotulo",
+     "x": 540,
+     "y": 520,
+     "texto": "ATENÇÃO",
+     "em": "@presta"
+    },
+    {
+     "tipo": "titulo",
+     "x": 540,
+     "y": 860,
+     "linhas": [
+      {
+       "t": "UM NÚMERO",
+       "em": "@nesse",
+       "tam": 150
+      }
+     ],
+     "acento": [
+      "NÚMERO"
+     ],
+     "em": "@nesse"
+    },
+    {
+     "tipo": "seta",
+     "x": 540,
+     "y": 1180,
+     "w": 220,
+     "rot": 90,
+     "cor": "laranja",
+     "em": "@número"
+    }
+   ],
+   "duracao": 1.7333
+  },
+  {
+   "fala": "Segundo uma pesquisa da Microsoft, 81% dos líderes entrevistados esperavam integrar agentes de inteligência artificial às estratégias das suas empresas.",
+   "blocos": [
+    {
+     "tipo": "dado",
+     "x": 540,
+     "y": 820,
+     "valor": 81,
+     "sufixo": "%",
+     "texto": "dos líderes entrevistados esperavam integrar agentes de inteligência artificial às estratégias das empresas",
+     "acento": [
+      "agentes de inteligência artificial"
+     ],
+     "fonte": "Microsoft · Work Trend Index 2025",
+     "visual": "anel",
+     "contaEm": "@81",
+     "em": 0.0
+    }
+   ],
+   "duracao": 8.0667
+  },
+  {
+   "fala": "Sabe o que isso significa?",
+   "blocos": [
+    {
+     "tipo": "perguntas",
+     "x": 540,
+     "y": 820,
+     "itens": [
+      {
+       "t": "O QUE ISSO SIGNIFICA?",
+       "em": "@Sabe",
+       "tam": 70
+      }
+     ],
+     "em": 0.0
+    },
+    {
+     "tipo": "icone",
+     "x": 540,
+     "y": 1200,
+     "tam": 200,
+     "icone": "lupa",
+     "em": "@significa"
+    }
+   ],
+   "duracao": 1.2333
+  },
+  {
+   "fala": "Que a inteligência artificial está deixando de ser só uma ferramenta de consulta pra começar a participar do trabalho de verdade.",
+   "blocos": [
+    {
+     "tipo": "transformacao",
+     "x": 540,
+     "y": 880,
+     "de": "CONSULTA",
+     "para": "TRABALHO",
+     "iconeDe": "chat",
+     "iconePara": "robo",
+     "subDe": "só responde",
+     "subPara": "participa de verdade",
+     "setaEm": "@pra",
+     "paraEm": "@trabalho",
+     "riscar": true,
+     "em": 0.0
+    },
+    {
+     "tipo": "sublinhado",
+     "x": 540,
+     "y": 1280,
+     "w": 620,
+     "forma": "reta",
+     "em": "@verdade"
+    }
+   ],
+   "duracao": 6.1333
+  },
+  {
+   "fala": "Imagina uma pizzaria com um agente ajudando a atender clientes, uma imobiliária organizando visitas, ou você tendo alguém pra cuidar da sua agenda e lembrar seus compromissos.",
+   "blocos": [
+    {
+     "tipo": "cards",
+     "x": 540,
+     "y": 560,
+     "titulo": "IMAGINA",
+     "colunas": 1,
+     "w": 860,
+     "tam": 44,
+     "gap": 14,
+     "itens": [
+      {
+       "t": "PIZZARIA ATENDE CLIENTES",
+       "icone": "loja",
+       "em": "@pizzaria"
+      },
+      {
+       "t": "IMOBILIÁRIA ORGANIZA VISITAS",
+       "icone": "casa",
+       "em": "@imobiliária"
+      },
+      {
+       "t": "AGENDA E COMPROMISSOS",
+       "icone": "calendario",
+       "em": "@agenda",
+       "acento": [
+        "COMPROMISSOS"
+       ]
+      }
+     ],
+     "em": 0.0
+    },
+    {
+     "tipo": "celular",
+     "x": 540,
+     "y": 1380,
+     "tam": 640,
+     "em": 0.0,
+     "video": "app/chat.mp4",
+     "inicio": 2,
+     "vel": 2.2
+    }
+   ],
+   "duracao": 8.0333
+  },
+  {
+   "fala": "Mas será que uma pessoa comum consegue ter um desses?",
+   "blocos": [
+    {
+     "tipo": "pergunta",
+     "texto": "UMA PESSOA COMUM CONSEGUE TER UM?",
+     "em": "@pessoa",
+     "x": 540,
+     "y": 420,
+     "tam": 70,
+     "w": 860
+    },
+    {
+     "tipo": "emblema",
+     "x": 540,
+     "y": 1000,
+     "tam": 260,
+     "icone": "robo",
+     "em": "@desses"
+    },
+    {
+     "tipo": "seta",
+     "x": 780,
+     "y": 760,
+     "w": 200,
+     "rot": -60,
+     "cor": "tinta",
+     "em": "@comum"
+    }
+   ],
+   "duracao": 2.5
+  },
+  {
+   "fala": "Consegue! E eu resolvi colocar isso em prática.",
+   "blocos": [
+    {
+     "tipo": "particulas",
+     "em": 0.0,
+     "n": 24,
+     "area": [
+      80,
+      300,
+      920,
+      1100
+     ]
+    },
+    {
+     "tipo": "titulo",
+     "x": 540,
+     "y": 560,
+     "linhas": [
+      {
+       "t": "CONSEGUE!",
+       "em": "@Consegue",
+       "tam": 150
+      }
+     ],
+     "acento": [
+      "CONSEGUE!"
+     ],
+     "em": "@Consegue",
+     "som": "impacto",
+     "somEm": "@Consegue",
+     "somVol": 0.7
+    },
+    {
+     "tipo": "sublinhado",
+     "x": 540,
+     "y": 720,
+     "w": 700,
+     "forma": "onda",
+     "em": "@Consegue+0.3"
+    },
+    {
+     "tipo": "selos",
+     "x": 540,
+     "y": 1100,
+     "itens": [
+      {
+       "linhas": [
+        "EU",
+        "COLOQUEI"
+       ],
+       "sub": "em prática",
+       "em": "@resolvi"
+      }
+     ],
+     "em": "@resolvi"
+    }
+   ],
+   "duracao": 2.3333
+  },
+  {
+   "fala": "Esse aqui é o X-GO, meu assistente pessoal.",
+   "blocos": [
+    {
+     "tipo": "emblema",
+     "x": 540,
+     "y": 400,
+     "tam": 300,
+     "cracha": "X-GO",
+     "em": 0.0
+    },
+    {
+     "tipo": "rotulo",
+     "x": 540,
+     "y": 650,
+     "texto": "MEU ASSISTENTE PESSOAL",
+     "em": "@assistente"
+    },
+    {
+     "tipo": "celular",
+     "x": 540,
+     "y": 1180,
+     "tam": 780,
+     "em": "@X-GO",
+     "video": "app/tour.mp4",
+     "inicio": 0,
+     "vel": 1.5,
+     "entrada": "escala"
+    }
+   ],
+   "duracao": 2.5333
+  },
+  {
+   "fala": "Ele me ajuda a organizar minhas finanças, administrar meus negócios, planejar conteúdos pro Instagram e acompanhar meus compromissos.",
+   "blocos": [
+    {
+     "tipo": "cards",
+     "x": 540,
+     "y": 560,
+     "titulo": "ELE AJUDA A",
+     "colunas": 1,
+     "w": 860,
+     "tam": 42,
+     "gap": 12,
+     "itens": [
+      {
+       "t": "ORGANIZAR FINANÇAS",
+       "icone": "financas",
+       "em": "@organizar"
+      },
+      {
+       "t": "ADMINISTRAR NEGÓCIOS",
+       "icone": "loja",
+       "em": "@administrar"
+      },
+      {
+       "t": "PLANEJAR CONTEÚDOS",
+       "icone": "instagram",
+       "em": "@planejar"
+      },
+      {
+       "t": "ACOMPANHAR COMPROMISSOS",
+       "icone": "calendario",
+       "em": "@acompanhar"
+      }
+     ],
+     "em": 0.0
+    },
+    {
+     "tipo": "celular",
+     "x": 540,
+     "y": 1380,
+     "tam": 640,
+     "em": 0.0,
+     "clipes": [
+      {
+       "video": "app/financas.mp4",
+       "inicio": 0.5,
+       "vel": 1.6
+      },
+      {
+       "video": "app/insta.mp4",
+       "inicio": 0,
+       "vel": 1.5,
+       "em": "@planejar"
+      },
+      {
+       "video": "app/celular.mp4",
+       "inicio": 0.2,
+       "vel": 1,
+       "em": "@acompanhar"
+      }
+     ]
+    }
+   ],
+   "duracao": 6.0
+  },
+  {
+   "fala": "Também pode ajudar com mensagens no WhatsApp, documentos e outras tarefas, dependendo das integrações que eu configurar.",
+   "blocos": [
+    {
+     "tipo": "titulo",
+     "x": 540,
+     "y": 300,
+     "linhas": [
+      {
+       "t": "INTEGRAÇÕES",
+       "em": "@mensagens",
+       "tam": 100
+      }
+     ],
+     "acento": [
+      "INTEGRAÇÕES"
+     ],
+     "em": "@mensagens"
+    },
+    {
+     "tipo": "conexoes",
+     "x": 540,
+     "y": 900,
+     "itens": [
+      {
+       "t": "WHATSAPP",
+       "icone": "whatsapp",
+       "em": "@WhatsApp"
+      },
+      {
+       "t": "DOCUMENTOS",
+       "icone": "documento",
+       "em": "@documentos"
+      },
+      {
+       "t": "AGENDA",
+       "icone": "calendario",
+       "em": "@tarefas"
+      },
+      {
+       "t": "INSTAGRAM",
+       "icone": "instagram",
+       "em": "@dependendo"
+      },
+      {
+       "t": "FINANÇAS",
+       "icone": "financas",
+       "em": "@configurar"
+      }
+     ],
+     "em": 0.0
+    }
+   ],
+   "duracao": 5.4
+  },
+  {
+   "fala": "E a parte mais interessante é que eu simplesmente converso com ele.",
+   "blocos": [
+    {
+     "tipo": "celular",
+     "x": 540,
+     "y": 960,
+     "tam": 900,
+     "em": 0.0,
+     "video": "app/chat.mp4",
+     "inicio": 1,
+     "vel": 1.8,
+     "etiqueta": {
+      "t": "eu só converso",
+      "icone": "chat",
+      "sub": "simples assim",
+      "em": "@simplesmente",
+      "pos": "topo"
+     }
+    },
+    {
+     "tipo": "sublinhado",
+     "x": 540,
+     "y": 1470,
+     "w": 600,
+     "forma": "onda",
+     "em": "@converso"
+    }
+   ],
+   "duracao": 3.4667
+  },
+  {
+   "fala": "Mando uma mensagem, um áudio, explico o que preciso, e ele me ajuda a resolver.",
+   "blocos": [
+    {
+     "tipo": "mensagem",
+     "x": 340,
+     "y": 380,
+     "texto": "uma mensagem",
+     "cauda": "esq",
+     "em": "@mensagem",
+     "w": 520
+    },
+    {
+     "tipo": "mensagem",
+     "x": 740,
+     "y": 580,
+     "audio": true,
+     "tempo": "0:08",
+     "toca": true,
+     "cauda": "dir",
+     "em": "@áudio",
+     "w": 560
+    },
+    {
+     "tipo": "celular",
+     "x": 540,
+     "y": 1180,
+     "tam": 740,
+     "em": 0.0,
+     "video": "app/chat.mp4",
+     "inicio": 6,
+     "vel": 1.6,
+     "etiqueta": {
+      "t": "mensagem · áudio",
+      "icone": "microfone",
+      "em": "@explico",
+      "pos": "baixo"
+     }
+    }
+   ],
+   "duracao": 4.2
+  },
+  {
+   "fala": "Agora imagina ter um assistente desses trabalhando pra você!",
+   "blocos": [
+    {
+     "tipo": "circulos",
+     "x": 540,
+     "y": 700,
+     "r": 420,
+     "em": 0.0
+    },
+    {
+     "tipo": "emblema",
+     "x": 540,
+     "y": 700,
+     "tam": 300,
+     "cracha": "X-GO",
+     "em": 0.0
+    },
+    {
+     "tipo": "titulo",
+     "x": 540,
+     "y": 1130,
+     "linhas": [
+      {
+       "t": "TRABALHANDO",
+       "em": "@assistente",
+       "tam": 104
+      },
+      {
+       "t": "PRA VOCÊ",
+       "em": "@trabalhando",
+       "tam": 104
+      }
+     ],
+     "acento": [
+      "PRA VOCÊ"
+     ],
+     "em": "@assistente"
+    },
+    {
+     "tipo": "sublinhado",
+     "x": 540,
+     "y": 1340,
+     "w": 640,
+     "forma": "onda",
+     "em": "@você"
+    }
+   ],
+   "duracao": 2.8
+  },
+  {
+   "fala": "Sabe o que pouca gente explica?",
+   "blocos": [
+    {
+     "tipo": "perguntas",
+     "x": 540,
+     "y": 780,
+     "itens": [
+      {
+       "t": "O QUE POUCA GENTE EXPLICA?",
+       "em": "@Sabe",
+       "tam": 70
+      }
+     ],
+     "em": 0.0
+    },
+    {
+     "tipo": "sublinhado",
+     "x": 540,
+     "y": 1060,
+     "w": 620,
+     "forma": "circulo",
+     "em": "@pouca"
+    },
+    {
+     "tipo": "icone",
+     "x": 540,
+     "y": 1250,
+     "tam": 200,
+     "icone": "skills",
+     "em": "@explica"
+    }
+   ],
+   "duracao": 1.6
+  },
+  {
+   "fala": "Você não precisa criar uma inteligência artificial do zero.",
+   "blocos": [
+    {
+     "tipo": "icone",
+     "x": 540,
+     "y": 560,
+     "tam": 220,
+     "icone": "robo",
+     "em": 0.2
+    },
+    {
+     "tipo": "titulo",
+     "x": 540,
+     "y": 900,
+     "linhas": [
+      {
+       "t": "SEM CRIAR",
+       "em": "@não",
+       "tam": 140
+      },
+      {
+       "t": "DO ZERO",
+       "em": "@zero",
+       "tam": 140
+      }
+     ],
+     "acento": [
+      "DO ZERO"
+     ],
+     "em": "@não"
+    },
+    {
+     "tipo": "sublinhado",
+     "x": 540,
+     "y": 1130,
+     "w": 640,
+     "forma": "reta",
+     "em": "@zero"
+    }
+   ],
+   "duracao": 2.7667
+  },
+  {
+   "fala": "Existem três passos básicos: escolher seu agente, conectar as ferramentas que ele vai usar e definir quais tarefas ele vai poder executar.",
+   "blocos": [
+    {
+     "tipo": "passos",
+     "x": 540,
+     "y": 760,
+     "titulo": "3 PASSOS BÁSICOS",
+     "marcar": false,
+     "itens": [
+      {
+       "t": "ESCOLHER O AGENTE",
+       "sub": "quem trabalha pra você",
+       "icone": "robo",
+       "em": "@escolher"
+      },
+      {
+       "t": "CONECTAR FERRAMENTAS",
+       "sub": "o que ele vai usar",
+       "icone": "ferramentas",
+       "em": "@conectar"
+      },
+      {
+       "t": "DEFINIR AS TAREFAS",
+       "sub": "o que ele pode executar",
+       "icone": "skills",
+       "em": "@definir",
+       "acento": [
+        "TAREFAS"
+       ]
+      }
+     ],
+     "em": 0.0
+    }
+   ],
+   "duracao": 6.6333
+  },
+  {
+   "fala": "Algumas ferramentas são gratuitas; outras têm custo conforme o uso.",
+   "blocos": [
+    {
+     "tipo": "titulo",
+     "x": 540,
+     "y": 320,
+     "linhas": [
+      {
+       "t": "FERRAMENTAS",
+       "em": "@ferramentas",
+       "tam": 110
+      }
+     ],
+     "acento": [
+      "FERRAMENTAS"
+     ],
+     "em": "@Algumas"
+    },
+    {
+     "tipo": "selos",
+     "x": 540,
+     "y": 900,
+     "itens": [
+      {
+       "linhas": [
+        "GRÁTIS"
+       ],
+       "sub": "algumas",
+       "em": "@gratuitas"
+      },
+      {
+       "linhas": [
+        "PAGO",
+        "PELO USO"
+       ],
+       "sub": "outras",
+       "em": "@outras",
+       "branco": true
+      }
+     ],
+     "em": "@gratuitas"
+    },
+    {
+     "tipo": "seta",
+     "x": 540,
+     "y": 1250,
+     "w": 220,
+     "rot": -90,
+     "cor": "laranja",
+     "em": "@conforme"
+    }
+   ],
+   "duracao": 3.3667
+  },
+  {
+   "fala": "E se você está pensando: \"Mas eu não entendo nada disso!\"",
+   "blocos": [
+    {
+     "tipo": "icone",
+     "x": 540,
+     "y": 520,
+     "tam": 200,
+     "icone": "persona",
+     "em": "@pensando"
+    },
+    {
+     "tipo": "balao",
+     "x": 540,
+     "y": 900,
+     "texto": "mas eu não entendo nada disso!",
+     "em": "@Mas",
+     "espera": 6
+    }
+   ],
+   "duracao": 2.8667
+  },
+  {
+   "fala": "É justamente por isso que estou mostrando o X-GO.",
+   "blocos": [
+    {
+     "tipo": "emblema",
+     "x": 540,
+     "y": 620,
+     "tam": 320,
+     "cracha": "X-GO",
+     "em": "@isso"
+    },
+    {
+     "tipo": "titulo",
+     "x": 540,
+     "y": 1050,
+     "linhas": [
+      {
+       "t": "POR ISSO",
+       "em": "@justamente",
+       "tam": 150
+      },
+      {
+       "t": "O X-GO",
+       "em": "@mostrando",
+       "tam": 150
+      }
+     ],
+     "acento": [
+      "O X-GO"
+     ],
+     "em": "@justamente"
+    },
+    {
+     "tipo": "sublinhado",
+     "x": 540,
+     "y": 1280,
+     "w": 560,
+     "forma": "onda",
+     "em": "@mostrando+0.3"
+    }
+   ],
+   "duracao": 2.3667
+  },
+  {
+   "fala": "Eu quero facilitar esse caminho pra você.",
+   "blocos": [
+    {
+     "tipo": "transformacao",
+     "x": 540,
+     "y": 820,
+     "de": "DIFÍCIL",
+     "para": "FÁCIL",
+     "iconeDe": "cadeado",
+     "iconePara": "robo",
+     "subDe": "sozinho",
+     "subPara": "com o X-GO",
+     "setaEm": "@facilitar",
+     "paraEm": "@caminho",
+     "riscar": true,
+     "em": 0.0
+    }
+   ],
+   "duracao": 2.0667
+  },
+  {
+   "fala": "Vou mostrar como configurar seu assistente, conectar suas ferramentas e começar a usar agentes no trabalho e na vida pessoal.",
+   "blocos": [
+    {
+     "tipo": "celular",
+     "x": 540,
+     "y": 900,
+     "tam": 900,
+     "em": 0.0,
+     "clipes": [
+      {
+       "video": "app/modular.mp4",
+       "inicio": 0.5,
+       "vel": 2
+      },
+      {
+       "video": "app/fluxo.mp4",
+       "inicio": 0,
+       "vel": 1.6,
+       "em": "@conectar"
+      }
+     ]
+    },
+    {
+     "tipo": "chip",
+     "t": "CONFIGURAR",
+     "icone": "ferramentas",
+     "em": "@configurar",
+     "x": 230,
+     "y": 420
+    },
+    {
+     "tipo": "chip",
+     "t": "CONECTAR",
+     "icone": "modulos",
+     "em": "@conectar",
+     "x": 800,
+     "y": 1360,
+     "fase": 1
+    },
+    {
+     "tipo": "chip",
+     "t": "COMEÇAR A USAR",
+     "icone": "robo",
+     "em": "@começar",
+     "x": 320,
+     "y": 1480,
+     "fase": 2,
+     "escuro": true
+    }
+   ],
+   "duracao": 5.8
+  },
+  {
+   "fala": "Quer ter o seu próprio funcionário digital?",
+   "blocos": [
+    {
+     "tipo": "particulas",
+     "em": 0.0,
+     "n": 24,
+     "area": [
+      80,
+      300,
+      920,
+      1000
+     ]
+    },
+    {
+     "tipo": "emblema",
+     "x": 540,
+     "y": 560,
+     "tam": 300,
+     "cracha": "X-GO",
+     "em": 0.0
+    },
+    {
+     "tipo": "titulo",
+     "x": 540,
+     "y": 1000,
+     "linhas": [
+      {
+       "t": "SEU FUNCIONÁRIO",
+       "em": "@funcionário",
+       "tam": 110
+      },
+      {
+       "t": "DIGITAL",
+       "em": "@digital",
+       "tam": 150
+      }
+     ],
+     "acento": [
+      "DIGITAL"
+     ],
+     "em": "@próprio"
+    },
+    {
+     "tipo": "sublinhado",
+     "x": 540,
+     "y": 1240,
+     "w": 620,
+     "forma": "onda",
+     "em": "@digital"
+    }
+   ],
+   "duracao": 1.9333
+  },
+  {
+   "fala": "Me segue e comenta AGENTE.",
+   "blocos": [
+    {
+     "tipo": "circulos",
+     "x": 540,
+     "y": 820,
+     "r": 420,
+     "em": 0.0
+    },
+    {
+     "tipo": "cta",
+     "x": 540,
+     "y": 860,
+     "em": 0.0,
+     "chamada": "ME",
+     "palavra": "AGENTE",
+     "nota": "comenta aqui embaixo",
+     "palavraEm": "@AGENTE",
+     "perfilEm": "@segue",
+     "avatar": "perfil/avatar.png",
+     "usuario": "well.free",
+     "lobo": false
+    }
+   ],
+   "duracao": 1.8
+  },
+  {
+   "fala": "Vou te enviar o caminho pra começar, mesmo que você nunca tenha usado um agente antes.",
+   "blocos": [
+    {
+     "tipo": "circulos",
+     "x": 540,
+     "y": 760,
+     "r": 420,
+     "em": 0.0
+    },
+    {
+     "tipo": "passos",
+     "x": 540,
+     "y": 760,
+     "titulo": "O CAMINHO",
+     "marcar": false,
+     "itens": [
+      {
+       "t": "COMENTA AGENTE",
+       "sub": "aqui embaixo",
+       "icone": "chat",
+       "em": "@enviar"
+      },
+      {
+       "t": "RECEBE O CAMINHO",
+       "sub": "passo a passo",
+       "icone": "skills",
+       "em": "@caminho",
+       "acento": [
+        "CAMINHO"
+       ]
+      },
+      {
+       "t": "COMEÇA",
+       "sub": "mesmo sem nunca ter usado",
+       "icone": "robo",
+       "em": "@nunca"
+      }
+     ],
+     "em": 0.0
+    }
+   ],
+   "duracao": 5.2
+  }
+ ]
+}

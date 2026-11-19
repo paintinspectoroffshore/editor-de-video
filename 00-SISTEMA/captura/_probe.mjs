@@ -1,0 +1,10 @@
+import puppeteer from "puppeteer-core";
+const b=await puppeteer.launch({executablePath:process.argv[2],headless:true,args:["--hide-scrollbars"]});
+const p=await b.newPage();
+await p.setViewport({width:390,height:844,deviceScaleFactor:3,isMobile:true,hasTouch:true});
+await p.emulateMediaFeatures([{name:"prefers-color-scheme",value:"dark"}]);
+await p.goto("https://opengym.ch/demo/",{waitUntil:"networkidle2",timeout:60000});
+await new Promise(r=>setTimeout(r,2000));
+const info=await p.evaluate(()=>Object.keys(localStorage).map(k=>{const v=localStorage.getItem(k);const i=v.indexOf('"lang');return k+' len'+v.length+' '+(i>=0?v.slice(i,i+60):'')}));
+console.log(info.join('\n'));
+await b.close();

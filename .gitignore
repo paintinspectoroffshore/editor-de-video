@@ -1,0 +1,53 @@
+# ===== SEGREDOS (nunca publicar) =====
+00-SISTEMA/segredos/*
+!00-SISTEMA/segredos/LEIA.txt
+!00-SISTEMA/segredos/*.exemplo
+API.txt
+*.key
+.env
+.env.*
+
+# ===== dependências e caches (instalar.ps1 recria) =====
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+00-SISTEMA/cache/
+FERRAMENTAS/Remotion/.cache/
+FERRAMENTAS/Remotion/out/
+FERRAMENTAS/Remotion/public/
+FERRAMENTAS/VozLocal/*
+!FERRAMENTAS/VozLocal/*.py
+!FERRAMENTAS/VozLocal/texto.txt
+00-SISTEMA/ferramentas/*.exe
+
+# ===== dados pessoais =====
+00-SISTEMA/assets/voz/minha/
+
+# ===== VÍDEOS e mídia gerada (só frames e descrições sobem) =====
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+VIDEOS PRONTOS/*
+!VIDEOS PRONTOS/.gitkeep
+VIDEO BRUTO/*
+!VIDEO BRUTO/.gitkeep
+!VIDEO BRUTO/_inbox/
+VIDEO BRUTO/_inbox/*
+!VIDEO BRUTO/_inbox/.gitkeep
+PROJETOS/*/assets/
+PROJETOS/*/audio/
+PROJETOS/*/render*
+PROJETOS/*/previa/*
+!PROJETOS/*/previa/_MOSAICO*.jpg
+!PROJETOS/*/previa/_FINAL.jpg
+PESQUISA/**/*.wav
+PESQUISA/**/*.mp3
+CARROSSEIS/*/assets/
+
+# ===== sistema =====
+Thumbs.db
+desktop.ini
+*.lnk

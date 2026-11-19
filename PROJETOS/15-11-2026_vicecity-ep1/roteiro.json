@@ -1,0 +1,482 @@
+{
+  "titulo": "VICE CITY · 10 DIAS — EP1 Sua primeira noite em Vice City",
+  "duracaoMax": 100,
+  "composicao": "Leonida",
+  "perfil": "@well.free",
+  "credito": "Ficção de fã · vídeos: Mixkit",
+  "voz": {
+    "motor": "eleven",
+    "id": "i8rv83UTKnzq0PzTrxjL",
+    "modelo": "eleven_v4",
+    "idioma": "pt",
+    "ajustes": {
+      "stability": 0.28,
+      "similarity_boost": 0.8
+    },
+    "tempo": 1.28,
+    "pausas": 0.1,
+    "respiro": 0.06,
+    "limiarSilencio": "-32dB"
+  },
+  "pronuncia": {},
+  "trilha": "synthwave_sun-in-your-eyes.mp3",
+  "volumeTrilha": 0.12,
+  "respiroFinal": 1.2,
+  "destaques": [
+    "acorda",
+    "Vice",
+    "City",
+    "dólares",
+    "Lucia",
+    "sirene",
+    "pausa",
+    "salvar",
+    "celular",
+    "dez",
+    "dias",
+    "escapar",
+    "morrer",
+    "nove",
+    "carro",
+    "preto",
+    "Entra",
+    "coração",
+    "entra",
+    "corre",
+    "Comenta",
+    "well"
+  ],
+  "cenas": [
+    {
+      "fala": "Você acorda numa calçada molhada… e não lembra como chegou aqui.",
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "kicker": "EP 1",
+          "linhas": [
+            "VICE CITY",
+            "10 DIAS"
+          ],
+          "tamanho": 120,
+          "acento": [
+            "VICE"
+          ],
+          "y": 200,
+          "em": 0.0
+        },
+        {
+          "tipo": "titulo",
+          "linhas": [
+            "VOCÊ ACORDA"
+          ],
+          "tamanho": 130,
+          "acento": [],
+          "amarelo": [
+            "ACORDA"
+          ],
+          "y": 760,
+          "em": "@acorda"
+        }
+      ],
+      "duracao": 3.1,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "28088"
+        ],
+        "escuro": 0.4
+      }
+    },
+    {
+      "fala": "Neon refletindo nas poças. Música alta vindo de algum lugar. Vice City nunca dorme.",
+      "blocos": [
+        {
+          "tipo": "selo",
+          "texto": "VICE CITY",
+          "tamanho": 90,
+          "cor": "rosa",
+          "rot": -3,
+          "y": 300,
+          "em": "@Vice"
+        }
+      ],
+      "duracao": 4.4,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "11816",
+          "12028"
+        ],
+        "troca": 2.4,
+        "escuro": 0.4
+      }
+    },
+    {
+      "fala": "Você enfia a mão no bolso. Vinte dólares amassados. Só isso.",
+      "blocos": [
+        {
+          "tipo": "numero",
+          "texto": "US$ 20",
+          "kicker": "NO BOLSO",
+          "y": 300,
+          "tamanho": 220,
+          "em": "@Vinte",
+          "cor": "amarelo"
+        }
+      ],
+      "duracao": 3.3667,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "18297"
+        ],
+        "escuro": 0.45
+      }
+    },
+    {
+      "fala": "Nada de documento. Nada de celular seu. Nem o seu nome você lembra.",
+      "blocos": [
+        {
+          "tipo": "selo",
+          "texto": "✕ DOCUMENTO",
+          "tamanho": 80,
+          "cor": "rosa",
+          "rot": -2,
+          "y": 300,
+          "em": "@documento"
+        },
+        {
+          "tipo": "selo",
+          "texto": "✕ CELULAR",
+          "tamanho": 80,
+          "cor": "rosa",
+          "rot": 2,
+          "y": 480,
+          "em": "@celular"
+        },
+        {
+          "tipo": "selo",
+          "texto": "✕ NOME",
+          "tamanho": 80,
+          "cor": "rosa",
+          "rot": -2,
+          "y": 660,
+          "em": "@nome"
+        }
+      ],
+      "duracao": 3.6667,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "6797"
+        ],
+        "escuro": 0.45
+      }
+    },
+    {
+      "fala": "Uma sirene corta a avenida, e você percebe uma coisa estranha.",
+      "blocos": [
+        {
+          "tipo": "carimbo",
+          "texto": "⚠ ALGO ESTÁ ERRADO",
+          "tamanho": 100,
+          "cor": "vermelho",
+          "rot": -6,
+          "y": 420,
+          "em": "@sirene",
+          "som": "sirene",
+          "somVol": 0.45,
+          "z": 9
+        }
+      ],
+      "duracao": 3.0667,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "17396"
+        ],
+        "escuro": 0.35
+      }
+    },
+    {
+      "fala": "Aqui ninguém para. Não existe pausa. Não existe salvar.",
+      "blocos": [
+        {
+          "tipo": "carimbo",
+          "texto": "SEM PAUSA",
+          "tamanho": 150,
+          "cor": "amarelo",
+          "rot": -8,
+          "y": 400,
+          "em": "@pausa",
+          "z": 9
+        },
+        {
+          "tipo": "selo",
+          "texto": "SEM SALVAR",
+          "tamanho": 70,
+          "cor": "rosa",
+          "rot": 2,
+          "y": 760,
+          "em": "@salvar"
+        }
+      ],
+      "duracao": 3.0667,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "4331"
+        ],
+        "escuro": 0.4
+      }
+    },
+    {
+      "fala": "De repente, um celular vibra no seu bolso. Um celular que não é seu.",
+      "blocos": [
+        {
+          "tipo": "selo",
+          "texto": "CELULAR QUE NÃO É SEU",
+          "tamanho": 64,
+          "cor": "amarelo",
+          "rot": -2,
+          "y": 360,
+          "em": "@vibra",
+          "som": "notificacao",
+          "somVol": 0.5
+        }
+      ],
+      "duracao": 3.5333,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "14669"
+        ],
+        "escuro": 0.4
+      }
+    },
+    {
+      "fala": "Número desconhecido. \"Você tem dez dias para escapar. Se morrer, não volta.\"",
+      "blocos": [
+        {
+          "tipo": "celular",
+          "y": 230,
+          "w": 520,
+          "h": 1000,
+          "em": 0.0,
+          "hora": "23:52",
+          "data": "Vice City · agora",
+          "itens": [
+            {
+              "app": "Número desconhecido",
+              "texto": "Você tem 10 dias para escapar. Se morrer, não volta.",
+              "em": "@Número"
+            }
+          ]
+        },
+        {
+          "tipo": "numero",
+          "texto": "10 DIAS",
+          "y": 1290,
+          "tamanho": 150,
+          "em": "@dez",
+          "cor": "rosa",
+          "som": false
+        }
+      ],
+      "duracao": 3.9667,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "6890"
+        ],
+        "escuro": 0.5
+      }
+    },
+    {
+      "fala": "Você ri. Deve ser trote. Até que a tela começa a contar: nove dias, vinte e três horas, cinquenta e nove minutos.",
+      "blocos": [
+        {
+          "tipo": "numero",
+          "texto": "09d 23h 59m",
+          "y": 1000,
+          "tamanho": 150,
+          "em": "@nove",
+          "cor": "rosa",
+          "som": "tick"
+        }
+      ],
+      "duracao": 5.7667,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "6890"
+        ],
+        "escuro": 0.55
+      }
+    },
+    {
+      "fala": "Faróis cortam a chuva. Um carro preto para bem do seu lado.",
+      "blocos": [
+        {
+          "tipo": "carimbo",
+          "texto": "CARRO PRETO",
+          "tamanho": 130,
+          "cor": "rosa",
+          "rot": -6,
+          "y": 420,
+          "em": "@carro",
+          "som": "impacto",
+          "somVol": 0.5,
+          "z": 9
+        }
+      ],
+      "duracao": 3.0667,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "50998"
+        ],
+        "escuro": 0.35
+      }
+    },
+    {
+      "fala": "O vidro desce devagar. O motorista nem olha pra você.",
+      "blocos": [
+        {
+          "tipo": "selo",
+          "texto": "ELE NEM OLHA PRA VOCÊ",
+          "tamanho": 64,
+          "cor": "amarelo",
+          "rot": -2,
+          "y": 380,
+          "em": "@motorista"
+        }
+      ],
+      "duracao": 2.9,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "44550"
+        ],
+        "escuro": 0.6
+      }
+    },
+    {
+      "fala": "\"Entra. A Lucia tá te esperando.\"",
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "linhas": [
+            "A LUCIA",
+            "TÁ TE",
+            "ESPERANDO"
+          ],
+          "tamanho": 140,
+          "acento": [
+            "LUCIA"
+          ],
+          "y": 320,
+          "em": "@Lucia"
+        }
+      ],
+      "duracao": 1.4667,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "44550"
+        ],
+        "escuro": 0.65
+      }
+    },
+    {
+      "fala": "Você nunca ouviu esse nome. Mas, por algum motivo, seu coração dispara.",
+      "blocos": [
+        {
+          "tipo": "selo",
+          "texto": "SEU CORAÇÃO DISPARA",
+          "tamanho": 70,
+          "cor": "rosa",
+          "rot": -2,
+          "y": 420,
+          "em": "@coração"
+        }
+      ],
+      "duracao": 3.7667,
+      "capitulo": "EP1 · DIA 1",
+      "escurecer": 0.4,
+      "fundo": {
+        "videos": [
+          "6797"
+        ],
+        "escuro": 0.7
+      }
+    },
+    {
+      "fala": "Você entra ou corre? Comenta aí. E segue o well ponto free: no episódio dois, a Lucia te conta como sair daqui… e quanto isso vai custar.",
+      "blocos": [
+        {
+          "tipo": "versus",
+          "y": 250,
+          "em": "@Você",
+          "ouEm": "@ou",
+          "ate": "@Comenta",
+          "opcoes": [
+            {
+              "texto": "ENTRO",
+              "em": "@entra",
+              "cor": "amarelo",
+              "tamanho": 120
+            },
+            {
+              "texto": "CORRO",
+              "em": "@corre",
+              "cor": "rosa",
+              "tamanho": 120
+            }
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "linhas": [
+            "COMENTA AÍ"
+          ],
+          "tamanho": 130,
+          "acento": [
+            "COMENTA"
+          ],
+          "y": 250,
+          "em": "@Comenta"
+        },
+        {
+          "tipo": "cta",
+          "y": 480,
+          "em": "@Comenta",
+          "avatar": "avatar.png",
+          "nome": "Well Machado",
+          "usuario": "@well.free",
+          "comentario": "eu entro, sem pensar",
+          "comentarioEm": "@Comenta+0.4",
+          "seguirEm": "@segue+0.4"
+        },
+        {
+          "tipo": "selo",
+          "texto": "SEGUE PRO EP 2",
+          "tamanho": 72,
+          "cor": "amarelo",
+          "rot": -2,
+          "y": 1150,
+          "em": "@episódio"
+        }
+      ],
+      "duracao": 8.2,
+      "capitulo": "EP1 · DIA 1",
+      "fundo": {
+        "videos": [
+          "6890"
+        ],
+        "escuro": 0.55
+      }
+    }
+  ],
+  "trilhaLaco": 8
+}

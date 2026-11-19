@@ -1,0 +1,11 @@
+- [Sistema de edição de vídeo](video-editor-system.md) — pipeline de Reels, @well.free, voz padrão Chris v4, estilos e pendências
+- [Instagram Trial Reels](instagram-trial-reels.md) — Trial Reel via API (`insta.py reel --teste MANUAL`, validada 17/11) ou Metricool no navegador; web/Business Suite não têm
+- [Piloto automático](piloto-automatico.md) — fluxo automático de conteúdo; pendências de configuração do usuário (Meta, Telegram, cloudflared, agendamentos)
+- [Projeto limpo](projeto-limpo.md) — regra do usuário: sem lixo/duplicatas; checklist em REFERÊNCIAS/ORGANIZACAO.md
+- [Agentes por modelo](agentes-por-modelo.md) — haiku/sonnet/opus por função, um agente por vez, caveman; subagente não clica Publish
+- [Melhoria contínua](melhoria-continua.md) — auditoria após cada vídeo; 1 vídeo = 1 sessão; delegar produção ao produtor
+- [Modo cortes do YouTube](modo-cortes-youtube.md) — cortes.py, voz Well, checar letreiros do criador nos cortes
+- [Fábrica 17/11](fabrica-2026-11-17.md) — catálogo por pasta, skill fabrica, revisor Opus, API IG validada, MCP Metricool
+- [Tom da voz e X-GO](voz-tom-e-xgo.md) — voz Well natural (sem [animado] exagerado); X-GO = 'Éksi Gôu'
+- [Visual mono + forja](visual-mono-forja.md) — padrão desde 18/11: cinza/preto/branco sem laranja, elementos desenhados em linha fina (ref. 79)
+- [Estilos de voz](voz-estilos-padrao.md) — professor/natural/apresentador por enredo; cabeçalho estilovoz

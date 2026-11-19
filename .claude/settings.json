@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'MODO CAVEMAN ATIVO neste projeto: responda em portugues, caveman (resposta primeiro, sem enrolacao, fatos tecnicos intactos). Ao criar algo, siga a skill fabrica (agente certo por funcao + revisor Opus no fim).'"
+          }
+        ]
+      }
+    ]
+  }
+}

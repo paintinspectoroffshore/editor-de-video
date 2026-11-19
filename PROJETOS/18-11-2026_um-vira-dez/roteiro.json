@@ -1,0 +1,770 @@
+{
+  "titulo": "Um vira dez",
+  "perfil": "@well.free",
+  "credito": "Telas: app X-GO",
+  "composicao": "Traco",
+  "mascote": false,
+  "paleta": "mono",
+  "trilha": "hiphop_never-going-broke.mp3",
+  "trilhaInicio": 0,
+  "volumeTrilha": 0.08,
+  "voz": {
+    "motor": "eleven",
+    "id": "i8rv83UTKnzq0PzTrxjL",
+    "modelo": "eleven_v4",
+    "idioma": "pt",
+    "ajustes": {
+      "stability": 0.4,
+      "similarity_boost": 0.8
+    },
+    "tempo": 1.33,
+    "pausas": 0.08,
+    "respiro": 0.05,
+    "limiarSilencio": "-32dB"
+  },
+  "pronuncia": {
+    "Hermes": "Érmes"
+  },
+  "destaques": [
+    "dez",
+    "Ana",
+    "25%",
+    "40%",
+    "1h11",
+    "19",
+    "chefe",
+    "X-GO",
+    "Hermes",
+    "EU QUERO"
+  ],
+  "duracaoMax": 72,
+  "cenas": [
+    {
+      "fala": "Você, sozinho, trabalhando como uma equipe de dez.",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "terreno",
+          "em": 0
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 500,
+          "linhas": [
+            {
+              "t": "VOCÊ,",
+              "em": "@Você"
+            },
+            {
+              "t": "SOZINHO",
+              "em": "@sozinho"
+            }
+          ],
+          "som": "whoosh"
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 860,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "equipe de dez",
+              "em": "@equipe"
+            }
+          ]
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 1250,
+          "texto": "1 PESSOA → 10 FUNÇÕES",
+          "em": "@dez",
+          "som": "pop"
+        }
+      ],
+      "duracao": 2.8333
+    },
+    {
+      "fala": "Exagero? Deixa eu te contar da Ana.",
+      "tag": "sorrindo",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "perguntas",
+          "x": 540,
+          "y": 760,
+          "em": 0,
+          "itens": [
+            {
+              "t": "exagero?",
+              "em": "@exagero"
+            }
+          ]
+        },
+        {
+          "tipo": "icone",
+          "x": 540,
+          "y": 1250,
+          "tam": 220,
+          "icone": "persona",
+          "rotulo": "ANA · EXEMPLO",
+          "em": "@Ana"
+        }
+      ],
+      "duracao": 2.1
+    },
+    {
+      "fala": "A Ana tem uma confeitaria. Faz o bolo, atende o WhatsApp, posta e cobra.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 420,
+          "texto": "A CONFEITARIA DA ANA",
+          "em": "@confeitaria"
+        },
+        {
+          "tipo": "lista",
+          "y": 900,
+          "itens": [
+            {
+              "t": "FAZ O BOLO",
+              "icone": "loja",
+              "em": "@bolo"
+            },
+            {
+              "t": "ATENDE O WHATSAPP",
+              "icone": "whatsapp",
+              "em": "@WhatsApp"
+            },
+            {
+              "t": "POSTA NO INSTAGRAM",
+              "icone": "instagram",
+              "em": "@posta"
+            },
+            {
+              "t": "COBRA OS CLIENTES",
+              "icone": "cobranca",
+              "em": "@cobra"
+            }
+          ]
+        }
+      ],
+      "duracao": 3.7333
+    },
+    {
+      "fala": "Ou seja: a Ana é a empresa inteira. Inclusive o estagiário.",
+      "tag": "sorrindo",
+      "camera": {
+        "zoom": [
+          1.06,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 720,
+          "linhas": [
+            {
+              "t": "A EMPRESA",
+              "em": "@empresa"
+            },
+            {
+              "t": "INTEIRA",
+              "em": "@inteira"
+            }
+          ]
+        },
+        {
+          "tipo": "selo",
+          "x": 760,
+          "y": 1180,
+          "linhas": [
+            "+ O",
+            "ESTAGIÁRIO"
+          ],
+          "em": "@estagiário",
+          "som": "carimbo"
+        }
+      ],
+      "duracao": 3.7
+    },
+    {
+      "fala": "Até que ela colocou agentes pra trabalhar com ela.",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 760,
+          "r": 380,
+          "em": 0
+        },
+        {
+          "tipo": "icone",
+          "x": 540,
+          "y": 760,
+          "tam": 260,
+          "icone": "robo",
+          "em": "@agentes"
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1160,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "agentes",
+              "em": "@agentes"
+            }
+          ]
+        }
+      ],
+      "duracao": 2.0667
+    },
+    {
+      "fala": "Um responde clientes. Outro planeja posts. Outro cuida das contas.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "cards",
+          "x": 540,
+          "y": 880,
+          "w": 860,
+          "em": 0,
+          "titulo": "A EQUIPE DA ANA",
+          "colunas": 1,
+          "itens": [
+            {
+              "t": "ATENDIMENTO",
+              "sub": "responde os clientes",
+              "icone": "chat",
+              "em": "@responde"
+            },
+            {
+              "t": "CONTEÚDO",
+              "sub": "planeja os posts",
+              "icone": "instagram",
+              "em": "@planeja"
+            },
+            {
+              "t": "FINANCEIRO",
+              "sub": "cuida das contas",
+              "icone": "financas",
+              "em": "@contas"
+            }
+          ]
+        }
+      ],
+      "duracao": 3.4333
+    },
+    {
+      "fala": "Ela continua fazendo o bolo. Mas agora comanda uma equipe.",
+      "tag": "animado",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "transformacao",
+          "x": 540,
+          "y": 880,
+          "em": 0,
+          "de": "FAZ TUDO",
+          "para": "COMANDA",
+          "iconeDe": "persona",
+          "iconePara": "robo",
+          "subDe": "sozinha",
+          "subPara": "uma equipe",
+          "setaEm": "@agora",
+          "paraEm": "@comanda",
+          "riscar": true
+        }
+      ],
+      "duracao": 2.8
+    },
+    {
+      "fala": "Mas funciona fora da confeitaria? Harvard testou com consultores da BCG.",
+      "camera": {
+        "zoom": [
+          1.06,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "perguntas",
+          "x": 540,
+          "y": 600,
+          "em": 0,
+          "itens": [
+            {
+              "t": "funciona fora da confeitaria?",
+              "em": "@funciona"
+            }
+          ]
+        },
+        {
+          "tipo": "marcas",
+          "x": 540,
+          "y": 1200,
+          "titulo": "O TESTE",
+          "itens": [
+            {
+              "t": "HARVARD",
+              "sub": "pesquisadores",
+              "em": "@Harvard"
+            },
+            {
+              "t": "BCG",
+              "sub": "consultores",
+              "em": "@BCG"
+            }
+          ]
+        }
+      ],
+      "duracao": 3.6667
+    },
+    {
+      "fala": "Quem usou foi vinte e cinco por cento mais rápido, com quarenta por cento mais qualidade.",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "numero",
+          "y": 640,
+          "valor": 25,
+          "sufixo": "%",
+          "unidade": "mais rápido",
+          "fonte": "Harvard/BCG 2023 · HBS 24-013",
+          "em": "@vinte"
+        },
+        {
+          "tipo": "numero",
+          "y": 1180,
+          "valor": 40,
+          "sufixo": "%",
+          "unidade": "mais qualidade",
+          "fonte": "Harvard/BCG 2023 · HBS 24-013",
+          "em": "@quarenta"
+        }
+      ],
+      "duracao": 4.1333
+    },
+    {
+      "fala": "No GitHub, uma tarefa de programação caiu de duas horas e quarenta e um pra uma hora e onze.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 420,
+          "texto": "MESMA TAREFA DE PROGRAMAÇÃO",
+          "em": "@programação"
+        },
+        {
+          "tipo": "transformacao",
+          "x": 540,
+          "y": 880,
+          "em": 0,
+          "de": "2h41",
+          "para": "1h11",
+          "subDe": "sem assistente",
+          "subPara": "com GitHub Copilot",
+          "setaEm": "@caiu",
+          "paraEm": "@onze",
+          "riscar": true
+        },
+        {
+          "tipo": "pilula",
+          "y": 1450,
+          "texto": "GITHUB RESEARCH 2022 · ARXIV 2302.06590",
+          "em": "@GitHub"
+        }
+      ],
+      "duracao": 4.5333
+    },
+    {
+      "fala": "Sobrou tempo pro café. Duas vezes.",
+      "tag": "sorrindo",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "icone",
+          "x": 540,
+          "y": 780,
+          "tam": 240,
+          "icone": "relogio",
+          "em": "@tempo"
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1180,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "café",
+              "em": "@café"
+            },
+            {
+              "t": "× 2",
+              "em": "@Duas"
+            }
+          ],
+          "som": "pop"
+        }
+      ],
+      "duracao": 2.2333
+    },
+    {
+      "fala": "Só que tem um detalhe.",
+      "camera": {
+        "zoom": [
+          1.06,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 820,
+          "linhas": [
+            {
+              "t": "SÓ UM",
+              "em": "@Só"
+            },
+            {
+              "t": "DETALHE",
+              "em": "@detalhe"
+            }
+          ]
+        },
+        {
+          "tipo": "sublinhado",
+          "x": 540,
+          "y": 1000,
+          "w": 620,
+          "forma": "onda",
+          "em": "@detalhe"
+        }
+      ],
+      "duracao": 1.0
+    },
+    {
+      "fala": "Fora da zona da ferramenta, quem usou acertou dezenove pontos a menos.",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 420,
+          "texto": "FORA DA ZONA DA FERRAMENTA",
+          "em": "@zona"
+        },
+        {
+          "tipo": "numero",
+          "y": 860,
+          "valor": 19,
+          "unidade": "pontos percentuais a menos de acerto",
+          "fonte": "Harvard/BCG 2023 · HBS 24-013",
+          "em": "@dezenove"
+        }
+      ],
+      "duracao": 3.6667
+    },
+    {
+      "fala": "Então o segredo não é trocar você pelo agente. É virar o chefe dele.",
+      "negativo": true,
+      "tag": "animado",
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 620,
+          "linhas": [
+            {
+              "t": "NÃO TROQUE",
+              "em": "@trocar"
+            }
+          ]
+        },
+        {
+          "tipo": "seta",
+          "x": 540,
+          "y": 830,
+          "w": 220,
+          "rot": 90,
+          "em": "@virar"
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1060,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "vire o chefe",
+              "em": "@chefe"
+            }
+          ],
+          "som": "impacto"
+        }
+      ],
+      "duracao": 3.5
+    },
+    {
+      "fala": "Foi assim que eu montei o X-GO, meu agente pessoal.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "emblema",
+          "x": 540,
+          "y": 540,
+          "tam": 300,
+          "em": "@montei"
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 1260,
+          "tam": 560,
+          "em": "@pessoal",
+          "video": "app/tour.mp4"
+        }
+      ],
+      "duracao": 2.5333
+    },
+    {
+      "fala": "Dentro dele roda o Hermes, um agente de código aberto que executa as tarefas.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 920,
+          "tam": 820,
+          "em": "@Hermes",
+          "video": "app/agente.mp4",
+          "etiqueta": {
+            "t": "HERMES",
+            "sub": "código aberto",
+            "icone": "robo",
+            "em": "@código"
+          }
+        }
+      ],
+      "duracao": 3.6667
+    },
+    {
+      "fala": "Ele organiza minhas finanças, compromissos e conteúdos do Instagram.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 380,
+          "texto": "FINANÇAS · COMPROMISSOS · INSTAGRAM",
+          "em": "@organiza"
+        },
+        {
+          "tipo": "celular",
+          "x": 330,
+          "y": 1000,
+          "tam": 560,
+          "em": "@finanças",
+          "video": "app/financas.mp4"
+        },
+        {
+          "tipo": "celular",
+          "x": 750,
+          "y": 1040,
+          "tam": 560,
+          "em": "@Instagram",
+          "video": "app/insta.mp4"
+        }
+      ],
+      "duracao": 3.1333
+    },
+    {
+      "fala": "Eu mando um áudio e ele resolve. E nunca pediu aumento.",
+      "tag": "sorrindo",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 1020,
+          "tam": 760,
+          "em": "@mando",
+          "video": "app/chat.mp4",
+          "etiqueta": {
+            "t": "ÁUDIO",
+            "icone": "microfone",
+            "em": "@áudio"
+          }
+        },
+        {
+          "tipo": "selo",
+          "x": 820,
+          "y": 420,
+          "linhas": [
+            "NUNCA PEDIU",
+            "AUMENTO"
+          ],
+          "em": "@aumento",
+          "som": "carimbo"
+        }
+      ],
+      "duracao": 3.0667
+    },
+    {
+      "fala": "Agente não substitui o profissional. Ele multiplica quem sabe o que quer.",
+      "camera": {
+        "zoom": [
+          1.06,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 620,
+          "linhas": [
+            {
+              "t": "NÃO SUBSTITUI",
+              "em": "@substitui"
+            }
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 980,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "multiplica",
+              "em": "@multiplica"
+            }
+          ]
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 1300,
+          "texto": "1 PROFISSIONAL → 1 EQUIPE",
+          "em": "@quer"
+        }
+      ],
+      "duracao": 3.4
+    },
+    {
+      "fala": "Quer montar sua equipe de agentes? Comenta EU QUERO que eu te mando o caminho. E me segue pra ver cada passo.",
+      "tag": "animado",
+      "camera": {
+        "zoom": [
+          1,
+          1.05
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "cta",
+          "x": 540,
+          "y": 860,
+          "em": 0,
+          "palavra": "EU QUERO",
+          "chamada": "COMENTA",
+          "palavraEm": "@QUERO",
+          "nota": "o caminho pra montar sua equipe",
+          "perfil": true,
+          "perfilEm": "@segue",
+          "lobo": false
+        }
+      ],
+      "duracao": 5.6333
+    }
+  ]
+}

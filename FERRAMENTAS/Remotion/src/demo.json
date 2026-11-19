@@ -1,0 +1,63 @@
+{
+  "titulo": "Demo do sistema",
+  "perfil": "@seu.perfil",
+  "badge": "feito com Claude",
+  "paleta": "darkTech",
+  "destaques": ["sistema", "código", "49,1%"],
+  "palavras": [
+    { "word": "Este", "start": 0.2, "end": 0.45 },
+    { "word": "vídeo", "start": 0.45, "end": 0.8 },
+    { "word": "foi", "start": 0.8, "end": 0.95 },
+    { "word": "feito", "start": 0.95, "end": 1.3 },
+    { "word": "100%", "start": 1.3, "end": 1.9 },
+    { "word": "em", "start": 1.9, "end": 2.05 },
+    { "word": "código.", "start": 2.05, "end": 2.6 },
+    { "word": "Nenhum", "start": 3.2, "end": 3.6 },
+    { "word": "editor", "start": 3.6, "end": 4.0 },
+    { "word": "abriu", "start": 4.0, "end": 4.3 },
+    { "word": "um", "start": 4.3, "end": 4.4 },
+    { "word": "programa.", "start": 4.4, "end": 5.0 },
+    { "word": "Só", "start": 5.6, "end": 5.8 },
+    { "word": "um", "start": 5.8, "end": 5.9 },
+    { "word": "sistema", "start": 5.9, "end": 6.4 },
+    { "word": "e", "start": 6.4, "end": 6.5 },
+    { "word": "dados.", "start": 6.5, "end": 7.0 }
+  ],
+  "cenas": [
+    {
+      "duracao": 3.5,
+      "posicao": "centro",
+      "blocos": [
+        { "tipo": "headline", "texto": "Feito 100% em código", "destaque": "código" },
+        { "tipo": "numero", "valor": 49.1, "casas": 1, "sufixo": "%", "rotulo": "nota de exemplo" }
+      ]
+    },
+    {
+      "rotulo": "O teste",
+      "duracao": 4,
+      "blocos": [
+        {
+          "tipo": "ranking",
+          "itens": [
+            { "nome": "Modelo A", "valor": 49.1, "nota": "novo", "lider": true },
+            { "nome": "Modelo B", "valor": 45.5 },
+            { "nome": "Modelo C", "valor": 41.0 }
+          ],
+          "fonte": "dados fictícios de demonstração"
+        }
+      ]
+    },
+    {
+      "rotulo": "Um detalhe",
+      "duracao": 3.5,
+      "blocos": [
+        { "tipo": "checklist", "itens": [
+          { "texto": "Roteiro", "marcado": true },
+          { "texto": "Legenda", "marcado": true },
+          { "texto": "Render", "marcado": false }
+        ] },
+        { "tipo": "terminal", "titulo": "render.sh", "linhas": ["$ npm run render", "quadro 0300 / 0300 ✓"] }
+      ]
+    }
+  ]
+}

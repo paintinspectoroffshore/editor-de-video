@@ -1,0 +1,12 @@
+# DNA 79 · branco-linha-fina-explicador-3d (6 refs do lote, mesmo estilo)
+- Paleta: fundo #FFFFFF/#F5F5F5; traço #111/#262726 (0.5-2 px, grafite); cinza #898988/#C9CAC9 para malha/profundidade. Clímax/abertura 1 ref em negativo (#000 fundo, traço branco). Zero cor de acento (1 ref só com laranja-fio em mira).
+- Tipografia: rótulos minúsculos (mono/sans ~22-28 px) em pílula de contorno ou solta; termo-chave em serifa itálica (~60-80 px) tipo editorial; números ~60-90 px mono com unidade pequena ("2,4 s"). Sem legenda falada.
+- Layout: 1 objeto-herói centrado (celular, esfera, círculo concêntrico, torre) sobre grade/relevo em perspectiva; muito branco; elementos secundários em contorno ao redor; fotos/prints raros (patente/documento como folha de linhas).
+- Ritmo: poucos cortes duros (1-7 em 40-85 s, ~10-15 s/cena); a mudança é por câmera contínua + morph do objeto (esfera vira buraco, celular vira esfera de partículas).
+- Transições: transformação por continuidade (zoom-out até novo contexto, objeto vira outro), 1 inversão branco-preto; sem wipe.
+- Câmera: dolly/zoom lento constante, rotação 3D leve, zoom-out em escala cósmica, push-in para detalhe.
+- Gráficos recorrentes: círculos concêntricos, curvas de nível/relevo, malha de pontos/partículas, linhas de texto como barras cinza, chips numéricos com valor animado, seta fina, bolinha-cursor com mira.
+- Tela gravada/prints: não usa; telas são redesenhadas em contorno.
+- Som 0-3 s: voz de narração entrando já em 0 s (mean ~-15 dB, pico ~-2 dB nos 6; sem silêncio) sobre cama ambiente/drone discreto; sem SFX forte de abertura.
+- Motor do gancho: F (cenário "e se..."), às vezes + D (mistério: empresa/projeto secreto) + curiosidade visual do objeto enigmático (sem rosto). Convite: nenhum CTA forte visto.
+- Recriar sem copiar: usar Lobo/X-GO em linha, paleta Traço, objeto-herói = projeto GitHub/instalador como celular/servidor em contorno; não reutilizar nenhum desenho.

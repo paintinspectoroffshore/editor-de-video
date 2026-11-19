@@ -1,0 +1,650 @@
+{
+  "titulo": "X-GO ganhou uma casa nova",
+  "perfil": "@well.free",
+  "credito": "Telas: app X-GO 0.30.0",
+  "voz": {
+    "motor": "eleven",
+    "id": "i8rv83UTKnzq0PzTrxjL",
+    "modelo": "eleven_v4",
+    "idioma": "pt",
+    "ajustes": {
+      "stability": 0.24,
+      "similarity_boost": 0.8
+    },
+    "tempo": 1.25,
+    "pausas": 0.08,
+    "respiro": 0.05,
+    "limiarSilencio": "-32dB"
+  },
+  "pronuncia": {
+    "IA": "í á",
+    "X-GO": "Éxi Gol",
+    "Hermes": "Érmes",
+    "@well.free": "arrôba uéu ponto frii",
+    "WhatsApp": "uátsápi"
+  },
+  "destaques": [
+    "X-GO",
+    "IA",
+    "Hermes",
+    "app",
+    "gastei",
+    "finanças",
+    "Instagram",
+    "sozinho",
+    "vinte e três",
+    "setenta e oito",
+    "meu",
+    "aprovar",
+    "Nada",
+    "grátis",
+    "AGENTE",
+    "well"
+  ],
+  "cenas": [
+    {
+      "fala": "Eu dei um nome pro meu agente de IA: X-GO. E ele acabou de se mudar.",
+      "legenda": "nao",
+      "camera": {
+        "zoom": [
+          1.12,
+          1.0
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 800,
+          "r": 400,
+          "em": 0
+        },
+        {
+          "tipo": "particulas",
+          "em": 0,
+          "n": 30,
+          "area": [
+            80,
+            300,
+            920,
+            1000
+          ]
+        },
+        {
+          "tipo": "lobo",
+          "x": 540,
+          "y": 800,
+          "tam": 560,
+          "em": 0,
+          "expressao": "feliz",
+          "cracha": "X-GO",
+          "caixa": true
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1400,
+          "linhas": [
+            {
+              "t": "ELE SE",
+              "em": "@ele",
+              "tam": 150
+            },
+            {
+              "t": "MUDOU",
+              "em": "@mudar",
+              "tam": 150
+            }
+          ],
+          "acento": [
+            "MUDOU"
+          ],
+          "em": "@ele"
+        }
+      ],
+      "duracao": 3.8333
+    },
+    {
+      "fala": "Ele é um Hermes. Eu falava com ele no WhatsApp e no Telegram. Funcionava… mas no meio de grupo, áudio e figurinha.",
+      "blocos": [
+        {
+          "tipo": "pergunta",
+          "texto": "ONDE ELE MORAVA?",
+          "em": 0,
+          "x": 540,
+          "y": 270,
+          "tam": 56
+        },
+        {
+          "tipo": "lobo",
+          "x": 540,
+          "y": 820,
+          "tam": 380,
+          "em": 0,
+          "expressao": "pensando"
+        },
+        {
+          "tipo": "icone",
+          "x": 230,
+          "y": 660,
+          "tam": 150,
+          "icone": "whatsapp",
+          "em": "@WhatsApp",
+          "rotulo": "WhatsApp"
+        },
+        {
+          "tipo": "icone",
+          "x": 850,
+          "y": 660,
+          "tam": 150,
+          "icone": "telegram",
+          "em": "@Telegram",
+          "rotulo": "Telegram"
+        },
+        {
+          "tipo": "chip",
+          "t": "grupo",
+          "icone": "chat",
+          "em": "@grupo",
+          "x": 200,
+          "y": 1040
+        },
+        {
+          "tipo": "chip",
+          "t": "áudio",
+          "icone": "microfone",
+          "em": "@áudio",
+          "x": 540,
+          "y": 1180,
+          "fase": 1
+        },
+        {
+          "tipo": "chip",
+          "t": "figurinha",
+          "icone": "chat",
+          "em": "@figurinha",
+          "x": 880,
+          "y": 1040,
+          "escuro": true,
+          "fase": 2
+        }
+      ],
+      "duracao": 6.0
+    },
+    {
+      "fala": "Até que eu conheci um app feito só pra ele. E no final eu te conto quanto paguei.",
+      "blocos": [
+        {
+          "tipo": "pergunta",
+          "texto": "E AÍ?",
+          "em": 0,
+          "x": 540,
+          "y": 270,
+          "tam": 56
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 960,
+          "tam": 880,
+          "em": "@app",
+          "video": "app/tour.mp4",
+          "inicio": 0,
+          "vel": 1,
+          "entrada": "escala"
+        },
+        {
+          "tipo": "selo",
+          "x": 860,
+          "y": 560,
+          "r": 100,
+          "linhas": [
+            "?"
+          ],
+          "tam": 90,
+          "em": "@final"
+        }
+      ],
+      "duracao": 3.6667
+    },
+    {
+      "fala": "Agora eu abro o app e pergunto: quanto gastei esse mês? Ele responde com os números, conta por conta.",
+      "blocos": [
+        {
+          "tipo": "pergunta",
+          "texto": "O QUE MUDOU NA PRÁTICA?",
+          "em": 0,
+          "x": 540,
+          "y": 270,
+          "tam": 56
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 960,
+          "tam": 880,
+          "em": 0,
+          "video": "app/chat.mp4",
+          "inicio": 2,
+          "vel": 2.4,
+          "borrar": [
+            {
+              "x": 62,
+              "y": 57,
+              "w": 24,
+              "h": 3.8,
+              "em": "@responde"
+            },
+            {
+              "x": 5,
+              "y": 60.3,
+              "w": 24,
+              "h": 3.8,
+              "em": "@responde"
+            },
+            {
+              "x": 59,
+              "y": 63.3,
+              "w": 24,
+              "h": 3.8,
+              "em": "@responde"
+            },
+            {
+              "x": 35,
+              "y": 69.5,
+              "w": 34,
+              "h": 3.8,
+              "em": "@responde"
+            }
+          ]
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 470,
+          "texto": "CHAT",
+          "em": "@pergunto"
+        }
+      ],
+      "duracao": 4.6
+    },
+    {
+      "fala": "E já monta o painel das minhas finanças, com extrato e saldo.",
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "FINANÇAS",
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 900,
+          "tam": 980,
+          "em": 0,
+          "video": "app/financas.mp4",
+          "inicio": 0.5,
+          "vel": 1.6,
+          "rot": -3
+        },
+        {
+          "tipo": "chip",
+          "t": "extrato",
+          "icone": "financas",
+          "em": "@extrato",
+          "x": 210,
+          "y": 1150
+        },
+        {
+          "tipo": "chip",
+          "t": "saldo",
+          "icone": "financas",
+          "em": "@saldo",
+          "x": 880,
+          "y": 700,
+          "fase": 1
+        }
+      ],
+      "duracao": 2.8667
+    },
+    {
+      "fala": "Cuida. Acompanha o meu Instagram. E quando alguém comenta uma palavra, ele manda a mensagem sozinho.",
+      "blocos": [
+        {
+          "tipo": "pergunta",
+          "texto": "ELE CUIDA DO INSTAGRAM?",
+          "em": 0,
+          "x": 540,
+          "y": 270,
+          "tam": 56
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 960,
+          "tam": 880,
+          "em": 0,
+          "clipes": [
+            {
+              "video": "app/insta.mp4",
+              "inicio": 0.4,
+              "vel": 1.6
+            },
+            {
+              "video": "app/fluxo.mp4",
+              "inicio": 1.2,
+              "vel": 2.2,
+              "em": "@quando"
+            }
+          ]
+        },
+        {
+          "tipo": "chip",
+          "t": "comentou",
+          "icone": "chat",
+          "em": "@comenta",
+          "x": 190,
+          "y": 720
+        },
+        {
+          "tipo": "chip",
+          "t": "recebeu",
+          "icone": "telegram",
+          "em": "@manda",
+          "x": 890,
+          "y": 1160,
+          "escuro": true,
+          "fase": 1
+        }
+      ],
+      "duracao": 4.5667
+    },
+    {
+      "fala": "O que eu aprendi: um agente não precisa trabalhar sozinho. Tem vinte e três prontos: vendedor, suporte, secretária, pesquisador.",
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 260,
+          "texto": "AGENTES PRONTOS",
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 320,
+          "y": 900,
+          "tam": 880,
+          "em": 0,
+          "video": "app/bots.mp4",
+          "inicio": 0.5,
+          "vel": 1.8
+        },
+        {
+          "tipo": "numero",
+          "x": 800,
+          "y": 620,
+          "valor": 23,
+          "unidade": "agentes prontos",
+          "fonte": "fonte: app X-GO 0.30.0",
+          "tamanho": 280,
+          "em": "@vinte"
+        },
+        {
+          "tipo": "lista",
+          "x": 800,
+          "y": 1110,
+          "tam": 28,
+          "gap": 14,
+          "em": "@vendedor",
+          "itens": [
+            {
+              "t": "Vendedor",
+              "em": "@vendedor"
+            },
+            {
+              "t": "Suporte",
+              "em": "@suporte"
+            },
+            {
+              "t": "Secretária",
+              "em": "@secretária"
+            },
+            {
+              "t": "Pesquisador",
+              "em": "@pesquisador"
+            }
+          ]
+        }
+      ],
+      "duracao": 6.7
+    },
+    {
+      "fala": "Lembra. Tudo que o X-GO sabe tá ali: memória, rotinas e setenta e oito habilidades.",
+      "blocos": [
+        {
+          "tipo": "pergunta",
+          "texto": "ELE LEMBRA DAS COISAS?",
+          "em": 0,
+          "x": 540,
+          "y": 270,
+          "tam": 56
+        },
+        {
+          "tipo": "celular",
+          "x": 320,
+          "y": 960,
+          "tam": 880,
+          "em": 0,
+          "video": "app/agente.mp4",
+          "inicio": 0.5,
+          "vel": 1.1
+        },
+        {
+          "tipo": "numero",
+          "x": 800,
+          "y": 700,
+          "valor": 78,
+          "unidade": "skills",
+          "fonte": "fonte: app X-GO 0.30.0",
+          "tamanho": 280,
+          "em": "@setenta"
+        },
+        {
+          "tipo": "lista",
+          "x": 800,
+          "y": 1130,
+          "tam": 28,
+          "gap": 14,
+          "em": "@memória",
+          "itens": [
+            {
+              "t": "Memória",
+              "icone": "memoria",
+              "em": "@memória"
+            },
+            {
+              "t": "Rotinas",
+              "icone": "rotinas",
+              "em": "@rotinas"
+            }
+          ]
+        }
+      ],
+      "duracao": 4.6667
+    },
+    {
+      "fala": "E o que mais me surpreendeu: o app é meu. Eu mudo as telas do meu jeito. Ou peço pro X-GO mudar por mim.",
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "O APP É MEU",
+          "em": "@app"
+        },
+        {
+          "tipo": "celular",
+          "x": 480,
+          "y": 900,
+          "tam": 960,
+          "em": 0,
+          "video": "app/modular.mp4",
+          "inicio": 0.5,
+          "vel": 2.0
+        },
+        {
+          "tipo": "chip",
+          "t": "telas",
+          "icone": "modulos",
+          "em": "@telas",
+          "x": 190,
+          "y": 640
+        },
+        {
+          "tipo": "lobo",
+          "x": 900,
+          "y": 1300,
+          "tam": 170,
+          "em": "@Ou",
+          "expressao": "pensando"
+        },
+        {
+          "tipo": "balao",
+          "x": 840,
+          "y": 1110,
+          "texto": "muda pra mim?",
+          "em": "@peço",
+          "espera": 8
+        }
+      ],
+      "duracao": 5.2333
+    },
+    {
+      "fala": "Ele até controla a casa e o celular. Mas só faz se eu aprovar.",
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "SÓ SE EU APROVAR",
+          "em": "@Mas"
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 900,
+          "tam": 980,
+          "em": 0,
+          "clipes": [
+            {
+              "video": "app/casa.mp4",
+              "inicio": 0,
+              "vel": 1.2
+            },
+            {
+              "video": "app/celular.mp4",
+              "inicio": 0.2,
+              "vel": 0.9,
+              "em": "@celular"
+            }
+          ],
+          "zoomTela": {
+            "em": "@Mas",
+            "escala": 1.7,
+            "origem": "71% 75%"
+          },
+          "toque": {
+            "em": "@aprovar",
+            "x": 0.71,
+            "y": 0.75
+          }
+        }
+      ],
+      "duracao": 3.3
+    },
+    {
+      "fala": "Nada. O app é grátis.",
+      "blocos": [
+        {
+          "tipo": "pergunta",
+          "texto": "E QUANTO VOCÊ PAGOU?",
+          "em": 0,
+          "x": 540,
+          "y": 270,
+          "tam": 56
+        },
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 850,
+          "r": 380,
+          "em": 0
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 760,
+          "linhas": [
+            {
+              "t": "GRÁTIS",
+              "em": "@grátis",
+              "tam": 230
+            }
+          ],
+          "acento": [
+            "GRÁTIS"
+          ],
+          "em": "@grátis"
+        },
+        {
+          "tipo": "lobo",
+          "x": 540,
+          "y": 1130,
+          "tam": 380,
+          "em": "@grátis",
+          "expressao": "comemora"
+        }
+      ],
+      "duracao": 1.5333
+    },
+    {
+      "fala": "Comenta AGENTE que eu te mando o link. E segue o @well.free pra ver o que mais ele aprende.",
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 580,
+          "r": 250,
+          "em": 0
+        },
+        {
+          "tipo": "particulas",
+          "em": 0,
+          "n": 24,
+          "area": [
+            60,
+            250,
+            960,
+            500
+          ]
+        },
+        {
+          "tipo": "cta",
+          "x": 540,
+          "y": 860,
+          "em": 0,
+          "palavra": "AGENTE",
+          "palavraEm": "@AGENTE",
+          "perfilEm": "@segue",
+          "avatar": "perfil/avatar.png",
+          "usuario": "well.free",
+          "expressaoLobo": "acena"
+        }
+      ],
+      "duracao": 5.8333
+    }
+  ],
+  "composicao": "Traco"
+}

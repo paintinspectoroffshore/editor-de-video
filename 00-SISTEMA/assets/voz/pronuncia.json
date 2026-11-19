@@ -1,0 +1,14 @@
+{
+  "_como_usar": "Vale para TODO vídeo. Chave = como está escrito na fala; valor = como a voz deve ler. A legenda continua mostrando a grafia original. O 'pronuncia' do roteiro vence este arquivo. Só entra aqui o que foi CONFERIDO com 'produzir.py ouvir' (Whisper) ou ouvido pelo usuário.",
+  "@well.free": "arrôba uéu ponto frii",
+  "X-GO": "Éksi Gôu",
+  "Anthropic": "Ântropic",
+  "Remotion": "Rimôuxon",
+  "Hermes": "Érmes",
+  "_validado_hermes": "18/11/2026 voz Well: no meio da frase (\"Dentro dele roda o Hermes\") saiu \"Wernes\"; \"Érmes\" OK no Whisper.",
+  "_validado_ferramentas": "18/11/2026 voz Well: 'Remotion' cru saiu 'Emotion' (engole o R); 'Rimôuxon' ~ 'rimochão' OK. Claude Code, GitHub, FFmpeg, Whisper, yt-dlp, ElevenLabs, skills crus = OK.",
+  "_validado_marcas": "18/11/2026 voz Well + v4 + Whisper: 'Anthropic' cru saiu 'Ionthropic' (engole o 'a' antes); 'Ântropic' OK. OpenAI, Microsoft, WhatsApp, Instagram crus = OK (não mapear). 'IA' sozinho sai 'ir'/'aí': escreva 'inteligência artificial' ou 'í á'.",
+  "_validado_xgo": "X-GO = 'ÈXÌ GOU'. Escolhido pelo usuário de ouvido em 17/11/2026 (voz Well + eleven_v4 + pt), entre 'Éksi Gôu' (A, certo), 'Ékis Gôu' e 'Écsi Gou'. Nunca deixar 'X-GO' cru na fala.",
+  "_validado_well":"@well.free validado no Whisper em 16/11/2026 com a voz Well (i8rv83UTKnzq0PzTrxjL). Voz Chris tem outra leitura; não aplicar a Chris.",
+  "_a_testar": "Com Chris + eleven_v4 + pt (14/11/2026): o 1º 'Vice City' saiu como 'Vicerie'. Testar com 'eleven.py teste' (~30 créditos) antes de pôr aqui: 'Váice Síti'."
+}

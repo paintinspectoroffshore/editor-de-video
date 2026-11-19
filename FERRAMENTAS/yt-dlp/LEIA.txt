@@ -1,0 +1,3 @@
+yt-dlp 2026.08.19 (baixar referencias)
+Exemplo: yt-dlp -o "REFERENCIAS/_downloads/ref12.%(ext)s" <link>
+Atualizar: yt-dlp -U   (ou pip install -U yt-dlp)

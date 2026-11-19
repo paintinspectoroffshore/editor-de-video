@@ -1,0 +1,3 @@
+faster-whisper (legendas palavra a palavra), instalado no Python 3.12.
+Script pronto: 00-SISTEMAin\legendar.py <arquivo>
+Modelos ficam em cache: %USERPROFILE%\.cache\huggingface

@@ -1,0 +1,11 @@
+{
+  "tema": "editorial",
+  "slides": [
+    {"tipo": "capa", "chapeu": "assunto em 3 palavras", "titulo": "Gancho de 5 a 8 palavras", "destaque": ["palavra"], "sub": "Uma linha que promete o que a pessoa ganha."},
+    {"tipo": "texto", "numero": "01", "titulo": "Primeiro ponto em uma frase", "corpo": "Explicação curta, 1 ou 2 linhas."},
+    {"tipo": "lista", "titulo": "Lista de erros ou passos", "itens": [{"t": "Erro comum", "ok": false}, {"t": "Jeito certo"}]},
+    {"tipo": "dado", "numero": "43", "legenda": "o que o número significa", "fonte": "Autor, Revista Ano"},
+    {"tipo": "imagem", "src": "print.jpg", "titulo": "Prova visual", "legenda": "Arquivo em assets/"},
+    {"tipo": "cta", "titulo": "Salva e manda pra quem precisa", "palavra": "APP", "avatar": "avatar.png"}
+  ]
+}

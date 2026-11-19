@@ -1,0 +1,285 @@
+{
+ "titulo": "Seguro de salud con reembolso",
+ "perfil": "@dicas.da.dezza",
+ "composicao": "SplitTH",
+ "idioma": "es",
+ "destaques": [
+  "España",
+  "psiquiatras",
+  "fisioterapeutas",
+  "podólogos",
+  "reembolso",
+  "libertad",
+  "Madrid",
+  "fácil",
+  "Reembolso",
+  "Mixto",
+  "Salud"
+ ],
+ "rosto": {
+  "video": "assets/rosto.mp4",
+  "janelas": [
+   {
+    "de": 0,
+    "y": 76
+   },
+   {
+    "de": 7.9,
+    "y": 76
+   },
+   {
+    "de": 13.7,
+    "y": 150
+   },
+   {
+    "de": 19.0,
+    "y": 150
+   },
+   {
+    "de": 24.95,
+    "y": 76,
+    "desfoque": true
+   }
+  ]
+ },
+ "cenas": [
+  {
+   "fala": "Hola, ¿vives en España y sueles pagar consultas privadas con psiquiatras, fisioterapeutas y podólogos?",
+   "duracao": 7.9,
+   "rotulo": "// 01 · consultas privadas",
+   "status": "ESPAÑA",
+   "blocos": [
+    {
+     "tipo": "titulo",
+     "linhas": [
+      "¿Vives en",
+      "España?"
+     ],
+     "acento": [
+      "España?"
+     ],
+     "bandera": "es",
+     "em": 0.1,
+     "y": 250
+    },
+    {
+     "tipo": "chips",
+     "titulo": "consultas privadas",
+     "tituloEm": "@consultas",
+     "y": 560,
+     "itens": [
+      {
+       "texto": "psiquiatras",
+       "icone": "mente",
+       "em": "@psiquiatras"
+      },
+      {
+       "texto": "fisioterapeutas",
+       "icone": "mano",
+       "em": "@fisioterapeutas"
+      },
+      {
+       "texto": "podólogos",
+       "icone": "pie",
+       "em": "@podólogos"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fala": "Entonces, déjame compartir algo. Existen seguros de salud con modalidad de reembolso.",
+   "duracao": 5.8,
+   "rotulo": "// 02 · seguro de salud",
+   "status": "REEMBOLSO",
+   "blocos": [
+    {
+     "tipo": "fluxo",
+     "y": 300,
+     "nos": [
+      {
+       "texto": "Pagas la consulta",
+       "icone": "recibo",
+       "em": "@Entonces"
+      },
+      {
+       "texto": "Seguro de salud",
+       "icone": "escudo",
+       "em": "@seguros"
+      },
+      {
+       "texto": "Te reembolsan",
+       "icone": "euro",
+       "cor": "vermelho",
+       "em": "@reembolso"
+      }
+     ]
+    },
+    {
+     "tipo": "selo",
+     "texto": "MODALIDAD DE REEMBOLSO",
+     "em": "@modalidad",
+     "y": 600
+    }
+   ]
+  },
+  {
+   "fala": "Así puedes tener más libertad para elegir con quién quieres y dónde quieres cuidar de tu salud.",
+   "duracao": 5.3,
+   "rotulo": "// 03 · libertad",
+   "status": "TÚ ELIGES",
+   "blocos": [
+    {
+     "tipo": "titulo",
+     "linhas": [
+      "Más libertad"
+     ],
+     "acento": [
+      "libertad"
+     ],
+     "em": "@libertad",
+     "y": 235,
+     "tamanho": 120
+    },
+    {
+     "tipo": "dupla",
+     "y": 420,
+     "itens": [
+      {
+       "rotulo": "¿con quién?",
+       "sub": "el especialista",
+       "icone": "medico",
+       "em": "@quién"
+      },
+      {
+       "rotulo": "¿dónde?",
+       "sub": "el lugar",
+       "icone": "pin",
+       "em": "@dónde"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fala": "Y si prefieres hablar en persona, agenda tu cita y nos vemos aquí en la oficina de Madrid. Te espero. Hasta luego.",
+   "duracao": 5.95,
+   "rotulo": "// 04 · cita en persona",
+   "status": "MADRID",
+   "blocos": [
+    {
+     "tipo": "titulo",
+     "linhas": [
+      "En persona"
+     ],
+     "acento": [
+      "persona"
+     ],
+     "em": "@persona",
+     "y": 235,
+     "tamanho": 120
+    },
+    {
+     "tipo": "dupla",
+     "y": 420,
+     "itens": [
+      {
+       "rotulo": "agenda tu cita",
+       "sub": "cuando quieras",
+       "icone": "calendario",
+       "em": "@agenda"
+      },
+      {
+       "rotulo": "Oficina",
+       "sub": "Madrid",
+       "icone": "pin",
+       "cor": "vermelho",
+       "em": "@oficina"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fala": "Y si te ha interesado esta modalidad, te lo pongo muy fácil.",
+   "duracao": 2.45,
+   "rotulo": "// 05 · muy fácil",
+   "status": "3 PASOS",
+   "blocos": [
+    {
+     "tipo": "numero",
+     "valor": 3,
+     "unidade": "pasos",
+     "rotulo": "muy fácil",
+     "cor": "vermelho",
+     "em": "@interesado",
+     "y": 300
+    }
+   ]
+  },
+  {
+   "fala": "Entra en los destacados de Salud de mi perfil, accede al formulario de presupuesto y, en la tercera pregunta, selecciona Reembolso Mixto.",
+   "duracao": 8.0,
+   "rotulo": "// 06 · cómo hacerlo",
+   "status": "PASO A PASO",
+   "blocos": [
+    {
+     "tipo": "passos",
+     "y": 250,
+     "itens": [
+      {
+       "n": 1,
+       "texto": "Destacados «Salud»",
+       "sub": "en mi perfil",
+       "em": "@destacados"
+      },
+      {
+       "n": 2,
+       "texto": "Formulario de presupuesto",
+       "sub": "accede y rellénalo",
+       "em": "@formulario"
+      },
+      {
+       "n": 3,
+       "texto": "Pregunta 3: «Reembolso Mixto»",
+       "sub": "selecciónalo",
+       "destaque": true,
+       "em": "@tercera"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fala": "",
+   "duracao": 4.0,
+   "legenda": "nao",
+   "rotulo": "// 07 · siguiente paso",
+   "status": "SÍGUEME",
+   "blocos": [
+    {
+     "tipo": "titulo",
+     "linhas": [
+      "¿Quieres saber",
+      "cuánto te costaría?"
+     ],
+     "acento": [
+      "costaría?"
+     ],
+     "em": 0.2,
+     "y": 250,
+     "tamanho": 96
+    },
+    {
+     "tipo": "cta",
+     "avatar": "assets/avatar.jpg",
+     "usuario": "dicas.da.dezza",
+     "nome": "Andrezza | DDD · Dicas da Dezza",
+     "texto": "Sígueme",
+     "em": 0.3,
+     "seguirEm": 1.6
+    }
+   ]
+  }
+ ]
+}

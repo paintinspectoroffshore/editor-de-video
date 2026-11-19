@@ -1,0 +1,57 @@
+{
+  "titulo": "Título interno do vídeo",
+  "perfil": "@seu.perfil",
+  "badge": "feito com Claude",
+  "paleta": "darkTech",
+  "trilha": "",
+  "volumeTrilha": 0.1,
+  "destaques": ["palavra-chave-1", "palavra-chave-2"],
+  "cenas": [
+    {
+      "fala": "GANCHO. Uma frase curta com um número ou uma afirmação que desafia.",
+      "duracao": 3,
+      "blocos": [
+        { "tipo": "headline", "texto": "O título da cena", "destaque": "cena" },
+        { "tipo": "numero", "valor": 300, "sufixo": " bi", "rotulo": "o número do gancho" }
+      ]
+    },
+    {
+      "fala": "CONTEXTO. O que é isso e por que importa.",
+      "rotulo": "O contexto",
+      "duracao": 6,
+      "blocos": [
+        { "tipo": "card", "titulo": "o que aconteceu", "linhas": ["Fato 1", "Fato 2"], "fonte": "de onde veio" }
+      ]
+    },
+    {
+      "fala": "PROVA. Os dados que sustentam a tese.",
+      "rotulo": "Os números",
+      "duracao": 8,
+      "blocos": [
+        { "tipo": "ranking", "itens": [
+          { "nome": "Item A", "valor": 49.1, "lider": true, "nota": "novo" },
+          { "nome": "Item B", "valor": 41.0 }
+        ], "fonte": "fonte do dado" }
+      ]
+    },
+    {
+      "fala": "VIRADA. Só um aviso: a nuance que ninguém comentou.",
+      "rotulo": "Só um aviso",
+      "duracao": 6,
+      "blocos": [
+        { "tipo": "checklist", "itens": [
+          { "texto": "O que é verdade", "marcado": true },
+          { "texto": "O que ninguém disse", "marcado": false }
+        ] }
+      ]
+    },
+    {
+      "fala": "FECHO. A síntese em uma frase. Comenta a palavra que eu te mando o material.",
+      "rotulo": "Resumo",
+      "duracao": 5,
+      "blocos": [
+        { "tipo": "headline", "texto": "A frase final", "destaque": "final" }
+      ]
+    }
+  ]
+}

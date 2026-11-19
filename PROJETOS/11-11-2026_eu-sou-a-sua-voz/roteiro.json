@@ -1,0 +1,238 @@
+{
+ "titulo": "Eu sou a sua voz: o golpe da voz clonada",
+ "composicao": "Dossie",
+ "voz": {
+  "motor": "eleven",
+  "id": "cjVigY5qzO86Huf0OWal",
+  "modelo": "eleven_multilingual_v2",
+  "ajustes": {
+   "speed": 1.1,
+   "stability": 0.45,
+   "style": 0.2
+  },
+  "tempo": 1.06
+ },
+ "pronuncia": {
+  "126%": "cento e vinte e seis por cento",
+  "77%": "setenta e sete por cento",
+  "FBI": "éfe bê í",
+  "2025": "dois mil e vinte e cinco"
+ },
+ "respiroFinal": 1.2,
+ "destaques": [
+  "voz",
+  "não",
+  "você",
+  "três",
+  "segundos",
+  "pix",
+  "urgente",
+  "deepfake",
+  "dinheiro",
+  "secreta",
+  "fbi",
+  "volta",
+  "pressa",
+  "urgência",
+  "senha",
+  "atenderia"
+ ],
+ "cenas": [
+  {
+   "fala": "Eu sou a sua voz. Só que não foi você que gravou isso.",
+   "duracao": 3.5667,
+   "legenda": "nao",
+   "blocos": [
+    {
+     "tipo": "manchete",
+     "kicker": "ARQUIVO 001 · CLONAGEM DE VOZ",
+     "linhas": [
+      "EU SOU",
+      "A SUA VOZ."
+     ],
+     "y": 420,
+     "em": 0,
+     "ate": "@que",
+     "glitch": true
+    },
+    {
+     "tipo": "manchete",
+     "linhas": [
+      "SÓ QUE",
+      "NÃO É",
+      "VOCÊ."
+     ],
+     "vermelho": [
+      "NÃO"
+     ],
+     "y": 420,
+     "em": "@que",
+     "glitch": true,
+     "tamanho": 170
+    },
+    {
+     "tipo": "onda",
+     "y": 1180,
+     "em": 0
+    }
+   ]
+  },
+  {
+   "fala": "Pra me criar, bastaram três segundos de um vídeo seu nos stories.",
+   "duracao": 3.9333,
+   "blocos": [
+    {
+     "tipo": "numero",
+     "kicker": "BASTARAM",
+     "valor": 3,
+     "unidade": "SEGUNDOS",
+     "fonte": "McAFEE · 2023",
+     "nota": "para um clone com 85% de semelhança com a voz original",
+     "y": 330,
+     "em": "@bastaram"
+    }
+   ]
+  },
+  {
+   "fala": "Agora eu ligo pra sua mãe chorando, digo que sofri um acidente e peço um Pix urgente. Ela vai ouvir você.",
+   "duracao": 7.4333,
+   "blocos": [
+    {
+     "tipo": "ficha",
+     "cabecalho": "LIGAÇÃO RECEBIDA",
+     "sub": "\"FILHO\" · CELULAR · 00:48",
+     "y": 420,
+     "em": "@ligo",
+     "itens": [
+      {
+       "t": "MANDAR O PIX",
+       "em": "@peço",
+       "circuloEm": "@urgente"
+      },
+      {
+       "t": "DESLIGAR",
+       "em": "@peço+0.3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fala": "No Brasil, fraude com deepfake cresceu 126% em 2025. E de quem cai nesse golpe de voz, 77% perde dinheiro.",
+   "duracao": 11.0,
+   "blocos": [
+    {
+     "tipo": "mapa",
+     "x": 140,
+     "y": 330,
+     "w": 900,
+     "em": 0,
+     "opacidade": 0.85
+    },
+    {
+     "tipo": "numero",
+     "kicker": "FRAUDE COM DEEPFAKE · BRASIL",
+     "valor": 126,
+     "prefixo": "+",
+     "sufixo": "%",
+     "fonte": "SUMSUB · 2025",
+     "y": 300,
+     "em": "@cresceu",
+     "ate": "@77"
+    },
+    {
+     "tipo": "numero",
+     "kicker": "VÍTIMAS DO GOLPE DE VOZ",
+     "valor": 77,
+     "sufixo": "%",
+     "unidade": "PERDEM DINHEIRO",
+     "fonte": "McAFEE · 2023",
+     "y": 300,
+     "em": "@77"
+    }
+   ]
+  },
+  {
+   "fala": "Mas três coisas me derrubam. Um: combine uma palavra secreta com a família. Até o FBI recomenda. Dois: desligue e ligue de volta no número que você já tem salvo. Três: desconfie da pressa. Golpe sempre vem com urgência.",
+   "duracao": 14.8333,
+   "blocos": [
+    {
+     "tipo": "ficha",
+     "cabecalho": "PROTOCOLO ANTI-CLONE",
+     "sub": "3 ITENS · USO IMEDIATO",
+     "y": 300,
+     "em": "@coisas",
+     "itens": [
+      {
+       "t": "PALAVRA SECRETA",
+       "em": "@um",
+       "okEm": "@secreta",
+       "pilula": "RECOMENDADO PELO FBI · DEZ/2024",
+       "pilulaEm": "@fbi"
+      },
+      {
+       "t": "DESLIGA E LIGA DE VOLTA",
+       "tam": 50,
+       "em": "@dois",
+       "okEm": "@salvo"
+      },
+      {
+       "t": "PRESSA = GOLPE",
+       "em": "@desconfie",
+       "okEm": "@urgência"
+      }
+     ]
+    },
+    {
+     "tipo": "onda",
+     "y": 1110,
+     "altura": 200,
+     "em": 0,
+     "cortes": [
+      {
+       "em": "@secreta"
+      },
+      {
+       "em": "@salvo"
+      },
+      {
+       "em": "@urgência"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fala": "Manda esse vídeo pra quem atenderia essa ligação. E me conta aqui: sua família já tem uma senha?",
+   "duracao": 7.0667,
+   "legenda": "nao",
+   "blocos": [
+    {
+     "tipo": "onda",
+     "y": 230,
+     "altura": 120,
+     "em": 0,
+     "apagar": true
+    },
+    {
+     "tipo": "cta",
+     "kicker": "ENVIAR",
+     "linhas": [
+      "MANDA PRA QUEM",
+      "ATENDERIA."
+     ],
+     "vermelho": [
+      "ATENDERIA."
+     ],
+     "y": 420,
+     "em": 0,
+     "pergunta": "SUA FAMÍLIA JÁ TEM UMA SENHA?",
+     "perguntaEm": "@conta",
+     "usuario": "well.free",
+     "avatar": "avatar.png",
+     "perfilEm": "@família"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+  "_como_usar": "Cabeçalho do ROTEIRO.md: `estilovoz: professor|natural|apresentador` (produzir.py montar). Escolhidos pelo usuário em 18/11/2026 entre 17 testes. Voz Well i8rv83UTKnzq0PzTrxjL, eleven_v4. Tag da cena (`tag=`) vence a do estilo.",
+  "_quando_usar": "professor = vídeos educativos/explicativos ('o que é', 'como funciona', passo a passo). natural = história, humor, conversa, bastidores (padrão). apresentador = dados, novidades, lançamentos, listas e CTA forte.",
+  "professor": {"ajustes": {"stability": 0.55, "similarity_boost": 0.85}, "tempo": 1.10, "tag": ["didático", "amigável"]},
+  "natural": {"ajustes": {"stability": 0.40, "similarity_boost": 0.80}, "tempo": 1.15, "tag": null},
+  "apresentador": {"ajustes": {"stability": 0.50, "similarity_boost": 0.85}, "tempo": 1.15, "tag": ["tom de apresentador", "confiante"]}
+}

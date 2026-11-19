@@ -1,0 +1,740 @@
+{
+ "titulo": "GTA 6 ep2 — A roda de armas não acabou (estilo Trajeto v4)",
+ "duracaoMax": 120,
+ "composicao": "Trajeto",
+ "perfil": "@well.free",
+ "credito": "Base: MuuhPro (YouTube) · Imagens: Rockstar Games",
+ "janelas": "grande",
+ "voz": {
+  "motor": "eleven",
+  "id": "i8rv83UTKnzq0PzTrxjL",
+  "modelo": "eleven_v4",
+  "idioma": "pt",
+  "ajustes": {
+   "stability": 0.28,
+   "similarity_boost": 0.8
+  },
+  "tempo": 1.28,
+  "pausas": 0.1,
+  "respiro": 0.06,
+  "limiarSilencio": "-32dB"
+ },
+ "pronuncia": {},
+ "trilha": "synthwave_sun-in-your-eyes.mp3",
+ "volumeTrilha": 0.12,
+ "trilhaLaco": 8,
+ "respiroFinal": 1.2,
+ "destaques": [
+  "mentira",
+  "roda",
+  "arsenal",
+  "duas",
+  "oficial",
+  "porta-malas",
+  "escondem",
+  "mostra",
+  "problema",
+  "NPCs",
+  "mirar",
+  "afastam",
+  "polícia",
+  "armado",
+  "briga",
+  "técnica",
+  "força",
+  "sacar",
+  "LÚCIA",
+  "JASON",
+  "well"
+ ],
+ "duracaoVideos": {
+  "yt01": 1.9,
+  "yt02": 3.2,
+  "yt03": 3.5,
+  "yt04": 3.5,
+  "yt05": 3.5,
+  "yt06": 2.3,
+  "yt07": 3.0,
+  "yt08": 3.0,
+  "yt09": 2.6,
+  "yt10": 2.43,
+  "yt11": 2.0,
+  "yt12": 2.1,
+  "yt14": 4.5,
+  "yt15": 4.0,
+  "yt16": 3.5
+ },
+ "cenas": [
+  {
+   "fala": "Dizem que a roda de armas do GTA 6 acabou. É mentira.",
+   "capitulo": "A · A RODA",
+   "fundo": {
+    "videos": [
+     "yt11@0",
+     "yt09@0"
+    ],
+    "troca": 1.8
+   },
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "roda de armas · gta 6",
+     "em": 0.1
+    },
+    {
+     "tipo": "selo",
+     "texto": "ACABOU?",
+     "ponto": false,
+     "em": "@acabou",
+     "riscaEm": "@mentira"
+    },
+    {
+     "tipo": "recorte",
+     "src": "revolver_luneta",
+     "x": 250,
+     "y": 1440,
+     "largura": 540,
+     "rot": -4,
+     "entrada": "slide",
+     "som": "whoosh",
+     "rotulo": "a roda continua",
+     "em": "@mentira"
+    }
+   ],
+   "duracao": 2.9667
+  },
+  {
+   "fala": "A Rockstar passou meses, talvez anos, testando alternativas pra roda.",
+   "capitulo": "A · A RODA",
+   "fonte": "techradar · bloomberg",
+   "fundo": {
+    "videos": [
+     "yt09@0",
+     "yt10@0"
+    ],
+    "troca": 1.9
+   },
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "linhas": [
+      "MESES, TALVEZ ANOS"
+     ],
+     "acento": [
+      "ANOS"
+     ],
+     "em": "@meses"
+    }
+   ],
+   "duracao": 3.6667
+  },
+  {
+   "fala": "Na versão final, ela continua lá.",
+   "capitulo": "A · A RODA",
+   "fonte": "techradar · bloomberg",
+   "fundo": {
+    "videos": [
+     "yt08@0",
+     "yt07@0"
+    ],
+    "troca": 1.8
+   },
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "linhas": [
+      "A RODA CONTINUA"
+     ],
+     "acento": [
+      "CONTINUA"
+     ],
+     "em": 0.1
+    },
+    {
+     "tipo": "recorte",
+     "src": "revolveres",
+     "x": 600,
+     "y": 450,
+     "largura": 420,
+     "rot": 5,
+     "entrada": "pop",
+     "som": "pop",
+     "rotulo": "versão final",
+     "em": "@continua"
+    }
+   ],
+   "duracao": 1.8667
+  },
+  {
+   "fala": "O que muda é o que cabe nela. Você não anda mais com um arsenal inteiro nas costas.",
+   "capitulo": "B · O LIMITE",
+   "fundo": {
+    "videos": [
+     "yt10@0",
+     "yt07@0.5"
+    ],
+    "troca": 1.9,
+    "b": false
+   },
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "linhas": [
+      "O QUE CABE NELA"
+     ],
+     "acento": [
+      "CABE"
+     ],
+     "em": 0.1
+    },
+    {
+     "tipo": "selo",
+     "texto": "sem arsenal nas costas",
+     "cor": "vermelho",
+     "em": "@arsenal"
+    },
+    {
+     "tipo": "recorte",
+     "src": "revolveres",
+     "x": 300,
+     "y": 1450,
+     "largura": 600,
+     "rot": -3,
+     "entrada": "slide",
+     "som": "whoosh",
+     "rotulo": "arsenal inteiro",
+     "em": "@arsenal"
+    }
+   ],
+   "duracao": 4.1
+  },
+  {
+   "fala": "Segundo relatos de quem jogou, o limite é de duas armas curtas e duas longas.",
+   "capitulo": "B · O LIMITE",
+   "fonte": "gfinity · allthings.how",
+   "fundo": {
+    "videos": [
+     "yt08@0",
+     "yt09@0"
+    ],
+    "troca": 1.9,
+    "b": false
+   },
+   "blocos": [
+    {
+     "tipo": "numero",
+     "texto": "2+2",
+     "rotulo": "curtas + longas",
+     "em": "@duas"
+    },
+    {
+     "tipo": "recorte",
+     "src": "pistolas",
+     "x": 300,
+     "y": 1450,
+     "largura": 440,
+     "rot": 4,
+     "entrada": "pop",
+     "som": "pop",
+     "rotulo": "2 curtas",
+     "em": "@curtas"
+    }
+   ],
+   "duracao": 3.9667
+  },
+  {
+   "fala": "Atenção: esse número não é oficial. É o que as prévias repetem.",
+   "capitulo": "B · O LIMITE",
+   "fonte": "gfinity · allthings.how",
+   "fundo": {
+    "videos": [
+     "yt09@0.6",
+     "yt08@1.0"
+    ],
+    "troca": 1.7
+   },
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "linhas": [
+      "RELATO DE PRÉVIA"
+     ],
+     "acento": [
+      "PRÉVIA"
+     ],
+     "em": 0.1
+    },
+    {
+     "tipo": "selo",
+     "texto": "NÃO OFICIAL",
+     "cor": "vermelho",
+     "em": "@oficial"
+    }
+   ],
+   "duracao": 3.4
+  },
+  {
+   "fala": "O resto fica no porta-malas do seu carro, ou num armário de uma loja de armas. Tipo o cavalo do Red Dead.",
+   "capitulo": "B · O LIMITE",
+   "fonte": "allthings.how · tbreak",
+   "fundo": {
+    "videos": [
+     "yt02@0",
+     "yt03@0"
+    ],
+    "troca": 2.0,
+    "b": false
+   },
+   "blocos": [
+    {
+     "tipo": "pilulas",
+     "titulo": "o resto fica no",
+     "y": 160,
+     "vertical": true,
+     "em": "@resto",
+     "itens": [
+      {
+       "texto": "PORTA-MALAS",
+       "sub": "do seu carro",
+       "marca": "ok",
+       "cor": "ciano",
+       "em": "@porta-malas"
+      },
+      {
+       "texto": "ARMÁRIO",
+       "sub": "loja de armas",
+       "marca": "ok",
+       "cor": "ciano",
+       "em": "@armário"
+      }
+     ]
+    },
+    {
+     "tipo": "recorte",
+     "src": "casal_carro",
+     "x": 260,
+     "y": 1450,
+     "largura": 580,
+     "rot": -2,
+     "entrada": "slide",
+     "som": "whoosh",
+     "rotulo": "porta-malas",
+     "em": "@carro"
+    }
+   ],
+   "duracao": 4.6333
+  },
+  {
+   "fala": "E as armas curtas, os dois personagens escondem. Fuzil e escopeta ficam à mostra, nas costas ou na mão.",
+   "capitulo": "B · O LIMITE",
+   "fonte": "allthings.how · tbreak",
+   "fundo": {
+    "videos": [
+     "yt06@0",
+     "yt11@0"
+    ],
+    "troca": 1.8,
+    "b": false
+   },
+   "blocos": [
+    {
+     "tipo": "pilulas",
+     "y": 160,
+     "vertical": true,
+     "em": "@curtas",
+     "itens": [
+      {
+       "texto": "CURTA",
+       "sub": "escondida",
+       "marca": "ok",
+       "cor": "ciano",
+       "em": "@escondem"
+      },
+      {
+       "texto": "LONGA",
+       "sub": "à mostra",
+       "marca": "x",
+       "cor": "vermelho",
+       "em": "@mostra"
+      }
+     ]
+    },
+    {
+     "tipo": "recorte",
+     "src": "jason_lucia",
+     "x": 300,
+     "y": 1450,
+     "largura": 560,
+     "rot": 3,
+     "entrada": "pop",
+     "som": "pop",
+     "rotulo": "alça de fuzil",
+     "em": "@fuzil"
+    }
+   ],
+   "duracao": 5.3333
+  },
+  {
+   "fala": "E aí vem o problema. Segundo o Rob Nelson, da Rockstar, os NPCs reagem à arma na sua mão, mesmo sem você mirar em ninguém.",
+   "capitulo": "C · OS NPCS",
+   "fonte": "dexerto · gamesradar",
+   "fundo": {
+    "videos": [
+     "yt01@0",
+     "yt03@0",
+     "yt04@0"
+    ],
+    "troca": 1.7,
+    "b": false
+   },
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "linhas": [
+      "NPCS REAGEM"
+     ],
+     "acento": [
+      "REAGEM"
+     ],
+     "em": "@problema"
+    },
+    {
+     "tipo": "selo",
+     "texto": "rob nelson · rockstar",
+     "cor": "vermelho",
+     "em": "@nelson"
+    },
+    {
+     "tipo": "recorte",
+     "src": "revolver_luneta",
+     "x": 40,
+     "y": 1450,
+     "largura": 480,
+     "rot": -5,
+     "entrada": "slide",
+     "som": "whoosh",
+     "rotulo": "sem mirar",
+     "cor": "rosa",
+     "em": "@mirar"
+    }
+   ],
+   "duracao": 6.2
+  },
+  {
+   "fala": "As pessoas se afastam. E a polícia repara num fuzil à mostra.",
+   "capitulo": "C · OS NPCS",
+   "fonte": "dexerto · gamesradar",
+   "fundo": {
+    "videos": [
+     "yt05@0",
+     "yt04@1.0"
+    ],
+    "troca": 1.8,
+    "b": false
+   },
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "linhas": [
+      "AS PESSOAS SE AFASTAM"
+     ],
+     "acento": [
+      "AFASTAM"
+     ],
+     "em": 0.1
+    },
+    {
+     "tipo": "selo",
+     "texto": "POLÍCIA",
+     "cor": "vermelho",
+     "em": "@polícia"
+    },
+    {
+     "tipo": "recorte",
+     "src": "npc_bermuda",
+     "x": 480,
+     "y": 1450,
+     "largura": 360,
+     "rot": 2,
+     "entrada": "desenho",
+     "som": "whoosh",
+     "rotulo": "se afastam",
+     "em": "@afastam"
+    }
+   ],
+   "duracao": 3.2333
+  },
+  {
+   "fala": "No GTA 5, você precisava apontar pra alguém pra assustar. Agora, só andar armado já vira problema.",
+   "capitulo": "C · OS NPCS",
+   "fonte": "dexerto · gamesradar",
+   "fundo": {
+    "videos": [
+     "yt04@0",
+     "yt05@1.2"
+    ],
+    "troca": 1.9,
+    "b": false
+   },
+   "blocos": [
+    {
+     "tipo": "pilulas",
+     "y": 160,
+     "vertical": true,
+     "em": 0.1,
+     "itens": [
+      {
+       "texto": "GTA 5",
+       "sub": "precisa mirar",
+       "marca": "x",
+       "cor": "vermelho",
+       "em": 0.1
+      },
+      {
+       "texto": "GTA 6",
+       "sub": "só andar armado",
+       "marca": "ok",
+       "cor": "ciano",
+       "em": "@agora"
+      }
+     ]
+    },
+    {
+     "tipo": "recorte",
+     "src": "pistolas",
+     "x": 320,
+     "y": 1450,
+     "largura": 440,
+     "rot": -4,
+     "entrada": "pop",
+     "som": "pop",
+     "rotulo": "só andar armado",
+     "em": "@armado"
+    }
+   ],
+   "duracao": 4.8
+  },
+  {
+   "fala": "Sem arma, o jogo ainda tem briga.",
+   "capitulo": "D · A BRIGA",
+   "fundo": {
+    "videos": [
+     "yt12@0",
+     "yt14@0"
+    ],
+    "troca": 1.6
+   },
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "linhas": [
+      "SEM ARMA: BRIGA"
+     ],
+     "acento": [
+      "BRIGA"
+     ],
+     "em": 0.1
+    },
+    {
+     "tipo": "recorte",
+     "src": "jason_lucia",
+     "x": 640,
+     "y": 455,
+     "largura": 380,
+     "rot": 4,
+     "entrada": "pop",
+     "som": "pop",
+     "rotulo": "lúcia · jason",
+     "em": "@briga"
+    }
+   ],
+   "duracao": 1.9333
+  },
+  {
+   "fala": "Dizem que a Lúcia luta com técnica, kickboxing e MMA. O Jason é mais bruto, na força.",
+   "capitulo": "D · A BRIGA",
+   "fonte": "notebookcheck · insider gaming",
+   "fundo": {
+    "videos": [
+     "yt14@0",
+     "yt12@0"
+    ],
+    "troca": 2.0,
+    "b": false
+   },
+   "blocos": [
+    {
+     "tipo": "pilulas",
+     "y": 160,
+     "vertical": true,
+     "em": "@lúcia",
+     "itens": [
+      {
+       "texto": "LÚCIA",
+       "sub": "técnica · kickboxing · mma",
+       "cor": "ciano",
+       "em": "@lúcia"
+      },
+      {
+       "texto": "JASON",
+       "sub": "força bruta",
+       "cor": "rosa",
+       "em": "@jason"
+      }
+     ]
+    },
+    {
+     "tipo": "selo",
+     "texto": "RELATO",
+     "cor": "vermelho",
+     "em": "@dizem"
+    },
+    {
+     "tipo": "recorte",
+     "src": "jason_lucia",
+     "x": 300,
+     "y": 1450,
+     "largura": 560,
+     "rot": -3,
+     "entrada": "slide",
+     "som": "whoosh",
+     "rotulo": "técnica x força",
+     "em": "@jason"
+    }
+   ],
+   "duracao": 4.9667
+  },
+  {
+   "fala": "E tem bloqueio e defesa no tempo certo.",
+   "capitulo": "D · A BRIGA",
+   "fonte": "notebookcheck · insider gaming",
+   "fundo": {
+    "videos": [
+     "yt12@0",
+     "yt14@1.5"
+    ],
+    "troca": 1.4
+   },
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "linhas": [
+      "BLOQUEIO + DEFESA"
+     ],
+     "acento": [
+      "DEFESA"
+     ],
+     "em": 0.1
+    }
+   ],
+   "duracao": 2.1333
+  },
+  {
+   "fala": "Ou seja: o GTA 6 quer que você pense antes de sacar.",
+   "capitulo": "E · FECHO",
+   "fundo": {
+    "videos": [
+     "yt15@0",
+     "yt15@2.0"
+    ],
+    "troca": 1.8,
+    "b": false
+   },
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "linhas": [
+      "PENSE ANTES DE SACAR"
+     ],
+     "acento": [
+      "SACAR"
+     ],
+     "em": 0.1
+    },
+    {
+     "tipo": "recorte",
+     "src": "revolveres",
+     "x": 540,
+     "y": 1450,
+     "largura": 500,
+     "rot": 3,
+     "entrada": "slide",
+     "som": "whoosh",
+     "rotulo": "antes de sacar",
+     "em": "@sacar"
+    }
+   ],
+   "duracao": 3.1667
+  },
+  {
+   "fala": "Comenta LÚCIA se você luta na técnica, ou JASON se é no soco.",
+   "capitulo": "E · FECHO",
+   "fundo": {
+    "videos": [
+     "yt16@0",
+     "yt14@0.5"
+    ],
+    "troca": 1.9,
+    "b": false
+   },
+   "blocos": [
+    {
+     "tipo": "pilulas",
+     "titulo": "comenta",
+     "y": 190,
+     "em": "@LÚCIA",
+     "tamanho": 44,
+     "itens": [
+      {
+       "texto": "LÚCIA",
+       "sub": "técnica",
+       "cor": "ciano",
+       "em": "@LÚCIA"
+      },
+      {
+       "texto": "JASON",
+       "sub": "soco",
+       "cor": "rosa",
+       "em": "@JASON"
+      }
+     ]
+    },
+    {
+     "tipo": "recorte",
+     "src": "casal_carro",
+     "x": 260,
+     "y": 1450,
+     "largura": 580,
+     "rot": 2,
+     "entrada": "pop",
+     "som": "pop",
+     "rotulo": "lúcia ou jason?",
+     "em": "@JASON"
+    }
+   ],
+   "duracao": 3.2667
+  },
+  {
+   "fala": "E segue well ponto free pra ver mais do GTA 6.",
+   "capitulo": "E · FECHO",
+   "fundo": {
+    "videos": [
+     "yt16@0",
+     "yt15@1.0"
+    ],
+    "troca": 1.8
+   },
+   "blocos": [
+    {
+     "tipo": "cta",
+     "y": 190,
+     "em": "@segue",
+     "avatar": "avatar.png",
+     "usuario": "@well.free",
+     "seguirEm": "@segue+0.8"
+    }
+   ],
+   "duracao": 3.8667
+  }
+ ]
+}

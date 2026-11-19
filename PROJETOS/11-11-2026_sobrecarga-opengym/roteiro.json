@@ -1,0 +1,562 @@
+{
+  "titulo": "Sobrecarga progressiva + openGym",
+  "composicao": "Editorial",
+  "voz": {
+    "motor": "eleven",
+    "id": "TX3LPaxmHKxFdv7VOQHJ",
+    "nome_voz": "Liam - Energetic, Social Media Creator",
+    "ajustes": {
+      "speed": 1.15,
+      "stability": 0.4,
+      "style": 0.25
+    },
+    "tempo": 1.16
+  },
+  "pronuncia": {
+    "openGym": "Open Gym",
+    "APK": "a pê cá"
+  },
+  "respiroFinal": 1.2,
+  "destaques": [
+    "graca",
+    "github",
+    "erro",
+    "seu",
+    "mesma",
+    "progressao",
+    "sobrecarga",
+    "ninguem",
+    "43",
+    "8",
+    "peso",
+    "repeticoes",
+    "parecida",
+    "repeticao",
+    "progresso",
+    "opengym",
+    "carga",
+    "recordes",
+    "exercicios",
+    "anuncio",
+    "assinatura",
+    "offline",
+    "programador",
+    "apk",
+    "clique",
+    "segue",
+    "quero"
+  ],
+  "fontes": [
+    "Plotkin et al. (2022) PeerJ 10:e14142 — https://peerj.com/articles/14142",
+    "Schoenfeld, Ogborn & Krieger (2017) J Sports Sci — volume semanal",
+    "github.com/DuarteSantos8/openGym (11/11/2026)"
+  ],
+  "cenas": [
+    {
+      "fala": "Esse app de academia é de graça, tem mais de 20 mil estrelas no GitHub, e resolve um erro que trava muita gente na academia.",
+      "duracao": 6.7667,
+      "blocos": [
+        {
+          "tipo": "tela",
+          "src": "assets/telas/gh_repo.png",
+          "titulo": "github.com/DuarteSantos8/openGym",
+          "h": 500,
+          "rolar": 1290,
+          "em": 0.0
+        },
+        {
+          "tipo": "numero",
+          "valor": 20827,
+          "tamanho": 170,
+          "tag": "GitHub",
+          "rotulo": "estrelas · openGym",
+          "em": "@20"
+        }
+      ]
+    },
+    {
+      "fala": "Fica até o final, porque esse erro provavelmente é o seu.",
+      "duracao": 3.1,
+      "blocos": [
+        {
+          "tipo": "tela",
+          "src": "assets/stock/44434.mp4",
+          "titulo": "academia · 3 meses depois",
+          "h": 760,
+          "foco": [
+            55,
+            50
+          ],
+          "pb": true,
+          "em": 0.0
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "É o seu?",
+          "tamanho": 96,
+          "x": 470,
+          "y": 620,
+          "rot": -9,
+          "em": "@seu"
+        }
+      ]
+    },
+    {
+      "fala": "Você treina pesado, sua a camisa, e três meses depois tá levantando a mesma carga, com o mesmo corpo.",
+      "duracao": 6.4333,
+      "blocos": [
+        {
+          "tipo": "tela",
+          "src": "assets/stock/52094.mp4",
+          "titulo": "treino pesado",
+          "h": 420,
+          "foco": [
+            40,
+            50
+          ],
+          "em": 0.0
+        },
+        {
+          "tipo": "codigo",
+          "titulo": "seu caderno de treino",
+          "tamanho": 48,
+          "linhas": [
+            {
+              "t": [
+                [
+                  "JAN  ",
+                  "amarelo"
+                ],
+                [
+                  "supino 60 kg × 8"
+                ]
+              ],
+              "em": "@tres"
+            },
+            {
+              "t": [
+                [
+                  "FEV  ",
+                  "amarelo"
+                ],
+                [
+                  "supino 60 kg × 8"
+                ]
+              ],
+              "em": "@meses"
+            },
+            {
+              "t": [
+                [
+                  "MAR  ",
+                  "amarelo"
+                ],
+                [
+                  "supino 60 kg × 8",
+                  "vinho"
+                ]
+              ],
+              "em": "@mesma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fala": "Não é falta de esforço. É falta de progressão.",
+      "duracao": 3.1,
+      "blocos": [
+        {
+          "tipo": "etiqueta",
+          "texto": "Não é esforço",
+          "tamanho": 70,
+          "rot": -3,
+          "em": 0.0
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Falta de progressão",
+          "tamanho": 92,
+          "rot": -6,
+          "em": "@progressao"
+        }
+      ]
+    },
+    {
+      "fala": "Na ciência, isso tem nome: sobrecarga progressiva. Pro músculo crescer, o treino precisa ficar um pouco mais difícil com o tempo.",
+      "duracao": 7.0333,
+      "blocos": [
+        {
+          "tipo": "tela",
+          "src": "assets/stock/44414.mp4",
+          "titulo": "o princípio",
+          "h": 560,
+          "em": 0.0
+        },
+        {
+          "tipo": "etiqueta",
+          "texto": "Sobrecarga progressiva",
+          "cor": "vinho",
+          "tamanho": 54,
+          "rot": -2,
+          "em": "@sobrecarga"
+        },
+        {
+          "tipo": "etiqueta",
+          "texto": "+ difícil com o tempo",
+          "tamanho": 48,
+          "rot": 1.5,
+          "em": "@dificil"
+        }
+      ]
+    },
+    {
+      "fala": "Mas aqui vem a parte que quase ninguém sabe.",
+      "duracao": 2.8667,
+      "fundo": "vinho",
+      "blocos": [
+        {
+          "tipo": "etiqueta",
+          "texto": "o que quase ninguém sabe",
+          "tamanho": 54,
+          "rot": -2,
+          "em": 0.19
+        }
+      ]
+    },
+    {
+      "fala": "Em 2022, pesquisadores acompanharam 43 pessoas treinando por 8 semanas. Metade aumentava o peso. A outra metade, só as repetições.",
+      "duracao": 9.2333,
+      "blocos": [
+        {
+          "tipo": "codigo",
+          "titulo": "o estudo · PeerJ, 2022",
+          "tamanho": 50,
+          "linhas": [
+            {
+              "t": [
+                [
+                  "43 ",
+                  "vinho"
+                ],
+                [
+                  "pessoas treinadas"
+                ]
+              ],
+              "em": "@43"
+            },
+            {
+              "t": [
+                [
+                  "8  ",
+                  "vinho"
+                ],
+                [
+                  "semanas de treino"
+                ]
+              ],
+              "em": "@8"
+            },
+            {
+              "t": [
+                [
+                  "A: ",
+                  "amarelo"
+                ],
+                [
+                  "+ peso, mesmas reps"
+                ]
+              ],
+              "em": "@metade"
+            },
+            {
+              "t": [
+                [
+                  "B: ",
+                  "verde"
+                ],
+                [
+                  "+ reps, mesmo peso"
+                ]
+              ],
+              "em": "@outra"
+            }
+          ]
+        },
+        {
+          "tipo": "tela",
+          "src": "assets/stock/52091.mp4",
+          "titulo": "grupos A e B",
+          "h": 330,
+          "em": "@metade"
+        }
+      ]
+    },
+    {
+      "fala": "O resultado? Os dois ganharam músculo e força de um jeito muito parecido.",
+      "duracao": 3.8667,
+      "blocos": [
+        {
+          "tipo": "citacao",
+          "linhas": [
+            "Os dois grupos ganharam",
+            "músculo e força de forma",
+            "parecida."
+          ],
+          "destaque": "parecida.",
+          "assinatura": "Plotkin et al., PeerJ 2022",
+          "em": 0.29
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Empate",
+          "cor": "verde",
+          "tamanho": 100,
+          "x": 560,
+          "y": 640,
+          "rot": -8,
+          "em": "@parecido"
+        }
+      ]
+    },
+    {
+      "fala": "Ou seja: se o peso não sobe, sobe uma repetição. Isso já é progresso.",
+      "duracao": 4.4667,
+      "blocos": [
+        {
+          "tipo": "codigo",
+          "titulo": "progressão dupla",
+          "tamanho": 54,
+          "linhas": [
+            {
+              "t": [
+                [
+                  "SEM 1  ",
+                  "amarelo"
+                ],
+                [
+                  "60 kg × 8"
+                ]
+              ],
+              "em": 0.19
+            },
+            {
+              "t": [
+                [
+                  "SEM 2  ",
+                  "amarelo"
+                ],
+                [
+                  "60 kg × "
+                ],
+                [
+                  "10",
+                  "verde"
+                ]
+              ],
+              "em": "@repeticao"
+            },
+            {
+              "t": [
+                [
+                  "SEM 3  ",
+                  "amarelo"
+                ],
+                [
+                  "62,5",
+                  "verde"
+                ],
+                [
+                  " kg × 8"
+                ]
+              ],
+              "em": "@progresso"
+            }
+          ]
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Progresso",
+          "cor": "verde",
+          "tamanho": 84,
+          "x": 420,
+          "y": 380,
+          "rot": -7,
+          "em": "@progresso+0.3"
+        },
+        {
+          "tipo": "tela",
+          "src": "assets/stock/52102.mp4",
+          "titulo": "semana a semana",
+          "h": 380,
+          "x": 0,
+          "y": 520,
+          "em": 0.39
+        }
+      ]
+    },
+    {
+      "fala": "O difícil é lembrar o que você fez na semana passada. E é exatamente isso que o openGym faz por você.",
+      "duracao": 5.6333,
+      "blocos": [
+        {
+          "tipo": "tela",
+          "src": "assets/app/app_inicio.mp4",
+          "titulo": "openGym · início",
+          "w": 540,
+          "h": 990,
+          "foco": [
+            50,
+            0
+          ],
+          "x": 210,
+          "y": 0,
+          "em": 0.0
+        }
+      ]
+    },
+    {
+      "fala": "Ele já preenche a carga da última vez, mostra a meta de repetições e avisa quando é hora de subir o peso.",
+      "duracao": 5.6667,
+      "blocos": [
+        {
+          "tipo": "tela",
+          "src": "assets/app/app_treino.mp4",
+          "titulo": "openGym · treino",
+          "w": 540,
+          "h": 990,
+          "foco": [
+            50,
+            0
+          ],
+          "inicio": 3.2,
+          "x": 0,
+          "y": 0,
+          "em": 0.0,
+          "rot": -1.5
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Carga pronta",
+          "tamanho": 64,
+          "x": 520,
+          "y": 260,
+          "rot": -8,
+          "em": "@carga"
+        },
+        {
+          "tipo": "carimbo",
+          "texto": "Sobe o peso",
+          "cor": "verde",
+          "tamanho": 64,
+          "x": 540,
+          "y": 600,
+          "rot": 6,
+          "em": "@subir"
+        }
+      ]
+    },
+    {
+      "fala": "Mostra quantas séries cada músculo fez na semana, detecta seus recordes e tem mais de 5.600 exercícios com animação.",
+      "duracao": 6.8667,
+      "blocos": [
+        {
+          "tipo": "tela",
+          "src": "assets/app/app_estatisticas.mp4",
+          "titulo": "openGym · músculos",
+          "w": 540,
+          "h": 990,
+          "foco": [
+            50,
+            0
+          ],
+          "inicio": 1.4,
+          "x": 420,
+          "y": 0,
+          "em": 0.0,
+          "rot": 1.5
+        },
+        {
+          "tipo": "numero",
+          "valor": 5632,
+          "tamanho": 120,
+          "tag": "app",
+          "rotulo": "exercícios",
+          "x": 0,
+          "y": 520,
+          "em": "@5"
+        }
+      ]
+    },
+    {
+      "fala": "Tudo de graça, sem anúncio, sem assinatura, e funciona offline.",
+      "duracao": 3.8,
+      "blocos": [
+        {
+          "tipo": "checklist",
+          "itens": [
+            {
+              "texto": "De graça",
+              "marcado": true,
+              "em": "@graca"
+            },
+            {
+              "texto": "Sem anúncio",
+              "marcado": true,
+              "em": "@anuncio"
+            },
+            {
+              "texto": "Sem assinatura",
+              "marcado": true,
+              "em": "@assinatura"
+            },
+            {
+              "texto": "Funciona offline",
+              "marcado": true,
+              "em": "@offline"
+            }
+          ]
+        },
+        {
+          "tipo": "tela",
+          "src": "assets/stock/52111.mp4",
+          "titulo": "treino de hoje",
+          "h": 300,
+          "em": 0.48
+        }
+      ]
+    },
+    {
+      "fala": "Só tinha um detalhe: ele foi feito pra programador instalar. Então a gente transformou num APK em português. Um clique, e tá no seu celular.",
+      "duracao": 7.9,
+      "blocos": [
+        {
+          "tipo": "antesdepois",
+          "antes": [
+            "docker compose up",
+            "servidor próprio",
+            "terminal"
+          ],
+          "botao": "Baixar APK",
+          "resultado": "Instalado no celular",
+          "em": "@programador"
+        }
+      ]
+    },
+    {
+      "fala": "Me segue pra ver mais apps assim. E se você quer o openGym, comenta EU QUERO que eu te mando o link.",
+      "duracao": 6.1333,
+      "blocos": [
+        {
+          "tipo": "seguir",
+          "nome": "Well Machado",
+          "usuario": "@well.free",
+          "avatar": "assets/app/avatar.png",
+          "bio": "Gero valor na sua vida ensinando o que funciona na minha!",
+          "comentario": "EU QUERO",
+          "em": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "editor-reels",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Motor de render dos Reels — implementa o DNA da FOLHA-DE-ESTILO",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Reel",
+    "still": "remotion still src/index.ts Reel",
+    "tipos": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/captions": "^4.0.542",
+    "@remotion/cli": "^4.0.542",
+    "@remotion/google-fonts": "^4.0.542",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.542",
+    "typescript": "^7.0.2"
+  }
+}

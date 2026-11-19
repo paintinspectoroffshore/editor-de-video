@@ -1,0 +1,96 @@
+{
+ "fonte": "https://www.youtube.com/watch?v=iggE7vJ9xno",
+ "cortes": [
+  {
+   "nome": "yt01",
+   "ini": "15:19.5",
+   "fim": "15:21.8",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt02",
+   "ini": "15:32.3",
+   "fim": "15:35.5",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt03",
+   "ini": "15:38.0",
+   "fim": "15:41.5",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt04",
+   "ini": "16:10.0",
+   "fim": "16:13.5",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt05",
+   "ini": "16:16.0",
+   "fim": "16:19.5",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt06",
+   "ini": "16:37.6",
+   "fim": "16:39.9",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt07",
+   "ini": "16:50.0",
+   "fim": "16:53.0",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt08",
+   "ini": "17:24.5",
+   "fim": "17:27.5",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt09",
+   "ini": "17:28.0",
+   "fim": "17:30.6",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt10",
+   "ini": "17:31.0",
+   "fim": "17:33.6",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt11",
+   "ini": "17:36.8",
+   "fim": "17:38.8",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt12",
+   "ini": "17:38.8",
+   "fim": "17:41.0",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt14",
+   "ini": "18:30.0",
+   "fim": "18:34.5",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt15",
+   "ini": "18:42.5",
+   "fim": "18:46.5",
+   "modo": "inteiro"
+  },
+  {
+   "nome": "yt16",
+   "ini": "18:48.0",
+   "fim": "18:51.5",
+   "modo": "inteiro"
+  }
+ ],
+ "tarja": 0.11
+}

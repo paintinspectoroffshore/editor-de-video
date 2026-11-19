@@ -1,0 +1,9 @@
+[
+ {"nome": "moto_verde", "t": "16:51.0", "desc": "moto esportiva verde com Jason em pé ao lado (moto cortada na base)"},
+ {"nome": "pistolas", "t": "17:26.5", "desc": "duas pistolas (cinza e rosa) sobre a mesa, vista de cima, inteiras"},
+ {"nome": "revolveres", "t": "17:29.5", "desc": "dois revólveres com mira, caixa de munição ao lado, inteiros"},
+ {"nome": "jason_lucia", "t": "16:38.6", "desc": "Jason (alça de arma no peito) e Lúcia, torso, de frente"},
+ {"nome": "casal_carro", "t": "18:44.5", "desc": "Jason dirigindo conversível e Lúcia ao lado, de lado"},
+ {"nome": "npc_bermuda", "t": "16:11.8", "desc": "NPC de bermuda verde andando na praia, corpo inteiro, de frente"},
+ {"nome": "revolver_luneta", "t": "17:37.8", "desc": "mão segurando revólver com luneta, apontado para a câmera"}
+]

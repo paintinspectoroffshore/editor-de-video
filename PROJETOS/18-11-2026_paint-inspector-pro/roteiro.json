@@ -1,0 +1,930 @@
+{
+  "titulo": "Paint Inspector Pro",
+  "perfil": "@well.free",
+  "credito": "Telas: app Paint Inspector Pro",
+  "composicao": "Traco",
+  "mascote": false,
+  "paleta": "mono",
+  "fonteAcento": "industrial",
+  "trilha": "hiphop_never-going-broke.mp3",
+  "trilhaInicio": 0,
+  "volumeTrilha": 0.08,
+  "voz": {
+    "motor": "eleven",
+    "id": "i8rv83UTKnzq0PzTrxjL",
+    "modelo": "eleven_v4",
+    "idioma": "pt",
+    "ajustes": {
+      "stability": 0.5,
+      "similarity_boost": 0.85
+    },
+    "tempo": 1.2,
+    "pausas": 0.08,
+    "respiro": 0.05,
+    "limiarSilencio": "-32dB",
+    "tag": [
+      "tom de apresentador",
+      "confiante"
+    ]
+  },
+  "pronuncia": {
+    "N-13": "ene treze",
+    "SSPC": "esse esse pê cê",
+    "NACE": "nêice",
+    "Munsell": "mânsel",
+    "NCS": "ene cê esse",
+    "XP": "xis pê",
+    "Bresle": "Brésli"
+  },
+  "destaques": [
+    "Paint",
+    "92%",
+    "85%",
+    "impróprio",
+    "94",
+    "15",
+    "1.327",
+    "simulado",
+    "ranking",
+    "link"
+  ],
+  "duracaoMax": 80,
+  "cenas": [
+    {
+      "fala": "Esse é o aplicativo que todo inspetor de pintura deveria ter.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "particulas",
+          "n": 24,
+          "area": [
+            80,
+            300,
+            920,
+            1000
+          ],
+          "em": 0
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 230,
+          "texto": "PAINT INSPECTOR PRO · ANDROID",
+          "em": "@aplicativo",
+          "som": "whoosh"
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 690,
+          "tam": 860,
+          "em": 0,
+          "video": "app/inicio.mp4",
+          "inicio": 1.5,
+          "vel": 1
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1330,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "todo inspetor",
+              "tam": 120,
+              "em": "@inspetor"
+            }
+          ]
+        },
+        {
+          "tipo": "sublinhado",
+          "x": 540,
+          "y": 1490,
+          "w": 520,
+          "forma": "onda",
+          "em": "@deveria",
+          "som": "pop"
+        }
+      ],
+      "duracao": 2.6667
+    },
+    {
+      "fala": "Chama Paint Inspector Pro. Feito por inspetor, pra quem vive o campo.",
+      "tag": "sorrindo",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 760,
+          "r": 380,
+          "em": 0
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 680,
+          "linhas": [
+            {
+              "t": "PAINT INSPECTOR",
+              "em": "@Paint"
+            },
+            {
+              "t": "PRO",
+              "em": "@Pro"
+            }
+          ]
+        },
+        {
+          "tipo": "selos",
+          "x": 540,
+          "y": 1180,
+          "itens": [
+            {
+              "linhas": [
+                "FEITO POR"
+              ],
+              "sub": "inspetor",
+              "em": "@Feito"
+            },
+            {
+              "linhas": [
+                "PARA QUEM"
+              ],
+              "sub": "vive o campo",
+              "em": "@campo"
+            }
+          ]
+        }
+      ],
+      "duracao": 3.9667
+    },
+    {
+      "fala": "Na tela inicial, condições ambientais em tempo real. Tocou no card, edita cada valor.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 230,
+          "texto": "CONDIÇÕES AMBIENTAIS",
+          "em": "@condições"
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 690,
+          "tam": 860,
+          "em": 0,
+          "video": "app/ambiental.mp4",
+          "inicio": 2,
+          "vel": 1,
+          "etiqueta": {
+            "t": "UMIDADE 92%",
+            "sub": "sua leitura",
+            "icone": "nuvem",
+            "em": "@edita"
+          }
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 1330,
+          "texto": "TOQUE NO CARD → VALORES EDITÁVEIS",
+          "em": "@Tocou"
+        }
+      ],
+      "duracao": 4.9333
+    },
+    {
+      "fala": "Umidade em noventa e dois por cento, acima dos oitenta e cinco da N-13?",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "EXEMPLO · CRITÉRIO DA N-13",
+          "em": "@Umidade"
+        },
+        {
+          "tipo": "numero",
+          "y": 700,
+          "valor": 92,
+          "sufixo": "%",
+          "unidade": "umidade relativa",
+          "fonte": "exemplo no app",
+          "em": "@noventa"
+        },
+        {
+          "tipo": "sublinhado",
+          "x": 540,
+          "y": 860,
+          "w": 480,
+          "forma": "reta",
+          "em": "@acima"
+        },
+        {
+          "tipo": "numero",
+          "y": 1160,
+          "valor": 85,
+          "sufixo": "%",
+          "unidade": "máximo para pintar",
+          "fonte": "Petrobras N-13 · cadastrada no app",
+          "em": "@oitenta"
+        }
+      ],
+      "duracao": 3.5333
+    },
+    {
+      "fala": "O app avisa: impróprio. Pintura suspensa.",
+      "tag": "pausa",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "circulos",
+          "x": 540,
+          "y": 760,
+          "r": 380,
+          "em": 0
+        },
+        {
+          "tipo": "selo",
+          "x": 540,
+          "y": 780,
+          "linhas": [
+            "IMPRÓPRIO",
+            "PRA PINTAR"
+          ],
+          "em": "@impróprio",
+          "som": "carimbo"
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1220,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "pintura suspensa",
+              "em": "@suspensa"
+            }
+          ]
+        }
+      ],
+      "duracao": 2.6333
+    },
+    {
+      "fala": "Mas não para no clima. São noventa e quatro normas cadastradas no app.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 690,
+          "tam": 860,
+          "em": 0,
+          "video": "app/normas.mp4",
+          "inicio": 2,
+          "vel": 1
+        },
+        {
+          "tipo": "numero",
+          "y": 1330,
+          "tamanho": 120,
+          "valor": 94,
+          "unidade": "normas cadastradas",
+          "fonte": "no app",
+          "em": "@noventa"
+        }
+      ],
+      "duracao": 3.8667
+    },
+    {
+      "fala": "Trinta e cinco da Petrobras, vinte e sete da ABNT, doze da SSPC e outras vinte.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 300,
+          "texto": "AS 94 NORMAS DO APP",
+          "em": "@Trinta"
+        },
+        {
+          "tipo": "cards",
+          "x": 540,
+          "y": 840,
+          "w": 860,
+          "em": 0,
+          "colunas": 2,
+          "itens": [
+            {
+              "t": "35",
+              "sub": "Petrobras",
+              "icone": "documento",
+              "em": "@Trinta"
+            },
+            {
+              "t": "27",
+              "sub": "ABNT",
+              "icone": "documento",
+              "em": "@vinte"
+            },
+            {
+              "t": "12",
+              "sub": "SSPC",
+              "icone": "documento",
+              "em": "@doze"
+            },
+            {
+              "t": "20",
+              "sub": "ISO e NACE",
+              "icone": "documento",
+              "em": "@outras"
+            }
+          ]
+        },
+        {
+          "tipo": "pilula",
+          "y": 1300,
+          "texto": "FONTE: NO APP",
+          "em": "@outras"
+        }
+      ],
+      "duracao": 5.3
+    },
+    {
+      "fala": "Procedimentos e critérios de aceitação, prontos pra consultar.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 690,
+          "tam": 860,
+          "em": 0,
+          "clipes": [
+            {
+              "video": "app/procedimentos.mp4",
+              "inicio": 2.0,
+              "vel": 1
+            },
+            {
+              "video": "app/criterios.mp4",
+              "inicio": 2.6,
+              "vel": 1,
+              "em": "@critérios"
+            }
+          ],
+          "etiqueta": {
+            "t": "CONSULTA RÁPIDA",
+            "icone": "lupa",
+            "em": "@consultar"
+          }
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 1330,
+          "texto": "PROCEDIMENTOS · CRITÉRIOS DE ACEITAÇÃO",
+          "em": "@aceitação"
+        }
+      ],
+      "duracao": 2.8
+    },
+    {
+      "fala": "Precisa calcular? São quinze cálculos: ponto de orvalho, espessura úmida, consumo de tinta.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 690,
+          "tam": 860,
+          "em": 0,
+          "video": "app/calculos.mp4",
+          "inicio": 2,
+          "vel": 1
+        },
+        {
+          "tipo": "numero",
+          "y": 1330,
+          "tamanho": 120,
+          "valor": 15,
+          "unidade": "cálculos",
+          "fonte": "no app",
+          "em": "@quinze"
+        }
+      ],
+      "duracao": 4.8
+    },
+    {
+      "fala": "Tem conversões, teste de Bresle e holiday. Sem abrir planilha.",
+      "tag": "sorrindo",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "conexoes",
+          "x": 540,
+          "y": 780,
+          "em": 0,
+          "icone": "ferramentas",
+          "itens": [
+            {
+              "t": "PONTO DE ORVALHO",
+              "em": 0
+            },
+            {
+              "t": "ESPESSURA ÚMIDA",
+              "em": 0
+            },
+            {
+              "t": "CONSUMO",
+              "em": 0
+            },
+            {
+              "t": "CONVERSÕES",
+              "em": "@conversões"
+            },
+            {
+              "t": "BRESLE",
+              "em": "@Bresle",
+              "destaque": true
+            },
+            {
+              "t": "HOLIDAY",
+              "em": "@holiday"
+            }
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1330,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "sem planilha",
+              "em": "@planilha"
+            }
+          ]
+        }
+      ],
+      "duracao": 3.9
+    },
+    {
+      "fala": "Tintas dos fabricantes, com os boletins técnicos.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 230,
+          "texto": "TINTAS · BOLETINS TÉCNICOS",
+          "em": "@tintas"
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 690,
+          "tam": 860,
+          "em": 0,
+          "video": "app/tintas.mp4",
+          "inicio": 2,
+          "vel": 1,
+          "etiqueta": {
+            "t": "BOLETIM TÉCNICO",
+            "icone": "documento",
+            "em": "@boletins"
+          }
+        }
+      ],
+      "duracao": 2.5667
+    },
+    {
+      "fala": "E o código de cores, com a tabela Munsell.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 690,
+          "tam": 860,
+          "em": 0,
+          "video": "app/cores.mp4",
+          "inicio": 4.3,
+          "vel": 1
+        },
+        {
+          "tipo": "selos",
+          "x": 540,
+          "y": 1330,
+          "itens": [
+            {
+              "linhas": [
+                "MUNSELL"
+              ],
+              "em": "@Munsell"
+            }
+          ]
+        }
+      ],
+      "duracao": 2.1667
+    },
+    {
+      "fala": "Terminou a inspeção? O relatório sai padronizado: RIP, fotográfico ou combinado, em PDF.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 230,
+          "texto": "RELATÓRIOS PADRONIZADOS · PDF",
+          "em": "@padronizado"
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 690,
+          "tam": 860,
+          "em": 0,
+          "video": "app/relatorios.mp4",
+          "inicio": 1.9,
+          "vel": 1
+        },
+        {
+          "tipo": "selos",
+          "x": 540,
+          "y": 1330,
+          "itens": [
+            {
+              "linhas": [
+                "RIP"
+              ],
+              "em": "@RIP"
+            },
+            {
+              "linhas": [
+                "RF"
+              ],
+              "sub": "fotográfico",
+              "em": "@fotográfico"
+            },
+            {
+              "linhas": [
+                "RIP + RF"
+              ],
+              "sub": "combinado",
+              "em": "@combinado"
+            }
+          ]
+        }
+      ],
+      "duracao": 5.1667
+    },
+    {
+      "fala": "Mas a parte que mais vicia é o simulado.",
+      "tag": "sorrindo",
+      "camera": {
+        "zoom": [
+          1,
+          1.08
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "terreno",
+          "em": 0
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 760,
+          "linhas": [
+            {
+              "t": "O SIMULADO",
+              "em": "@simulado"
+            }
+          ]
+        },
+        {
+          "tipo": "sublinhado",
+          "x": 540,
+          "y": 900,
+          "w": 620,
+          "forma": "onda",
+          "em": "@vicia"
+        }
+      ],
+      "duracao": 2.5667
+    },
+    {
+      "fala": "São mil trezentas e vinte e sete questões, com base em ABNT, ISO e NACE.",
+      "camera": {
+        "zoom": [
+          1.05,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 230,
+          "texto": "BASE: ABNT · ISO · NACE · NORMAS BR",
+          "em": "@base"
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 690,
+          "tam": 860,
+          "em": 0,
+          "video": "app/simulado.mp4",
+          "inicio": 3,
+          "vel": 1
+        },
+        {
+          "tipo": "numero",
+          "y": 1330,
+          "tamanho": 120,
+          "valor": 1327,
+          "unidade": "questões",
+          "fonte": "no app",
+          "em": "@mil"
+        }
+      ],
+      "duracao": 4.3
+    },
+    {
+      "fala": "Modo rápido, ganha XP, sobe de nível.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "passos",
+          "x": 540,
+          "y": 820,
+          "em": 0,
+          "titulo": "NO SIMULADO",
+          "itens": [
+            {
+              "t": "MODO RÁPIDO",
+              "icone": "relogio",
+              "em": "@rápido"
+            },
+            {
+              "t": "GANHA XP",
+              "icone": "tendencia",
+              "em": "@ganha"
+            },
+            {
+              "t": "SOBE DE NÍVEL",
+              "icone": "aprovacao",
+              "em": "@sobe"
+            }
+          ]
+        }
+      ],
+      "duracao": 2.5667
+    },
+    {
+      "fala": "No ranking de inspetores, você vê o desempenho dos colegas.",
+      "negativo": true,
+      "tag": "animado",
+      "camera": {
+        "zoom": [
+          1,
+          1.1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "particulas",
+          "n": 24,
+          "area": [
+            80,
+            300,
+            920,
+            1000
+          ],
+          "em": 0
+        },
+        {
+          "tipo": "celular",
+          "x": 540,
+          "y": 690,
+          "tam": 860,
+          "em": 0,
+          "video": "app/ranking.mp4",
+          "inicio": 4,
+          "vel": 1,
+          "etiqueta": {
+            "t": "RANKING",
+            "sub": "de inspetores",
+            "icone": "tendencia",
+            "em": "@ranking"
+          }
+        },
+        {
+          "tipo": "rotulo",
+          "x": 540,
+          "y": 1330,
+          "texto": "XP · NÍVEL · POSIÇÃO DOS COLEGAS",
+          "em": "@colegas"
+        }
+      ],
+      "duracao": 2.7333
+    },
+    {
+      "fala": "Então você descobre quem está estudando de verdade. Inclusive você.",
+      "tag": "sorrindo",
+      "camera": {
+        "zoom": [
+          1.06,
+          1
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 720,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "quem estuda",
+              "em": "@estudando"
+            },
+            {
+              "t": "de verdade",
+              "em": "@verdade"
+            }
+          ]
+        },
+        {
+          "tipo": "selo",
+          "x": 780,
+          "y": 1180,
+          "linhas": [
+            "INCLUSIVE",
+            "VOCÊ"
+          ],
+          "em": "@Inclusive",
+          "som": "carimbo"
+        }
+      ],
+      "duracao": 3.6667
+    },
+    {
+      "fala": "Clima, norma, cálculo, relatório e estudo. Tudo no bolso de quem inspeciona.",
+      "camera": {
+        "zoom": [
+          1,
+          1.06
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "lista",
+          "y": 760,
+          "itens": [
+            {
+              "t": "CLIMA",
+              "icone": "sol",
+              "em": "@Clima"
+            },
+            {
+              "t": "NORMAS",
+              "icone": "documento",
+              "em": "@norma"
+            },
+            {
+              "t": "CÁLCULOS",
+              "icone": "ferramentas",
+              "em": "@cálculo"
+            },
+            {
+              "t": "RELATÓRIOS",
+              "icone": "recibo",
+              "em": "@relatório"
+            },
+            {
+              "t": "ESTUDO",
+              "icone": "lampada",
+              "em": "@estudo"
+            }
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "x": 540,
+          "y": 1360,
+          "serifa": true,
+          "linhas": [
+            {
+              "t": "tudo no bolso",
+              "em": "@bolso"
+            }
+          ]
+        }
+      ],
+      "duracao": 4.4
+    },
+    {
+      "fala": "Quer usar no próximo serviço? Clique no link abaixo ou entre em contato com o inspetor de pintura Well.",
+      "tag": "sorrindo",
+      "camera": {
+        "zoom": [
+          1,
+          1.05
+        ]
+      },
+      "blocos": [
+        {
+          "tipo": "cta",
+          "x": 540,
+          "y": 860,
+          "em": 0,
+          "palavra": "LINK ABAIXO",
+          "chamada": "CLIQUE NO",
+          "palavraEm": "@link",
+          "nota": "ou fale com o inspetor de pintura Well",
+          "perfil": false,
+          "lobo": false
+        }
+      ],
+      "duracao": 6.1667
+    }
+  ]
+}

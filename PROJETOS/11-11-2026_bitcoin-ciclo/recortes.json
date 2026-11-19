@@ -1,0 +1,29 @@
+{
+ "_sobre": "Páginas reais para capturar como recorte (node 00-SISTEMA/captura/capturar.mjs). Todas abriram via WebFetch em 11/11/2026, sem login/paywall. Mostrar só o trecho, com data e veículo visíveis.",
+ "recortes": [
+  {"cena": 7, "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+   "destaque": "Statement on the Approval of Spot Bitcoin Exchange-Traded Products — January 10, 2024",
+   "por_que": "Marco oficial da entrada dos ETFs à vista: a grande diferença deste ciclo."},
+  {"cena": 7, "url": "https://fidelitydigitalassets.com/research-and-insights/bitcoins-four-year-cycle-over",
+   "destaque": "Título 'Is Bitcoin's Four-Year Cycle Over?' + frase sobre quedas de 80% ficarem no passado (24/02/2026)",
+   "por_que": "Opinião institucional de peso que explica por que a queda atual (−54%) foi menor."},
+  {"cena": 8, "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+   "destaque": "'decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent' (16/09/2026)",
+   "por_que": "Prova da virada: liquidez apertando, contra o padrão dos ciclos."},
+  {"cena": 9, "url": "https://research.glassnode.com/the-week-onchain-week-45-2026/",
+   "destaque": "Título 'Running on Empty' (11/11/2026) + bullet sobre stablecoins encolhendo e ETFs vendedores líquidos",
+   "por_que": "Leitura on-chain de hoje: o que falta para a alta (níveis US$ 58,5 mil e US$ 77,5 mil)."},
+  {"cena": 11, "url": "https://www.blockchaincenter.net/en/altcoin-season-index/",
+   "destaque": "Índice '33' e a frase 'It is not Altcoin Season!'",
+   "por_que": "Medidor ao vivo da altseason; mostra que ela ainda não começou. Capturar no dia da renderização (valor muda)."},
+  {"cena": 11, "url": "https://cointelegraph.com/news/bitcoin-market-dominance-falls-to-three-year-low-of-40",
+   "destaque": "Manchete 'Bitcoin market dominance falls to three-year low of 40%' (17/05/2021)",
+   "por_que": "Prova histórica de como foi a última altseason."},
+  {"cena": 12, "url": "https://cointelegraph.com/news/83-of-cryptocurrencies-that-peaked-in-2018-are-still-down-by-90",
+   "destaque": "Manchete '83% of cryptocurrencies that peaked in 2018 are still down by 90%' (21/01/2021)",
+   "por_que": "Risco real das altcoins: a maioria não volta ao topo."},
+  {"cena": "reserva", "url": "https://www.infomoney.com.br/onde-investir/o-ciclo-de-4-anos-do-bitcoin-morreu-entenda-a-relevancia-do-tema-para-o-mercado/",
+   "destaque": "Manchete 'O ciclo de 4 anos do Bitcoin morreu? Entenda a relevância do tema para o mercado' (28/11/2025)",
+   "por_que": "Recorte em português para a cena 2 ou 8, aproxima o público BR do debate."}
+ ]
+}

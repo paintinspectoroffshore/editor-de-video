@@ -1,0 +1,151 @@
+{
+ "fonte": "https://www.youtube.com/watch?v=iggE7vJ9xno",
+ "cortes": [
+  {
+   "nome": "yt02",
+   "ini": "4:46.6",
+   "fim": "4:48.8",
+   "modo": "foco",
+   "foco": 50
+  },
+  {
+   "nome": "yt03",
+   "ini": "12:32.8",
+   "fim": "12:37.6",
+   "modo": "foco",
+   "foco": 40
+  },
+  {
+   "nome": "yt04",
+   "ini": "8:54.2",
+   "fim": "8:59.7",
+   "modo": "foco",
+   "foco": 50
+  },
+  {
+   "nome": "yt05",
+   "ini": "3:14.5",
+   "fim": "3:16.9",
+   "modo": "foco",
+   "foco": 50
+  },
+  {
+   "nome": "yt06",
+   "ini": "4:07.0",
+   "fim": "4:09.6",
+   "modo": "foco",
+   "foco": 40
+  },
+  {
+   "nome": "yt07",
+   "ini": "7:46.0",
+   "fim": "7:50.7",
+   "modo": "foco",
+   "foco": 45
+  },
+  {
+   "nome": "yt08",
+   "ini": "15:53.2",
+   "fim": "15:56.7",
+   "modo": "foco",
+   "foco": 45
+  },
+  {
+   "nome": "yt09",
+   "ini": "6:51.4",
+   "fim": "6:55.1",
+   "modo": "foco",
+   "foco": 45
+  },
+  {
+   "nome": "yt10",
+   "ini": "7:26.8",
+   "fim": "7:30.6",
+   "modo": "foco",
+   "foco": 55
+  },
+  {
+   "nome": "yt11",
+   "ini": "16:02.2",
+   "fim": "16:06.9",
+   "modo": "foco",
+   "foco": 50
+  },
+  {
+   "nome": "yt12",
+   "ini": "15:44.2",
+   "fim": "15:48.3",
+   "modo": "foco",
+   "foco": 35
+  },
+  {
+   "nome": "yt13",
+   "ini": "19:33.6",
+   "fim": "19:37.3",
+   "modo": "geral"
+  },
+  {
+   "nome": "yt14",
+   "ini": "21:20.6",
+   "fim": "21:25.3",
+   "modo": "foco",
+   "foco": 65
+  },
+  {
+   "nome": "yt16",
+   "ini": "20:46.1",
+   "fim": "20:50.6",
+   "modo": "foco",
+   "foco": 30
+  },
+  {
+   "nome": "yt17",
+   "ini": "10:42.9",
+   "fim": "10:46.5",
+   "modo": "foco",
+   "foco": 50
+  },
+  {
+   "nome": "yt19",
+   "ini": "2:19.2",
+   "fim": "2:21.6",
+   "modo": "foco",
+   "foco": 35
+  },
+  {
+   "nome": "yt20",
+   "ini": "1:56.9",
+   "fim": "1:59.3",
+   "modo": "foco",
+   "foco": 50
+  },
+  {
+   "nome": "yt21",
+   "ini": "14:41.0",
+   "fim": "14:46.5",
+   "modo": "foco",
+   "foco": 50
+  },
+  {
+   "nome": "yt22",
+   "ini": "15:09.5",
+   "fim": "15:13.0",
+   "modo": "foco",
+   "foco": 50
+  },
+  {
+   "nome": "yt23",
+   "ini": "11:38.9",
+   "fim": "11:40.9",
+   "modo": "foco",
+   "foco": 50
+  },
+  {
+   "nome": "yt24",
+   "ini": "23:53.6",
+   "fim": "23:56.3",
+   "modo": "foco",
+   "foco": 50
+  }
+ ]
+}
