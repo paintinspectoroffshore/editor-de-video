@@ -13,6 +13,15 @@ cd "Editor-de-Video"
 O instalador põe Node, Python, FFmpeg e Git (via winget), instala as dependências (Remotion, puppeteer, faster-whisper, edge-tts, yt-dlp…), baixa o `cloudflared`, cria as pastas de trabalho e copia os modelos de chave para `00-SISTEMA/segredos/`.
 Depois abra a pasta no Claude Code e diga: *"faz um vídeo sobre X"*.
 
+## Verificar o ambiente
+```
+python 00-SISTEMA/bin/verificar.py     # ✅/❌ por item; precisa terminar em "TUDO PRONTO"
+```
+O Claude Code roda essa checagem sozinho ao abrir a sessão (hook em `.claude/settings.json`) e, se faltar algo, executa o `instalar.ps1`. Se o instalador acabar de instalar Python, Node ou FFmpeg, **feche e abra o terminal/Claude Code** e rode de novo.
+
+## Sem Windows (Mac/Linux)
+`instalar.ps1` é só para Windows. Em Mac/Linux instale à mão: `brew install ffmpeg node python yt-dlp` (ou o gerenciador da sua distro), depois `python3 -m pip install faster-whisper numpy soundfile pillow opencv-python edge-tts yt-dlp`, `npm install` em `FERRAMENTAS/Remotion` e em `00-SISTEMA/captura`, e baixe o `cloudflared` da sua plataforma. O render usa o Chrome headless do próprio Remotion. Alguns caminhos de captura citam `win64`; revise antes de usar a captura de sites.
+
 ## Chaves (opcionais — nenhuma vem no repositório)
 Copie cada `*.exemplo` de `00-SISTEMA/segredos/` (o instalador já faz) e preencha:
 | Arquivo | Para quê | Sem ele |

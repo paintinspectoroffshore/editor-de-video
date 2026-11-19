@@ -6,6 +6,10 @@
           {
             "type": "command",
             "command": "echo 'MODO CAVEMAN ATIVO neste projeto: responda em portugues, caveman (resposta primeiro, sem enrolacao, fatos tecnicos intactos). Ao criar algo, siga a skill fabrica (agente certo por funcao + revisor Opus no fim).'"
+          },
+          {
+            "type": "command",
+            "command": "python \"$CLAUDE_PROJECT_DIR/00-SISTEMA/bin/verificar.py\" --hook || echo \"AMBIENTE INCOMPLETO: Python nao encontrado ou verificacao falhou. Rode powershell -ExecutionPolicy Bypass -File ./instalar.ps1 na raiz do projeto antes de produzir.\""
           }
         ]
       }

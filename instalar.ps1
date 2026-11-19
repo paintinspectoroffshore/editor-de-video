@@ -1,4 +1,4 @@
-# Instalador do Editor de Vídeo (Windows). Rode no PowerShell, na pasta do projeto:  .\instalar.ps1
+﻿# Instalador do Editor de Vídeo (Windows). Rode no PowerShell, na pasta do projeto:  .\instalar.ps1
 # Recria tudo que não vai no GitHub: dependências, FFmpeg, yt-dlp, cloudflared, pastas de trabalho e modelo Whisper.
 $ErrorActionPreference = "Continue"
 Set-Location $PSScriptRoot
@@ -36,4 +36,6 @@ foreach ($par in @(@("elevenlabs.key.exemplo","elevenlabs.key"),@("instagram.jso
 python -c "from faster_whisper import WhisperModel; WhisperModel('small', device='cpu', compute_type='int8'); print('Whisper small ok')"
 python 00-SISTEMA\bin\produzir.py cardapio traco
 Push-Location FERRAMENTAS\Remotion; npx tsc --noEmit; Pop-Location
+python 00-SISTEMA\bin\verificar.py
+Write-Host "`nSe apareceu TUDO PRONTO acima, abra a pasta no Claude Code. Se algo ficou com X, feche e abra o PowerShell e rode este script de novo."
 Write-Host "`nPronto. Abra a pasta no Claude Code e diga: faz um vídeo sobre X" -ForegroundColor Green
